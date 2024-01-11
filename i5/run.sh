@@ -57,7 +57,7 @@ for build in $BUILDS; do
 
 		./push.sh $MACHINE $OUTDIR
 
-		./run-index.sh $MACHINE $build $OUTDIR $DBNAME $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/pgbench.csv
+		./run-index.sh $MACHINE $build $OUTDIR $DBNAME $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/index.csv
 
 		./push.sh $MACHINE $OUTDIR
 
