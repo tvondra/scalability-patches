@@ -7,21 +7,12 @@ DATE=$(date +%Y/%m/%d-%H:%M:%S)
 git add $DIR
 git commit -m "update $DATE"
 
-while /bin/true; do
+for i in $(seq 1 5); do
+
+	git pull -r || true
+	git push || true
 
 	sleep 1
-
-	git pull -r
-
-	if [ "$?" != "0" ]; then
-		exit 1
-	fi
-
-	git push
-
-	if [ "$?" == "0" ]; then
-		break
-	fi
 
 done
 
