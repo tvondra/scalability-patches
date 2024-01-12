@@ -10,6 +10,7 @@ DURATION=$5
 CLIENTS=$6
 PARTITIONS=$7
 
+ps ax > $OUTDIR/join.ps.log 2>&1
 
 for s in 10 100 1000; do
 

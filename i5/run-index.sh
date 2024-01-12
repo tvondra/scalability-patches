@@ -10,6 +10,8 @@ DURATION=$5
 CLIENTS=$6
 INDEXES=$7
 
+ps ax > $OUTDIR/index.ps.log 2>&1
+
 for s in 10 100 1000; do
 
 	for i in $INDEXES; do

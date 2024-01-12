@@ -10,6 +10,8 @@ DURATION=$5
 CLIENTS=$6
 PARTITIONS=$7
 
+ps ax > $OUTDIR/pgbench.ps.log 2>&1
+
 for s in 5 25 250; do
 
 	for p in $PARTITIONS; do

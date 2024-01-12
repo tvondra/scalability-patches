@@ -10,6 +10,7 @@ DURATION=$5
 CLIENTS=$6
 PARTITIONS=$7
 
+ps ax > $OUTDIR/count.ps.log 2>&1
 
 for p in $PARTITIONS; do
 
