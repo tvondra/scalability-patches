@@ -13,7 +13,7 @@ PARTITIONS=$7
 
 for p in $PARTITIONS; do
 
-	DBNAME="count-$s-$p"
+	DBNAME="count-$p"
 
 	cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'")
 
