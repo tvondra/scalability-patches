@@ -1,0 +1,26 @@
+2024-01-12 22:20:51.105 CET [124982] LOG:  starting PostgreSQL 17devel on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-01-12 22:20:51.105 CET [124982] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-12 22:20:51.105 CET [124982] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-12 22:20:51.105 CET [124982] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-12 22:20:51.107 CET [124985] LOG:  database system was shut down at 2024-01-12 22:20:49 CET
+2024-01-12 22:20:51.109 CET [124982] LOG:  database system is ready to accept connections
+2024-01-12 22:20:51.276 CET [124983] LOG:  checkpoint starting: immediate force wait
+2024-01-12 22:20:51.299 CET [124983] LOG:  checkpoint complete: wrote 932 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.001 s, total=0.024 s; sync files=309, longest=0.001 s, average=0.001 s; distance=4376 kB, estimate=4376 kB; lsn=0/18CDCA0, redo lsn=0/18CDC48
+2024-01-12 22:25:51.400 CET [124983] LOG:  checkpoint starting: time
+2024-01-12 22:25:59.530 CET [124983] LOG:  checkpoint complete: wrote 82 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=8.130 s, sync=0.001 s, total=8.131 s; sync files=15, longest=0.001 s, average=0.001 s; distance=345 kB, estimate=3973 kB; lsn=0/1924478, redo lsn=0/19243E8
+2024-01-12 22:28:21.841 CET [124983] LOG:  checkpoint starting: immediate force wait
+2024-01-12 22:28:21.872 CET [124983] LOG:  checkpoint complete: wrote 938 buffers (0.1%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.001 s, total=0.031 s; sync files=309, longest=0.001 s, average=0.001 s; distance=4401 kB, estimate=4401 kB; lsn=0/1D70B40, redo lsn=0/1D70AE8
+2024-01-12 22:33:21.972 CET [124983] LOG:  checkpoint starting: time
+2024-01-12 22:33:25.992 CET [124983] LOG:  checkpoint complete: wrote 40 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.019 s, sync=0.001 s, total=4.020 s; sync files=5, longest=0.001 s, average=0.001 s; distance=142 kB, estimate=3975 kB; lsn=0/1D94648, redo lsn=0/1D945F0
+2024-01-12 22:35:52.477 CET [124983] LOG:  checkpoint starting: immediate force wait
+2024-01-12 22:35:52.498 CET [124983] LOG:  checkpoint complete: wrote 981 buffers (0.1%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.019 s, sync=0.001 s, total=0.021 s; sync files=336, longest=0.001 s, average=0.001 s; distance=4532 kB, estimate=4532 kB; lsn=0/2201778, redo lsn=0/2201720
+2024-01-12 22:40:52.598 CET [124983] LOG:  checkpoint starting: time
+2024-01-12 22:40:56.619 CET [124983] LOG:  checkpoint complete: wrote 40 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.019 s, sync=0.001 s, total=4.021 s; sync files=5, longest=0.001 s, average=0.001 s; distance=149 kB, estimate=4094 kB; lsn=0/2226D18, redo lsn=0/2226CC0
+2024-01-12 22:43:23.835 CET [124983] LOG:  checkpoint starting: immediate force wait
+2024-01-12 22:43:23.863 CET [124983] LOG:  checkpoint complete: wrote 1492 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.025 s, sync=0.002 s, total=0.028 s; sync files=606, longest=0.001 s, average=0.001 s; distance=5825 kB, estimate=5825 kB; lsn=0/27D73F8, redo lsn=0/27D73A0
+2024-01-12 22:48:23.887 CET [124983] LOG:  checkpoint starting: time
+2024-01-12 22:48:28.107 CET [124983] LOG:  checkpoint complete: wrote 42 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.219 s, sync=0.001 s, total=4.220 s; sync files=5, longest=0.001 s, average=0.001 s; distance=151 kB, estimate=5258 kB; lsn=0/27FD3B0, redo lsn=0/27FD358
+2024-01-12 22:51:04.731 CET [124983] LOG:  checkpoint starting: immediate force wait
+2024-01-12 22:51:04.795 CET [124983] LOG:  checkpoint complete: wrote 4561 buffers (0.4%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.051 s, sync=0.009 s, total=0.064 s; sync files=2566, longest=0.003 s, average=0.001 s; distance=15440 kB, estimate=15440 kB; lsn=0/3711480, redo lsn=0/3711428
+2024-01-12 22:56:04.895 CET [124983] LOG:  checkpoint starting: time
+2024-01-12 22:56:09.720 CET [124983] LOG:  checkpoint complete: wrote 48 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.822 s, sync=0.001 s, total=4.826 s; sync files=5, longest=0.001 s, average=0.001 s; distance=171 kB, estimate=13913 kB; lsn=0/373C248, redo lsn=0/373C1F0
