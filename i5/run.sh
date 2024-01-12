@@ -45,19 +45,19 @@ for build in $BUILDS; do
 
 		pg_ctl -D data -l $OUTDIR/pg.log start > $OUTDIR/start.log 2>&1
 
-		./run-count.sh $MACHINE $build $OUTDIR $DBNAME $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/count.csv
+		./run-count.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/count.csv
 
 		./push.sh $MACHINE $OUTDIR
 
-		./run-join.sh $MACHINE $build $OUTDIR $DBNAME $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/join.csv
+		./run-join.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/join.csv
 
 		./push.sh $MACHINE $OUTDIR
 
-		./run-pgbench.sh $MACHINE $build $OUTDIR $DBNAME $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/pgbench.csv
+		./run-pgbench.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/pgbench.csv
 
 		./push.sh $MACHINE $OUTDIR
 
-		./run-index.sh $MACHINE $build $OUTDIR $DBNAME $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/index.csv
+		./run-index.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/index.csv
 
 		./push.sh $MACHINE $OUTDIR
 
