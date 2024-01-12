@@ -17,6 +17,20 @@ PATH_OLD=$PATH
 
 DATE=`date +%Y%m%d-%H%M`
 
+export PATH=/mnt/raid/builds/pg-amd64/bin:$PATH_OLD;
+
+killall -9 postgres || true
+
+if [ ! -d "data" ]; then
+	pg_ctl -D data init > init.log 2>&1
+
+	echo "max_connections = 1000" >> data/postgresql.conf
+	echo "shared_buffers = 2GB" >> data/postgresql.conf
+	echo "max_locks_per_transaction = 256" >> data/postgresql.conf
+	echo "max_files_per_process = $files" >> data/postgresql.conf
+fi
+
+
 for build in $BUILDS; do
 
 	for files in 1000 32768; do
@@ -34,14 +48,8 @@ for build in $BUILDS; do
 		pg_config > $OUTDIR/debug.log 2>&1
 
 		killall -9 postgres || true
-		rm -Rf data
 
-		pg_ctl -D data init > $OUTDIR/init.log 2>&1
-
-		echo "max_connections = 1000" >> data/postgresql.conf
-		echo "shared_buffers = 2GB" >> data/postgresql.conf
-		echo "max_locks_per_transaction = 256" >> data/postgresql.conf
-		echo "max_files_per_process = $files" >> data/postgresql.conf
+		sleep 1
 
 		pg_ctl -D data -l $OUTDIR/pg.log start > $OUTDIR/start.log 2>&1
 
