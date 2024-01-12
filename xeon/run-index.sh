@@ -68,9 +68,8 @@ for s in 30 300 3000; do
 
 		fi
 
-		psql $DBNAME -c "\d+" >> $OUTDIR/sizes.$s.$i.log 2>&1
-		psql $DBNAME -c "\di+" >> $OUTDIR/sizes.$s.$i.log 2>&1
-
+		psql $DBNAME -c "\d+" >> $OUTDIR/index.sizes.$s.$i.log 2>&1
+		psql $DBNAME -c "\di+" >> $OUTDIR/index.sizes.$s.$i.log 2>&1
 
 		# also generate the benchmark script
 		echo "\set aid random(1, 100000 * $s)" > index.sql
