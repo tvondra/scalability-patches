@@ -14,7 +14,7 @@ PATH_OLD=$PATH
 
 DATE=`date +%Y%m%d-%H%M`
 
-export PATH=/mnt/pi/builds/pg-0-master/bin:$PATH_OLD;
+export PATH=/home/pi/builds/pg-0-master/bin:$PATH_OLD;
 
 killall -9 postgres || true
 
@@ -39,7 +39,7 @@ for build in $BUILDS; do
 
 		ulimit -a > $OUTDIR/ulimit.log
 
-		export PATH=/mnt/pi/builds/pg-$build/bin:$PATH_OLD;
+		export PATH=/home/pi/builds/pg-$build/bin:$PATH_OLD;
 
 		pg_config > $OUTDIR/debug.log 2>&1
 
