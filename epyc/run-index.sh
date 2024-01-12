@@ -12,7 +12,7 @@ INDEXES=$7
 
 ps ax > $OUTDIR/index.ps.log 2>&1
 
-for s in 30 300 3000; do
+for s in 10 100 1000; do
 
 	for i in $INDEXES; do
 
