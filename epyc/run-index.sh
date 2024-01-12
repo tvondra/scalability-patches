@@ -23,7 +23,7 @@ for s in 30 300 3000; do
 
 		DBNAME="index-$s-$p"
 
-		cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'")
+		cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'" postgres)
 
 		if [ "$cnt" == "0" ]; then
 
