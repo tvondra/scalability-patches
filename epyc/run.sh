@@ -17,7 +17,7 @@ PATH_OLD=$PATH
 
 DATE=`date +%Y%m%d-%H%M`
 
-export PATH=/home/tomas/builds/pg-$build/bin:$PATH_OLD;
+export PATH=/home/tomas/builds/pg-0-master/bin:$PATH_OLD;
 
 killall -9 postgres || true
 
