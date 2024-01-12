@@ -27,7 +27,6 @@ if [ ! -d "data" ]; then
 	echo "max_connections = 1000" >> data/postgresql.conf
 	echo "shared_buffers = 2GB" >> data/postgresql.conf
 	echo "max_locks_per_transaction = 256" >> data/postgresql.conf
-	echo "max_files_per_process = $files" >> data/postgresql.conf
 fi
 
 
@@ -51,7 +50,11 @@ for build in $BUILDS; do
 
 		sleep 1
 
+		echo "max_files_per_process = $files" >> data/postgresql.conf
+
 		pg_ctl -D data -l $OUTDIR/pg.log start > $OUTDIR/start.log 2>&1
+
+		psql postgres -c "select * from pg_settings" > $OUTDIR/settings.log 2>&1
 
 		./run-count.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/count.csv
 

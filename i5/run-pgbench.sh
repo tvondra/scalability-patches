@@ -16,7 +16,7 @@ for s in 5 25 250; do
 
 		DBNAME="pgbench-$s-$p"
 
-		cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'")
+		cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'" postgres)
 
 		if [ "$cnt" == "0" ]; then
 

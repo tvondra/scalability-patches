@@ -15,7 +15,7 @@ for p in $PARTITIONS; do
 
 	DBNAME="count-$p"
 
-	cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'")
+	cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'" postgres)
 
 	if [ "$cnt" == "0" ]; then
 
