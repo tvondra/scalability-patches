@@ -12,7 +12,7 @@ PARTITIONS=$7
 
 ps ax > $OUTDIR/join.ps.log 2>&1
 
-for s in 10 100 1000; do
+for s in 5 50 500; do
 
 	for p in $PARTITIONS; do
 
