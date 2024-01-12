@@ -19,7 +19,7 @@ for s in 10 100 1000; do
 		cnt=$((s*i))
 
 		# skip cases with too many indexes
-		if [[ $cnt -ge 300000 ]]; then
+		if [[ $cnt -ge 100000 ]]; then
 			continue
 		fi
 
