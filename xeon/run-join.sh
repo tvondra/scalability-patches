@@ -5,38 +5,46 @@ set -e
 MACHINE=$1
 BUILD=$2
 OUTDIR=$3
-DBNAME=$4
-RUNS=$5
-DURATION=$6
-CLIENTS=$7
-PARTITIONS=$8
+RUNS=$4
+DURATION=$5
+CLIENTS=$6
+PARTITIONS=$7
 
 
 for s in 10 100 1000; do
 
 	for p in $PARTITIONS; do
 
-	        dropdb --if-exists $DBNAME >> $OUTDIR/debug.log 2>&1
-	        createdb $DBNAME >> $OUTDIR/debug.log 2>&1
+		DBNAME="join-$s-$p"
 
-	        if [ "$p" == "0" ]; then
-        	        pgbench -i -s $s $DBNAME >> $OUTDIR/debug.log 2>&1
-	        else
-        	        pgbench -i -s $s --partitions $p $DBNAME >> $OUTDIR/debug.log 2>&1
-	        fi
+		cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'")
 
-	        psql $DBNAME -c "ALTER TABLE pgbench_accounts ADD COLUMN aid_parent INT" >> $OUTDIR/debug.log 2>&1
-        	psql $DBNAME -c "UPDATE pgbench_accounts SET aid_parent = aid" >> $OUTDIR/debug.log 2>&1
+		if [ "$cnt" == "0" ]; then
 
-	        psql $DBNAME -c "CREATE INDEX ON pgbench_accounts(aid_parent)" >> $OUTDIR/debug.log 2>&1
+			createdb '$DBNAME >> $OUTDIR/debug.log 2>&1
 
-        	psql $DBNAME -c "VACUUM FULL" >> $OUTDIR/debug.log 2>&1
+		        if [ "$p" == "0" ]; then
+        		        pgbench -i -s $s $DBNAME >> $OUTDIR/debug.log 2>&1
+	        	else
+	        	        pgbench -i -s $s --partitions $p $DBNAME >> $OUTDIR/debug.log 2>&1
+		        fi
 
-	        psql $DBNAME -c "VACUUM ANALYZE" >> $OUTDIR/debug.log 2>&1
-        	psql $DBNAME -c "CHECKPOINT" >> $OUTDIR/debug.log 2>&1
+		        psql $DBNAME -c "ALTER TABLE pgbench_accounts ADD COLUMN aid_parent INT" >> $OUTDIR/debug.log 2>&1
+        		psql $DBNAME -c "UPDATE pgbench_accounts SET aid_parent = aid" >> $OUTDIR/debug.log 2>&1
+
+		        psql $DBNAME -c "CREATE INDEX ON pgbench_accounts(aid_parent)" >> $OUTDIR/debug.log 2>&1
+
+        		psql $DBNAME -c "VACUUM FULL" >> $OUTDIR/debug.log 2>&1
+
+	        	psql $DBNAME -c "VACUUM ANALYZE" >> $OUTDIR/debug.log 2>&1
+	        	psql $DBNAME -c "CHECKPOINT" >> $OUTDIR/debug.log 2>&1
+
+		fi
 
 		psql $DBNAME -c "\d+" >> $OUTDIR/sizes.$s.$i.log 2>&1
 		psql $DBNAME -c "\di+" >> $OUTDIR/sizes.$s.$i.log 2>&1
+
+		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f join.sql $DBNAME > $OUTDIR/join-warmup-$s-$p.log 2>&1
 
 	        for r in $(seq 1 $RUNS); do
 
