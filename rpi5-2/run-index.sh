@@ -19,11 +19,11 @@ for s in 1 10 100; do
 		cnt=$((s*i))
 
 		# skip cases with too many indexes
-		if [[ $cnt -ge 100000 ]]; then
+		if [[ $cnt -ge 10000 ]]; then
 			continue
 		fi
 
-		DBNAME="index-$s-$p"
+		DBNAME="index-$s-$i"
 
 		cnt=$(psql -t -A -c "select count(*) from pg_database where datname = '$DBNAME'" postgres)
 
@@ -32,37 +32,37 @@ for s in 1 10 100; do
 			createdb $DBNAME >> $OUTDIR/debug.log 2>&1
 
 			# create table with a bunch of columns
-			echo "CREATE TABLE t (id serial primary key" > create.sql
+			echo "CREATE TABLE t (id serial primary key" > create-$i-$i.sql
 
 			# how many columns to create? 100 seems like a nice round value ;-)
 			for c in `seq 1 100`; do
-				echo ", c$c int"  >> create.sql
+				echo ", c$c int"  >> create-$i-$i.sql
 			done
 
-			echo ");" >> create.sql
+			echo ");" >> create-$i-$i.sql
 
 			# now also add some data
-			echo 'insert into t select i' >> create.sql
+			echo 'insert into t select i' >> create-$i-$i.sql
 
 			for c in `seq 1 100`; do
-				echo ", i" >> create.sql
+				echo ", i" >> create-$i-$i.sql
 			done
 
 			# 10k rows per scale sounds about right? pgbench has 100k, but our table is wider
-			echo " from generate_series(1, $s * 10000) s(i);" >> create.sql
+			echo " from generate_series(1, $s * 10000) s(i);" >> create-$i-$i.sql
 
-			echo 'vacuum analyze;' >> create.sql
+			echo 'vacuum analyze;' >> create-$i-$i.sql
 
-			echo 'set max_parallel_maintenance_workers = 8;' >> create.sql
+			echo 'set max_parallel_maintenance_workers = 8;' >> create-$i-$i.sql
 
 			# now create the indexes, spread over all the columns
-			for i in `seq 1 $i`; do
+			for j in `seq 1 $i`; do
 				# which column to create the index on?
-				c=$((i % 100 + 1))
-				echo "create index on t (c$c);" >> create.sql
+				c=$((j % 100 + 1))
+				echo "create index on t (c$c);" >> create-$i-$i.sql
 			done
 
-			psql $DBNAME < create.sql > $OUTDIR/debug.log 2>&1
+			psql $DBNAME < create-$i-$i.sql > $OUTDIR/debug.log 2>&1
 
 			psql $DBNAME -c "vacuum analyze" >> $OUTDIR/debug.log 2>&1
 

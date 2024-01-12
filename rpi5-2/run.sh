@@ -2,7 +2,7 @@
 
 set -e
 
-MACHINE=rpi5-1
+MACHINE=rpi5-2
 DBNAME=test
 RUNS=1
 DURATION=15
