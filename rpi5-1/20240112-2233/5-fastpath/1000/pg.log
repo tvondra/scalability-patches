@@ -6,3 +6,10 @@
 2024-01-13 12:21:25.684 GMT [147879] LOG:  database system is ready to accept connections
 2024-01-13 12:26:25.675 GMT [147880] LOG:  checkpoint starting: time
 2024-01-13 12:26:25.711 GMT [147880] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.003 s, total=0.037 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=B/7A98590, redo lsn=B/7A98538
+2024-01-13 14:34:38.426 GMT [147879] LOG:  received fast shutdown request
+2024-01-13 14:34:38.432 GMT [147879] LOG:  aborting any active transactions
+2024-01-13 14:34:38.434 GMT [147879] LOG:  background worker "logical replication launcher" (PID 147885) exited with exit code 1
+2024-01-13 14:34:38.434 GMT [147880] LOG:  shutting down
+2024-01-13 14:34:38.437 GMT [147880] LOG:  checkpoint starting: shutdown immediate
+2024-01-13 14:34:38.463 GMT [147880] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.001 s, total=0.030 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=B/7A98640, redo lsn=B/7A98640
+2024-01-13 14:34:38.546 GMT [147879] LOG:  database system is shut down
