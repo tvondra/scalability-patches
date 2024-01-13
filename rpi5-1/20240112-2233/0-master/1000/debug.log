@@ -3075,3 +3075,335 @@ CREATE INDEX
 VACUUM
 VACUUM
 CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.11 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 10.13 s (drop tables 0.00 s, create tables 0.02 s, client-side generate 4.98 s, vacuum 0.76 s, primary keys 4.36 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.08 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.67 s (drop tables 0.00 s, create tables 0.02 s, client-side generate 1.25 s, vacuum 0.82 s, primary keys 3.57 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 10 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.11 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.09 s (drop tables 0.00 s, create tables 1.58 s, client-side generate 2.82 s, vacuum 0.19 s, primary keys 0.49 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 100 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.50 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 7.46 s (drop tables 0.00 s, create tables 2.94 s, client-side generate 2.72 s, vacuum 0.62 s, primary keys 1.18 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1000 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.33 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 75.19 s (drop tables 0.00 s, create tables 9.21 s, client-side generate 5.62 s, vacuum 15.12 s, primary keys 45.24 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 500000 tuples (20%) of pgbench_accounts done (elapsed 0.07 s, remaining 0.30 s)
+200000 of 500000 tuples (40%) of pgbench_accounts done (elapsed 5.33 s, remaining 7.99 s)
+300000 of 500000 tuples (60%) of pgbench_accounts done (elapsed 9.04 s, remaining 6.03 s)
+400000 of 500000 tuples (80%) of pgbench_accounts done (elapsed 12.46 s, remaining 3.12 s)
+500000 of 500000 tuples (100%) of pgbench_accounts done (elapsed 12.58 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 25.56 s (drop tables 0.00 s, create tables 0.56 s, client-side generate 19.33 s, vacuum 0.77 s, primary keys 4.90 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1 partitions...
+generating data (client-side)...
+100000 of 500000 tuples (20%) of pgbench_accounts done (elapsed 0.10 s, remaining 0.39 s)
+200000 of 500000 tuples (40%) of pgbench_accounts done (elapsed 6.29 s, remaining 9.43 s)
+300000 of 500000 tuples (60%) of pgbench_accounts done (elapsed 12.45 s, remaining 8.30 s)
+400000 of 500000 tuples (80%) of pgbench_accounts done (elapsed 13.18 s, remaining 3.29 s)
+500000 of 500000 tuples (100%) of pgbench_accounts done (elapsed 16.20 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 30.35 s (drop tables 0.00 s, create tables 0.02 s, client-side generate 20.05 s, vacuum 0.92 s, primary keys 9.35 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 10 partitions...
+generating data (client-side)...
+100000 of 500000 tuples (20%) of pgbench_accounts done (elapsed 0.09 s, remaining 0.35 s)
+200000 of 500000 tuples (40%) of pgbench_accounts done (elapsed 3.20 s, remaining 4.80 s)
+300000 of 500000 tuples (60%) of pgbench_accounts done (elapsed 3.29 s, remaining 2.19 s)
+400000 of 500000 tuples (80%) of pgbench_accounts done (elapsed 10.19 s, remaining 2.55 s)
+500000 of 500000 tuples (100%) of pgbench_accounts done (elapsed 14.13 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 30.39 s (drop tables 0.00 s, create tables 0.06 s, client-side generate 16.66 s, vacuum 5.40 s, primary keys 8.27 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 100 partitions...
+generating data (client-side)...
+100000 of 500000 tuples (20%) of pgbench_accounts done (elapsed 0.22 s, remaining 0.86 s)
+200000 of 500000 tuples (40%) of pgbench_accounts done (elapsed 1.37 s, remaining 2.05 s)
+300000 of 500000 tuples (60%) of pgbench_accounts done (elapsed 9.21 s, remaining 6.14 s)
+400000 of 500000 tuples (80%) of pgbench_accounts done (elapsed 9.37 s, remaining 2.34 s)
+500000 of 500000 tuples (100%) of pgbench_accounts done (elapsed 12.79 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 36.28 s (drop tables 0.00 s, create tables 0.38 s, client-side generate 15.51 s, vacuum 10.70 s, primary keys 9.69 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1000 partitions...
+generating data (client-side)...
+100000 of 500000 tuples (20%) of pgbench_accounts done (elapsed 0.33 s, remaining 1.32 s)
+200000 of 500000 tuples (40%) of pgbench_accounts done (elapsed 1.77 s, remaining 2.66 s)
+300000 of 500000 tuples (60%) of pgbench_accounts done (elapsed 4.43 s, remaining 2.95 s)
+400000 of 500000 tuples (80%) of pgbench_accounts done (elapsed 10.85 s, remaining 2.71 s)
+500000 of 500000 tuples (100%) of pgbench_accounts done (elapsed 15.40 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 98.05 s (drop tables 0.00 s, create tables 15.48 s, client-side generate 23.13 s, vacuum 14.82 s, primary keys 44.62 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 2500000 tuples (4%) of pgbench_accounts done (elapsed 0.08 s, remaining 1.82 s)
+200000 of 2500000 tuples (8%) of pgbench_accounts done (elapsed 1.59 s, remaining 18.25 s)
+300000 of 2500000 tuples (12%) of pgbench_accounts done (elapsed 8.64 s, remaining 63.34 s)
+400000 of 2500000 tuples (16%) of pgbench_accounts done (elapsed 10.03 s, remaining 52.66 s)
+500000 of 2500000 tuples (20%) of pgbench_accounts done (elapsed 12.42 s, remaining 49.66 s)
+600000 of 2500000 tuples (24%) of pgbench_accounts done (elapsed 17.98 s, remaining 56.93 s)
+700000 of 2500000 tuples (28%) of pgbench_accounts done (elapsed 22.44 s, remaining 57.71 s)
+800000 of 2500000 tuples (32%) of pgbench_accounts done (elapsed 24.17 s, remaining 51.36 s)
+900000 of 2500000 tuples (36%) of pgbench_accounts done (elapsed 24.28 s, remaining 43.16 s)
+1000000 of 2500000 tuples (40%) of pgbench_accounts done (elapsed 29.50 s, remaining 44.25 s)
+1100000 of 2500000 tuples (44%) of pgbench_accounts done (elapsed 33.01 s, remaining 42.01 s)
+1200000 of 2500000 tuples (48%) of pgbench_accounts done (elapsed 38.16 s, remaining 41.34 s)
+1300000 of 2500000 tuples (52%) of pgbench_accounts done (elapsed 68.89 s, remaining 63.59 s)
+1400000 of 2500000 tuples (56%) of pgbench_accounts done (elapsed 83.35 s, remaining 65.49 s)
+1500000 of 2500000 tuples (60%) of pgbench_accounts done (elapsed 96.04 s, remaining 64.02 s)
+1600000 of 2500000 tuples (64%) of pgbench_accounts done (elapsed 99.32 s, remaining 55.87 s)
+1700000 of 2500000 tuples (68%) of pgbench_accounts done (elapsed 106.14 s, remaining 49.95 s)
+1800000 of 2500000 tuples (72%) of pgbench_accounts done (elapsed 110.51 s, remaining 42.97 s)
+1900000 of 2500000 tuples (76%) of pgbench_accounts done (elapsed 110.59 s, remaining 34.92 s)
+2000000 of 2500000 tuples (80%) of pgbench_accounts done (elapsed 112.83 s, remaining 28.21 s)
+2100000 of 2500000 tuples (84%) of pgbench_accounts done (elapsed 128.35 s, remaining 24.45 s)
+2200000 of 2500000 tuples (88%) of pgbench_accounts done (elapsed 151.97 s, remaining 20.72 s)
+2300000 of 2500000 tuples (92%) of pgbench_accounts done (elapsed 152.08 s, remaining 13.22 s)
+2400000 of 2500000 tuples (96%) of pgbench_accounts done (elapsed 155.92 s, remaining 6.50 s)
+2500000 of 2500000 tuples (100%) of pgbench_accounts done (elapsed 160.89 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 225.01 s (drop tables 0.00 s, create tables 0.04 s, client-side generate 165.20 s, vacuum 0.31 s, primary keys 59.46 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1 partitions...
+generating data (client-side)...
+100000 of 2500000 tuples (4%) of pgbench_accounts done (elapsed 0.11 s, remaining 2.62 s)
+200000 of 2500000 tuples (8%) of pgbench_accounts done (elapsed 6.46 s, remaining 74.26 s)
+300000 of 2500000 tuples (12%) of pgbench_accounts done (elapsed 6.57 s, remaining 48.16 s)
+400000 of 2500000 tuples (16%) of pgbench_accounts done (elapsed 9.78 s, remaining 51.33 s)
+500000 of 2500000 tuples (20%) of pgbench_accounts done (elapsed 16.37 s, remaining 65.49 s)
+600000 of 2500000 tuples (24%) of pgbench_accounts done (elapsed 17.39 s, remaining 55.08 s)
+700000 of 2500000 tuples (28%) of pgbench_accounts done (elapsed 19.65 s, remaining 50.52 s)
+800000 of 2500000 tuples (32%) of pgbench_accounts done (elapsed 21.32 s, remaining 45.30 s)
+900000 of 2500000 tuples (36%) of pgbench_accounts done (elapsed 25.26 s, remaining 44.91 s)
+1000000 of 2500000 tuples (40%) of pgbench_accounts done (elapsed 28.64 s, remaining 42.95 s)
+1100000 of 2500000 tuples (44%) of pgbench_accounts done (elapsed 28.73 s, remaining 36.56 s)
+1200000 of 2500000 tuples (48%) of pgbench_accounts done (elapsed 32.51 s, remaining 35.22 s)
+1300000 of 2500000 tuples (52%) of pgbench_accounts done (elapsed 55.85 s, remaining 51.55 s)
+1400000 of 2500000 tuples (56%) of pgbench_accounts done (elapsed 86.97 s, remaining 68.34 s)
+1500000 of 2500000 tuples (60%) of pgbench_accounts done (elapsed 95.19 s, remaining 63.46 s)
+1600000 of 2500000 tuples (64%) of pgbench_accounts done (elapsed 95.31 s, remaining 53.61 s)
+1700000 of 2500000 tuples (68%) of pgbench_accounts done (elapsed 97.88 s, remaining 46.06 s)
+1800000 of 2500000 tuples (72%) of pgbench_accounts done (elapsed 103.39 s, remaining 40.21 s)
+1900000 of 2500000 tuples (76%) of pgbench_accounts done (elapsed 111.18 s, remaining 35.11 s)
+2000000 of 2500000 tuples (80%) of pgbench_accounts done (elapsed 111.31 s, remaining 27.83 s)
+2100000 of 2500000 tuples (84%) of pgbench_accounts done (elapsed 118.28 s, remaining 22.53 s)
+2200000 of 2500000 tuples (88%) of pgbench_accounts done (elapsed 130.15 s, remaining 17.75 s)
+2300000 of 2500000 tuples (92%) of pgbench_accounts done (elapsed 162.94 s, remaining 14.17 s)
+2400000 of 2500000 tuples (96%) of pgbench_accounts done (elapsed 168.26 s, remaining 7.01 s)
+2500000 of 2500000 tuples (100%) of pgbench_accounts done (elapsed 169.02 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 231.28 s (drop tables 0.00 s, create tables 0.09 s, client-side generate 171.34 s, vacuum 4.75 s, primary keys 55.09 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 10 partitions...
+generating data (client-side)...
+100000 of 2500000 tuples (4%) of pgbench_accounts done (elapsed 0.08 s, remaining 1.96 s)
+200000 of 2500000 tuples (8%) of pgbench_accounts done (elapsed 4.63 s, remaining 53.22 s)
+300000 of 2500000 tuples (12%) of pgbench_accounts done (elapsed 5.52 s, remaining 40.47 s)
+400000 of 2500000 tuples (16%) of pgbench_accounts done (elapsed 14.04 s, remaining 73.70 s)
+500000 of 2500000 tuples (20%) of pgbench_accounts done (elapsed 17.10 s, remaining 68.39 s)
+600000 of 2500000 tuples (24%) of pgbench_accounts done (elapsed 17.18 s, remaining 54.41 s)
+700000 of 2500000 tuples (28%) of pgbench_accounts done (elapsed 19.45 s, remaining 50.02 s)
+800000 of 2500000 tuples (32%) of pgbench_accounts done (elapsed 23.37 s, remaining 49.65 s)
+900000 of 2500000 tuples (36%) of pgbench_accounts done (elapsed 29.48 s, remaining 52.41 s)
+1000000 of 2500000 tuples (40%) of pgbench_accounts done (elapsed 29.60 s, remaining 44.40 s)
+1100000 of 2500000 tuples (44%) of pgbench_accounts done (elapsed 37.55 s, remaining 47.79 s)
+1200000 of 2500000 tuples (48%) of pgbench_accounts done (elapsed 50.06 s, remaining 54.23 s)
+1300000 of 2500000 tuples (52%) of pgbench_accounts done (elapsed 58.07 s, remaining 53.60 s)
+1400000 of 2500000 tuples (56%) of pgbench_accounts done (elapsed 67.08 s, remaining 52.71 s)
+1500000 of 2500000 tuples (60%) of pgbench_accounts done (elapsed 67.20 s, remaining 44.80 s)
+1600000 of 2500000 tuples (64%) of pgbench_accounts done (elapsed 81.87 s, remaining 46.05 s)
+1700000 of 2500000 tuples (68%) of pgbench_accounts done (elapsed 86.10 s, remaining 40.52 s)
+1800000 of 2500000 tuples (72%) of pgbench_accounts done (elapsed 88.94 s, remaining 34.59 s)
+1900000 of 2500000 tuples (76%) of pgbench_accounts done (elapsed 95.37 s, remaining 30.12 s)
+2000000 of 2500000 tuples (80%) of pgbench_accounts done (elapsed 95.48 s, remaining 23.87 s)
+2100000 of 2500000 tuples (84%) of pgbench_accounts done (elapsed 100.12 s, remaining 19.07 s)
+2200000 of 2500000 tuples (88%) of pgbench_accounts done (elapsed 103.78 s, remaining 14.15 s)
+2300000 of 2500000 tuples (92%) of pgbench_accounts done (elapsed 105.19 s, remaining 9.15 s)
+2400000 of 2500000 tuples (96%) of pgbench_accounts done (elapsed 109.65 s, remaining 4.57 s)
+2500000 of 2500000 tuples (100%) of pgbench_accounts done (elapsed 109.77 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 252.00 s (drop tables 0.00 s, create tables 0.97 s, client-side generate 127.32 s, vacuum 1.98 s, primary keys 121.73 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 100 partitions...
+generating data (client-side)...
+100000 of 2500000 tuples (4%) of pgbench_accounts done (elapsed 0.11 s, remaining 2.55 s)
+200000 of 2500000 tuples (8%) of pgbench_accounts done (elapsed 0.94 s, remaining 10.84 s)
+300000 of 2500000 tuples (12%) of pgbench_accounts done (elapsed 1.05 s, remaining 7.73 s)
+400000 of 2500000 tuples (16%) of pgbench_accounts done (elapsed 10.45 s, remaining 54.85 s)
+500000 of 2500000 tuples (20%) of pgbench_accounts done (elapsed 10.57 s, remaining 42.30 s)
+600000 of 2500000 tuples (24%) of pgbench_accounts done (elapsed 13.28 s, remaining 42.04 s)
+700000 of 2500000 tuples (28%) of pgbench_accounts done (elapsed 23.91 s, remaining 61.48 s)
+800000 of 2500000 tuples (32%) of pgbench_accounts done (elapsed 24.00 s, remaining 51.00 s)
+900000 of 2500000 tuples (36%) of pgbench_accounts done (elapsed 33.78 s, remaining 60.05 s)
+1000000 of 2500000 tuples (40%) of pgbench_accounts done (elapsed 37.09 s, remaining 55.63 s)
+1100000 of 2500000 tuples (44%) of pgbench_accounts done (elapsed 37.19 s, remaining 47.33 s)
+1200000 of 2500000 tuples (48%) of pgbench_accounts done (elapsed 42.40 s, remaining 45.94 s)
+1300000 of 2500000 tuples (52%) of pgbench_accounts done (elapsed 42.53 s, remaining 39.26 s)
+1400000 of 2500000 tuples (56%) of pgbench_accounts done (elapsed 50.73 s, remaining 39.86 s)
+1500000 of 2500000 tuples (60%) of pgbench_accounts done (elapsed 50.85 s, remaining 33.90 s)
+1600000 of 2500000 tuples (64%) of pgbench_accounts done (elapsed 55.00 s, remaining 30.94 s)
+1700000 of 2500000 tuples (68%) of pgbench_accounts done (elapsed 56.90 s, remaining 26.78 s)
+1800000 of 2500000 tuples (72%) of pgbench_accounts done (elapsed 68.79 s, remaining 26.75 s)
+1900000 of 2500000 tuples (76%) of pgbench_accounts done (elapsed 78.24 s, remaining 24.71 s)
+2000000 of 2500000 tuples (80%) of pgbench_accounts done (elapsed 80.12 s, remaining 20.03 s)
+2100000 of 2500000 tuples (84%) of pgbench_accounts done (elapsed 96.35 s, remaining 18.35 s)
+2200000 of 2500000 tuples (88%) of pgbench_accounts done (elapsed 97.00 s, remaining 13.23 s)
+2300000 of 2500000 tuples (92%) of pgbench_accounts done (elapsed 99.50 s, remaining 8.65 s)
+2400000 of 2500000 tuples (96%) of pgbench_accounts done (elapsed 112.38 s, remaining 4.68 s)
+2500000 of 2500000 tuples (100%) of pgbench_accounts done (elapsed 112.54 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 281.46 s (drop tables 0.00 s, create tables 0.51 s, client-side generate 117.04 s, vacuum 87.49 s, primary keys 76.42 s).
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1000 partitions...
+generating data (client-side)...
+100000 of 2500000 tuples (4%) of pgbench_accounts done (elapsed 0.26 s, remaining 6.14 s)
+200000 of 2500000 tuples (8%) of pgbench_accounts done (elapsed 6.37 s, remaining 73.21 s)
+300000 of 2500000 tuples (12%) of pgbench_accounts done (elapsed 6.65 s, remaining 48.74 s)
+400000 of 2500000 tuples (16%) of pgbench_accounts done (elapsed 9.81 s, remaining 51.51 s)
+500000 of 2500000 tuples (20%) of pgbench_accounts done (elapsed 10.06 s, remaining 40.24 s)
+600000 of 2500000 tuples (24%) of pgbench_accounts done (elapsed 15.15 s, remaining 47.97 s)
+700000 of 2500000 tuples (28%) of pgbench_accounts done (elapsed 21.27 s, remaining 54.70 s)
+800000 of 2500000 tuples (32%) of pgbench_accounts done (elapsed 21.62 s, remaining 45.95 s)
+900000 of 2500000 tuples (36%) of pgbench_accounts done (elapsed 32.01 s, remaining 56.90 s)
+1000000 of 2500000 tuples (40%) of pgbench_accounts done (elapsed 40.46 s, remaining 60.69 s)
+1100000 of 2500000 tuples (44%) of pgbench_accounts done (elapsed 40.82 s, remaining 51.96 s)
+1200000 of 2500000 tuples (48%) of pgbench_accounts done (elapsed 41.96 s, remaining 45.46 s)
+1300000 of 2500000 tuples (52%) of pgbench_accounts done (elapsed 49.68 s, remaining 45.86 s)
+1400000 of 2500000 tuples (56%) of pgbench_accounts done (elapsed 50.00 s, remaining 39.29 s)
+1500000 of 2500000 tuples (60%) of pgbench_accounts done (elapsed 50.45 s, remaining 33.63 s)
+1600000 of 2500000 tuples (64%) of pgbench_accounts done (elapsed 60.46 s, remaining 34.01 s)
+1700000 of 2500000 tuples (68%) of pgbench_accounts done (elapsed 60.80 s, remaining 28.61 s)
+1800000 of 2500000 tuples (72%) of pgbench_accounts done (elapsed 63.60 s, remaining 24.73 s)
+1900000 of 2500000 tuples (76%) of pgbench_accounts done (elapsed 72.72 s, remaining 22.97 s)
+2000000 of 2500000 tuples (80%) of pgbench_accounts done (elapsed 73.07 s, remaining 18.27 s)
+2100000 of 2500000 tuples (84%) of pgbench_accounts done (elapsed 79.26 s, remaining 15.10 s)
+2200000 of 2500000 tuples (88%) of pgbench_accounts done (elapsed 94.71 s, remaining 12.91 s)
+2300000 of 2500000 tuples (92%) of pgbench_accounts done (elapsed 109.12 s, remaining 9.49 s)
+2400000 of 2500000 tuples (96%) of pgbench_accounts done (elapsed 136.89 s, remaining 5.70 s)
+2500000 of 2500000 tuples (100%) of pgbench_accounts done (elapsed 137.20 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 447.92 s (drop tables 0.00 s, create tables 8.81 s, client-side generate 154.32 s, vacuum 187.53 s, primary keys 97.26 s).
+CHECKPOINT
