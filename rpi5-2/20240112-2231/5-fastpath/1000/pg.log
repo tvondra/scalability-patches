@@ -6,3 +6,6 @@
 2024-01-13 08:43:03.325 GMT [142479] LOG:  database system is ready to accept connections
 2024-01-13 08:48:03.232 GMT [142480] LOG:  checkpoint starting: time
 2024-01-13 08:48:03.273 GMT [142480] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.004 s, total=0.041 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=B/A3A9A8, redo lsn=B/A3A950
+2024-01-13 10:10:08.814 GMT [153092] FATAL:  database "count-2" does not exist
+2024-01-13 10:13:04.972 GMT [142480] LOG:  checkpoint starting: time
+2024-01-13 10:13:05.161 GMT [142480] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.107 s, sync=0.005 s, total=0.189 s; sync files=1, longest=0.005 s, average=0.005 s; distance=3 kB, estimate=3 kB; lsn=B/A3B720, redo lsn=B/A3B6C8
