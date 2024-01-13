@@ -8,7 +8,7 @@ RUNS=1
 DURATION=15
 CLIENTS="1 2 4 8 16 32 48 64 96 128 160 224 288"
 PARTITIONS="0 1 10 100 1000"
-BUILDS="0-master 5-fastpath 13-master 15-master 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+BUILDS="3-btscan 1-fstat 4-lock-partitions 2-mempool"
 
 PATH_OLD=$PATH
 
@@ -66,6 +66,10 @@ for build in $BUILDS; do
 		./push.sh $MACHINE $OUTDIR
 
 		./run-index.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/index.csv
+
+		./push.sh $MACHINE $OUTDIR
+
+		./run-star.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/star.csv
 
 		./push.sh $MACHINE $OUTDIR
 
