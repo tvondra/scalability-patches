@@ -72,6 +72,10 @@ for build in $BUILDS; do
 
 		./push.sh $MACHINE $OUTDIR
 
+		./run-star.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/star.csv
+
+		./push.sh $MACHINE $OUTDIR
+
 		pg_ctl -D data stop > $OUTDIR/stop.log 2>&1
 
 	done
