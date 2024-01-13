@@ -18,6 +18,11 @@ for s in 1 10 100; do
 
 	for p in $PARTITIONS; do
 
+		# no joins with more than 100 dimensions
+		if [[ $p -gt 100 ]]; then
+			continue
+		fi
+
 		# no point in testing a case with no dimensions
 		if [ "$p" == "0" ]; then
 			continue
