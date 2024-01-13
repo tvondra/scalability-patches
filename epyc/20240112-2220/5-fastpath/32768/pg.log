@@ -6,3 +6,10 @@
 2024-01-13 17:20:16.516 CET [840482] LOG:  database system is ready to accept connections
 2024-01-13 17:25:16.599 CET [840483] LOG:  checkpoint starting: time
 2024-01-13 17:25:16.614 CET [840483] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.014 s, sync=0.001 s, total=0.015 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=7D/4ABE6BE8, redo lsn=7D/4ABE6B90
+2024-01-13 23:14:47.277 CET [840482] LOG:  received fast shutdown request
+2024-01-13 23:14:47.278 CET [840482] LOG:  aborting any active transactions
+2024-01-13 23:14:47.279 CET [840482] LOG:  background worker "logical replication launcher" (PID 840488) exited with exit code 1
+2024-01-13 23:14:47.287 CET [840483] LOG:  shutting down
+2024-01-13 23:14:47.287 CET [840483] LOG:  checkpoint starting: shutdown immediate
+2024-01-13 23:14:47.298 CET [840483] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.001 s, total=0.012 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=7D/4ABE6C98, redo lsn=7D/4ABE6C98
+2024-01-13 23:14:47.866 CET [840482] LOG:  database system is shut down
