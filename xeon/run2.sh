@@ -11,7 +11,7 @@ CLIENTS="1 2 4 8 16 32 64 96"
 PARTITIONS="0 1 10 100 1000"
 #BUILDS="amd64 znver3 znver4"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
-BUILDS="3-btscan 1-fstat 4-lock-partitions 2-mempool"
+BUILDS="0-master 5-fastpath"
 
 PATH_OLD=$PATH
 
@@ -55,22 +55,6 @@ for build in $BUILDS; do
 		pg_ctl -D data -l $OUTDIR/pg.log start > $OUTDIR/start.log 2>&1
 
 		psql postgres -c "select * from pg_settings" > $OUTDIR/settings.log 2>&1
-
-		./run-count.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/count.csv
-
-		./push.sh $MACHINE $OUTDIR
-
-		./run-join.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/join.csv
-
-		./push.sh $MACHINE $OUTDIR
-
-		./run-pgbench.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/pgbench.csv
-
-		./push.sh $MACHINE $OUTDIR
-
-		./run-index.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/index.csv
-
-		./push.sh $MACHINE $OUTDIR
 
 		./run-star.sh $MACHINE $build $OUTDIR $RUNS $DURATION "$CLIENTS" "$PARTITIONS" > $OUTDIR/star.csv
 
