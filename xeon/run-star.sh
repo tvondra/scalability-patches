@@ -71,7 +71,7 @@ for s in 1 10 100; do
 
 		# generate the pgbench script
 		echo "\set aid random(1, 1000000 * $s)" > $OUTDIR/star-$s-$p.sql
-		echo 'select * from t' >> $OUTDIR/star-$s-$p.sql
+		echo 'select t.* from t' >> $OUTDIR/star-$s-$p.sql
 		for i in $(seq 1 $p); do
 			echo "join dim$i on (d$i = dim$i.id)" >> $OUTDIR/star-$s-$p.sql
 		done
