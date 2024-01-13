@@ -1196,3 +1196,11 @@
 2024-01-13 22:35:17.762 CET [13593] LOG:  checkpoint starting: immediate force wait
 2024-01-13 22:35:18.248 CET [13593] LOG:  checkpoint complete: wrote 47009 buffers (4.5%); 0 WAL file(s) added, 0 removed, 25 recycled; write=0.358 s, sync=0.124 s, total=0.486 s; sync files=479, longest=0.123 s, average=0.001 s; distance=414645 kB, estimate=538028 kB; lsn=A7/E4810EE8, redo lsn=A7/E4810E90
 2024-01-13 22:40:17.348 CET [13593] LOG:  checkpoint starting: time
+2024-01-13 22:40:23.688 CET [13593] LOG:  checkpoint complete: wrote 63 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.338 s, sync=0.001 s, total=6.341 s; sync files=5, longest=0.001 s, average=0.001 s; distance=233 kB, estimate=484249 kB; lsn=A7/E484B570, redo lsn=A7/E484B4E0
+2024-01-13 22:40:36.042 CET [13592] LOG:  received fast shutdown request
+2024-01-13 22:40:36.042 CET [13592] LOG:  aborting any active transactions
+2024-01-13 22:40:36.043 CET [13592] LOG:  background worker "logical replication launcher" (PID 13598) exited with exit code 1
+2024-01-13 22:40:36.046 CET [13593] LOG:  shutting down
+2024-01-13 22:40:36.046 CET [13593] LOG:  checkpoint starting: shutdown immediate
+2024-01-13 22:40:36.064 CET [13593] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.017 s, sync=0.001 s, total=0.018 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=435824 kB; lsn=A7/E484B5E8, redo lsn=A7/E484B5E8
+2024-01-13 22:40:36.851 CET [13592] LOG:  database system is shut down
