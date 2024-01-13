@@ -1,0 +1,13 @@
+pgbench (17devel)
+transaction type: 20240113-2123/5-fastpath/32768/star-100-100.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 64
+number of threads: 64
+maximum number of tries: 1
+duration: 15 s
+number of transactions actually processed: 12208
+number of failed transactions: 0 (0.000%)
+latency average = 78.876 ms
+initial connection time = 30.244 ms
+tps = 811.398393 (without initial connection time)
