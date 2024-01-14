@@ -1,0 +1,23 @@
+BINDIR = /home/tomas/builds/pg-0-master/bin
+DOCDIR = /home/tomas/builds/pg-0-master/share/doc/postgresql
+HTMLDIR = /home/tomas/builds/pg-0-master/share/doc/postgresql
+INCLUDEDIR = /home/tomas/builds/pg-0-master/include
+PKGINCLUDEDIR = /home/tomas/builds/pg-0-master/include/postgresql
+INCLUDEDIR-SERVER = /home/tomas/builds/pg-0-master/include/postgresql/server
+LIBDIR = /home/tomas/builds/pg-0-master/lib
+PKGLIBDIR = /home/tomas/builds/pg-0-master/lib/postgresql
+LOCALEDIR = /home/tomas/builds/pg-0-master/share/locale
+MANDIR = /home/tomas/builds/pg-0-master/share/man
+SHAREDIR = /home/tomas/builds/pg-0-master/share/postgresql
+SYSCONFDIR = /home/tomas/builds/pg-0-master/etc/postgresql
+PGXS = /home/tomas/builds/pg-0-master/lib/postgresql/pgxs/src/makefiles/pgxs.mk
+CONFIGURE =  '--prefix=/home/tomas/builds/pg-0-master' '--enable-debug' '--without-icu'
+CC = gcc
+CPPFLAGS = -D_GNU_SOURCE
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wcast-function-type -Wshadow=compatible-local -Wformat-security -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -g -O2
+CFLAGS_SL = -fPIC
+LDFLAGS = -Wl,--as-needed -Wl,-rpath,'/home/tomas/builds/pg-0-master/lib',--enable-new-dtags
+LDFLAGS_EX = 
+LDFLAGS_SL = 
+LIBS = -lpgcommon -lpgport -lz -lreadline -lm 
+VERSION = PostgreSQL 17devel
