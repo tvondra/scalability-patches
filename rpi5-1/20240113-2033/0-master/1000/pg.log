@@ -1,0 +1,353 @@
+2024-01-13 20:33:54.542 GMT [180415] LOG:  starting PostgreSQL 17devel on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-01-13 20:33:54.543 GMT [180415] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-13 20:33:54.543 GMT [180415] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-13 20:33:54.553 GMT [180415] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-13 20:33:54.670 GMT [180418] LOG:  database system was shut down at 2024-01-13 16:47:46 GMT
+2024-01-13 20:33:54.787 GMT [180415] LOG:  database system is ready to accept connections
+2024-01-13 20:35:43.803 GMT [180514] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 20:36:05.240 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 20:36:12.570 GMT [180416] LOG:  checkpoint complete: wrote 5128 buffers (3.9%); 0 WAL file(s) added, 0 removed, 12 recycled; write=6.926 s, sync=0.271 s, total=7.331 s; sync files=600, longest=0.137 s, average=0.001 s; distance=193896 kB, estimate=193896 kB; lsn=B/137F2A08, redo lsn=B/137F2978
+2024-01-13 20:41:05.574 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 20:41:13.580 GMT [181018] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 20:41:59.176 GMT [180416] LOG:  checkpoint complete: wrote 1526 buffers (1.2%); 0 WAL file(s) added, 0 removed, 15 recycled; write=36.893 s, sync=2.949 s, total=53.602 s; sync files=686, longest=0.236 s, average=0.005 s; distance=247790 kB, estimate=247790 kB; lsn=B/245194B8, redo lsn=B/229EE3F0
+2024-01-13 20:41:59.177 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 20:42:25.770 GMT [180416] LOG:  checkpoint complete: wrote 10131 buffers (7.7%); 0 WAL file(s) added, 0 removed, 2 recycled; write=26.001 s, sync=0.491 s, total=26.594 s; sync files=180, longest=0.463 s, average=0.003 s; distance=27820 kB, estimate=225793 kB; lsn=B/2453B690, redo lsn=B/24519530
+2024-01-13 20:47:05.138 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 20:52:41.589 GMT [180416] LOG:  checkpoint complete: wrote 29883 buffers (22.8%); 0 WAL file(s) added, 0 removed, 12 recycled; write=265.947 s, sync=23.658 s, total=341.770 s; sync files=706, longest=9.207 s, average=0.034 s; distance=203194 kB, estimate=223533 kB; lsn=B/41FFE1F8, redo lsn=B/30B88058
+2024-01-13 20:52:41.592 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 20:53:39.941 GMT [181761] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 20:54:43.139 GMT [181810] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 20:55:39.942 GMT [181860] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 20:57:47.052 GMT [181912] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 20:57:52.446 GMT [180416] LOG:  checkpoint complete: wrote 30663 buffers (23.4%); 0 WAL file(s) added, 0 removed, 21 recycled; write=279.986 s, sync=10.766 s, total=310.854 s; sync files=125, longest=10.623 s, average=0.087 s; distance=335445 kB, estimate=335445 kB; lsn=B/56EDA078, redo lsn=B/4531D7E0
+2024-01-13 20:57:52.446 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:00:02.641 GMT [182021] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:02:33.199 GMT [180416] LOG:  checkpoint complete: wrote 23464 buffers (17.9%); 0 WAL file(s) added, 0 removed, 20 recycled; write=171.482 s, sync=103.391 s, total=280.754 s; sync files=886, longest=96.986 s, average=0.117 s; distance=340261 kB, estimate=340261 kB; lsn=B/6224F320, redo lsn=B/59F66D28
+2024-01-13 21:02:33.200 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 21:02:36.274 GMT [180416] LOG:  checkpoint complete: wrote 1781 buffers (1.4%); 0 WAL file(s) added, 0 removed, 9 recycled; write=1.577 s, sync=1.365 s, total=3.075 s; sync files=449, longest=1.275 s, average=0.004 s; distance=134049 kB, estimate=319640 kB; lsn=B/6224F3F0, redo lsn=B/6224F398
+2024-01-13 21:07:33.376 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:12:17.336 GMT [180416] LOG:  checkpoint complete: wrote 13444 buffers (10.3%); 0 WAL file(s) added, 2 removed, 9 recycled; write=226.949 s, sync=18.951 s, total=283.960 s; sync files=309, longest=10.030 s, average=0.062 s; distance=181141 kB, estimate=305790 kB; lsn=B/8C02B0F8, redo lsn=B/6D334AE8
+2024-01-13 21:12:27.014 GMT [180416] LOG:  checkpoint starting: wal
+2024-01-13 21:17:55.288 GMT [180416] LOG:  checkpoint complete: wrote 28630 buffers (21.8%); 0 WAL file(s) added, 0 removed, 33 recycled; write=274.289 s, sync=2.129 s, total=328.275 s; sync files=3, longest=2.129 s, average=0.710 s; distance=552149 kB, estimate=552149 kB; lsn=B/A1002050, redo lsn=B/8EE6A040
+2024-01-13 21:17:57.937 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:19:54.283 GMT [183306] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:20:54.284 GMT [183358] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:21:54.285 GMT [183408] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:23:06.412 GMT [183460] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:23:51.967 GMT [180416] LOG:  checkpoint complete: wrote 24004 buffers (18.3%); 0 WAL file(s) added, 0 removed, 26 recycled; write=267.163 s, sync=38.782 s, total=356.680 s; sync files=6, longest=29.829 s, average=6.464 s; distance=414424 kB, estimate=538376 kB; lsn=B/C3FFC908, redo lsn=B/A8320098
+2024-01-13 21:23:51.968 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:24:39.674 GMT [183512] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:25:32.242 GMT [183565] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:26:32.243 GMT [183617] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:27:32.244 GMT [183667] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:28:32.244 GMT [183717] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:28:53.447 GMT [180416] LOG:  checkpoint complete: wrote 46857 buffers (35.7%); 0 WAL file(s) added, 0 removed, 30 recycled; write=289.674 s, sync=11.137 s, total=301.480 s; sync files=30, longest=11.112 s, average=0.372 s; distance=488543 kB, estimate=533393 kB; lsn=B/D22FD170, redo lsn=B/C6037DE8
+2024-01-13 21:28:53.448 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:28:59.186 GMT [180416] LOG:  checkpoint complete: wrote 27 buffers (0.0%); 0 WAL file(s) added, 0 removed, 12 recycled; write=4.843 s, sync=0.632 s, total=5.739 s; sync files=192, longest=0.239 s, average=0.004 s; distance=200778 kB, estimate=500131 kB; lsn=B/D28BC298, redo lsn=B/D244A658
+2024-01-13 21:29:01.334 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 21:30:12.942 GMT [180416] LOG:  checkpoint complete: wrote 804 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.065 s, sync=71.444 s, total=71.608 s; sync files=239, longest=69.893 s, average=0.299 s; distance=8770 kB, estimate=450995 kB; lsn=B/D2CF4940, redo lsn=B/D2CDB138
+2024-01-13 21:34:08.151 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:39:20.728 GMT [180416] LOG:  checkpoint complete: wrote 18358 buffers (14.0%); 0 WAL file(s) added, 0 removed, 11 recycled; write=201.763 s, sync=45.220 s, total=318.685 s; sync files=356, longest=11.835 s, average=0.128 s; distance=170513 kB, estimate=422947 kB; lsn=B/F7000080, redo lsn=B/DD35F5F8
+2024-01-13 21:39:20.729 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:44:46.057 GMT [180416] LOG:  checkpoint complete: wrote 27846 buffers (21.2%); 0 WAL file(s) added, 0 removed, 27 recycled; write=269.887 s, sync=25.195 s, total=325.328 s; sync files=4, longest=13.467 s, average=6.299 s; distance=440873 kB, estimate=440873 kB; lsn=C/15028930, redo lsn=B/F81E9C00
+2024-01-13 21:44:46.058 GMT [180416] LOG:  checkpoint starting: wal time
+2024-01-13 21:50:45.227 GMT [180416] LOG:  checkpoint complete: wrote 38723 buffers (29.5%); 0 WAL file(s) added, 0 removed, 33 recycled; write=273.468 s, sync=30.681 s, total=359.169 s; sync files=3, longest=17.680 s, average=10.227 s; distance=551793 kB, estimate=551793 kB; lsn=C/32002028, redo lsn=C/19CC6048
+2024-01-13 21:50:45.227 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 21:51:33.462 GMT [185065] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:52:34.796 GMT [185116] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:53:48.001 GMT [185168] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:54:55.612 GMT [185220] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:55:44.652 GMT [185273] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:56:44.652 GMT [185326] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:57:44.653 GMT [185377] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:58:44.655 GMT [185428] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 21:59:44.656 GMT [185481] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:00:44.656 GMT [185532] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:01:43.032 GMT [180416] LOG:  checkpoint complete: wrote 34643 buffers (26.4%); 0 WAL file(s) added, 0 removed, 29 recycled; write=276.910 s, sync=24.799 s, total=657.806 s; sync files=21, longest=24.799 s, average=1.181 s; distance=474843 kB, estimate=544098 kB; lsn=C/4C95B458, redo lsn=C/36C7CEF8
+2024-01-13 22:01:43.032 GMT [180416] LOG:  checkpoint starting: wal time
+2024-01-13 22:01:44.658 GMT [185588] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:03:46.468 GMT [185640] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:05:41.793 GMT [185694] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:06:43.950 GMT [185746] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:07:35.474 GMT [185798] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:08:35.476 GMT [185851] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:09:35.476 GMT [185902] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:10:35.476 GMT [185954] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:10:59.341 GMT [180416] LOG:  checkpoint complete: wrote 94344 buffers (72.0%); 0 WAL file(s) added, 0 removed, 49 recycled; write=544.489 s, sync=0.511 s, total=556.309 s; sync files=38, longest=0.179 s, average=0.014 s; distance=798937 kB, estimate=798937 kB; lsn=C/73BE9BA8, redo lsn=C/678B3660
+2024-01-13 22:10:59.341 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:11:18.768 GMT [180416] LOG:  checkpoint complete: wrote 43 buffers (0.0%); 0 WAL file(s) added, 0 removed, 13 recycled; write=16.394 s, sync=1.643 s, total=19.428 s; sync files=208, longest=1.113 s, average=0.008 s; distance=207624 kB, estimate=739806 kB; lsn=C/747F5D40, redo lsn=C/74375848
+2024-01-13 22:12:30.002 GMT [186008] ERROR:  canceling autovacuum task
+2024-01-13 22:12:30.002 GMT [186008] CONTEXT:  while truncating relation "pg_catalog.pg_attribute" to 61 blocks
+	automatic vacuum of table "star-10-10.pg_catalog.pg_attribute"
+2024-01-13 22:14:24.254 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 22:14:28.538 GMT [180416] LOG:  checkpoint complete: wrote 1284 buffers (1.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.710 s, sync=3.503 s, total=4.285 s; sync files=277, longest=3.377 s, average=0.013 s; distance=12139 kB, estimate=667039 kB; lsn=C/74F50780, redo lsn=C/74F50728
+2024-01-13 22:19:38.741 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:25:00.499 GMT [180416] LOG:  checkpoint complete: wrote 25335 buffers (19.3%); 0 WAL file(s) added, 0 removed, 14 recycled; write=192.760 s, sync=28.144 s, total=335.859 s; sync files=812, longest=13.016 s, average=0.035 s; distance=220108 kB, estimate=622346 kB; lsn=C/947E9D98, redo lsn=C/82643A60
+2024-01-13 22:25:00.502 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:30:23.196 GMT [180416] LOG:  checkpoint complete: wrote 31238 buffers (23.8%); 0 WAL file(s) added, 0 removed, 22 recycled; write=271.368 s, sync=40.406 s, total=322.695 s; sync files=37, longest=16.386 s, average=1.093 s; distance=355355 kB, estimate=595647 kB; lsn=C/AC000070, redo lsn=C/9814A9A0
+2024-01-13 22:30:23.196 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:36:31.823 GMT [180416] LOG:  checkpoint complete: wrote 43878 buffers (33.5%); 0 WAL file(s) added, 0 removed, 23 recycled; write=269.848 s, sync=32.943 s, total=368.627 s; sync files=3, longest=30.314 s, average=10.981 s; distance=386917 kB, estimate=574774 kB; lsn=C/BEF1B670, redo lsn=C/AFB23F78
+2024-01-13 22:36:32.687 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:43:17.103 GMT [180416] LOG:  checkpoint complete: wrote 38681 buffers (29.5%); 0 WAL file(s) added, 0 removed, 20 recycled; write=253.344 s, sync=27.457 s, total=404.417 s; sync files=4, longest=19.985 s, average=6.865 s; distance=329799 kB, estimate=550277 kB; lsn=C/D2A64A90, redo lsn=C/C3D35F30
+2024-01-13 22:43:17.105 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:43:53.237 GMT [186508] ERROR:  could not extend file "base/98989/98991.1": No space left on device
+2024-01-13 22:43:53.237 GMT [186508] HINT:  Check free disk space.
+2024-01-13 22:43:53.237 GMT [186508] STATEMENT:  insert into t select i
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	, (1 + mod(i, 10000))
+	from generate_series(1, 10 * 1000000) g(i);
+2024-01-13 22:45:43.866 GMT [187788] ERROR:  canceling autovacuum task
+2024-01-13 22:45:43.866 GMT [187788] CONTEXT:  while scanning block 11246 of relation "public.t"
+	automatic vacuum of table "star-10-100.public.t"
+2024-01-13 22:47:05.086 GMT [187897] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-13 22:47:55.112 GMT [180416] LOG:  checkpoint complete: wrote 38201 buffers (29.1%); 0 WAL file(s) added, 0 removed, 23 recycled; write=255.075 s, sync=1.397 s, total=278.007 s; sync files=181, longest=0.513 s, average=0.008 s; distance=363310 kB, estimate=531580 kB; lsn=C/DE7114F0, redo lsn=C/DA001858
+2024-01-13 22:48:17.134 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 22:48:28.654 GMT [180416] LOG:  checkpoint complete: wrote 21 buffers (0.0%); 0 WAL file(s) added, 0 removed, 5 recycled; write=9.755 s, sync=1.362 s, total=11.521 s; sync files=350, longest=0.659 s, average=0.004 s; distance=88461 kB, estimate=487268 kB; lsn=C/E019B7F8, redo lsn=C/DF664C60
+2024-01-13 22:49:08.200 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 22:49:31.052 GMT [180416] LOG:  checkpoint complete: wrote 5692 buffers (4.3%); 0 WAL file(s) added, 3 removed, 0 recycled; write=13.619 s, sync=9.080 s, total=22.852 s; sync files=560, longest=8.765 s, average=0.017 s; distance=54309 kB, estimate=443972 kB; lsn=C/E2BA6380, redo lsn=C/E2B6E0D0
+2024-01-13 22:54:28.983 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:01:47.832 GMT [180416] LOG:  checkpoint complete: wrote 9111 buffers (7.0%); 0 WAL file(s) added, 2 removed, 0 recycled; write=200.731 s, sync=72.474 s, total=459.679 s; sync files=309, longest=53.552 s, average=0.235 s; distance=33671 kB, estimate=402942 kB; lsn=C/F029ED10, redo lsn=C/E4C50058
+2024-01-13 23:01:47.927 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:05:05.677 GMT [188404] ERROR:  could not extend file "base/100819/100826": No space left on device
+2024-01-13 23:05:05.677 GMT [188404] HINT:  Check free disk space.
+2024-01-13 23:05:05.677 GMT [188404] STATEMENT:  insert into t select i
+	, (1 + mod(i, 100000))
+	from generate_series(1, 100 * 1000000) g(i);
+2024-01-13 23:05:45.062 GMT [180416] LOG:  checkpoint complete: wrote 4987 buffers (3.8%); 0 WAL file(s) added, 6 removed, 7 recycled; write=209.786 s, sync=2.499 s, total=237.136 s; sync files=375, longest=0.230 s, average=0.007 s; distance=203288 kB, estimate=382977 kB; lsn=D/172E100, redo lsn=C/F12D61A8
+2024-01-13 23:05:45.062 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 23:05:47.747 GMT [180416] LOG:  checkpoint complete: wrote 1136 buffers (0.9%); 0 WAL file(s) added, 2 removed, 14 recycled; write=0.979 s, sync=1.528 s, total=2.685 s; sync files=151, longest=1.449 s, average=0.011 s; distance=266591 kB, estimate=371338 kB; lsn=D/172E1D0, redo lsn=D/172E178
+2024-01-13 23:10:45.848 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:21:40.679 GMT [180416] LOG:  checkpoint complete: wrote 16786 buffers (12.8%); 0 WAL file(s) added, 3 removed, 5 recycled; write=332.515 s, sync=40.526 s, total=654.831 s; sync files=359, longest=13.635 s, average=0.113 s; distance=132066 kB, estimate=347411 kB; lsn=D/18C7C800, redo lsn=D/9826D48
+2024-01-13 23:21:40.684 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:24:31.861 GMT [189355] ERROR:  could not extend file "base/101262/101264": No space left on device
+2024-01-13 23:24:31.861 GMT [189355] HINT:  Check free disk space.
+2024-01-13 23:24:31.861 GMT [189355] STATEMENT:  insert into t select i
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	from generate_series(1, 100 * 1000000) g(i);
+2024-01-13 23:26:13.906 GMT [180416] LOG:  checkpoint complete: wrote 12343 buffers (9.4%); 0 WAL file(s) added, 0 removed, 21 recycled; write=261.901 s, sync=3.250 s, total=273.223 s; sync files=230, longest=2.868 s, average=0.015 s; distance=345184 kB, estimate=347188 kB; lsn=D/31B70410, redo lsn=D/1E93EDA8
+2024-01-13 23:26:15.336 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-13 23:26:33.122 GMT [180416] LOG:  checkpoint complete: wrote 5163 buffers (3.9%); 0 WAL file(s) added, 0 removed, 19 recycled; write=4.230 s, sync=13.320 s, total=17.786 s; sync files=263, longest=12.941 s, average=0.051 s; distance=315152 kB, estimate=343985 kB; lsn=D/31D229B8, redo lsn=D/31D02E88
+2024-01-13 23:31:15.223 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:36:17.482 GMT [180416] LOG:  checkpoint complete: wrote 14728 buffers (11.2%); 0 WAL file(s) added, 2 removed, 13 recycled; write=262.655 s, sync=25.785 s, total=302.260 s; sync files=540, longest=7.892 s, average=0.048 s; distance=234508 kB, estimate=333037 kB; lsn=D/592493F0, redo lsn=D/40205FE8
+2024-01-13 23:36:17.483 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:41:15.972 GMT [180416] LOG:  checkpoint complete: wrote 23758 buffers (18.1%); 0 WAL file(s) added, 0 removed, 26 recycled; write=272.659 s, sync=22.855 s, total=298.490 s; sync files=337, longest=5.974 s, average=0.068 s; distance=426943 kB, estimate=426943 kB; lsn=D/6FBC6920, redo lsn=D/5A2F5EA8
+2024-01-13 23:41:17.975 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:44:29.047 GMT [190491] ERROR:  could not write to file "base/pgsql_tmp/pgsql_tmp190491.100": No space left on device
+2024-01-13 23:44:29.047 GMT [190491] STATEMENT:  insert into t select i
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	, (1 + mod(i, 100000))
+	from generate_series(1, 100 * 1000000) g(i);
+2024-01-13 23:45:54.686 GMT [180416] LOG:  checkpoint complete: wrote 21414 buffers (16.3%); 0 WAL file(s) added, 0 removed, 22 recycled; write=264.772 s, sync=3.165 s, total=276.711 s; sync files=317, longest=1.549 s, average=0.010 s; distance=367167 kB, estimate=420966 kB; lsn=D/83499348, redo lsn=D/70985D10
+2024-01-13 23:46:17.709 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:51:06.262 GMT [180416] LOG:  checkpoint complete: wrote 13884 buffers (10.6%); 0 WAL file(s) added, 0 removed, 21 recycled; write=265.717 s, sync=17.081 s, total=288.553 s; sync files=296, longest=15.744 s, average=0.058 s; distance=350172 kB, estimate=413886 kB; lsn=D/95BEA370, redo lsn=D/85F7CD70
+2024-01-13 23:51:17.273 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:52:00.402 GMT [180416] LOG:  checkpoint complete: wrote 111 buffers (0.1%); 0 WAL file(s) added, 0 removed, 17 recycled; write=30.723 s, sync=2.613 s, total=43.129 s; sync files=55, longest=2.240 s, average=0.048 s; distance=278981 kB, estimate=400396 kB; lsn=D/99E64438, redo lsn=D/96FEE428
+2024-01-13 23:56:17.419 GMT [180416] LOG:  checkpoint starting: time
+2024-01-13 23:56:55.381 GMT [180416] LOG:  checkpoint complete: wrote 168 buffers (0.1%); 0 WAL file(s) added, 0 removed, 23 recycled; write=27.531 s, sync=0.821 s, total=37.963 s; sync files=401, longest=0.797 s, average=0.003 s; distance=374396 kB, estimate=397796 kB; lsn=D/AF5C8338, redo lsn=D/ADD8D560
+2024-01-13 23:59:30.241 GMT [180416] LOG:  checkpoint starting: immediate force wait
+2024-01-14 00:02:14.967 GMT [180416] LOG:  checkpoint complete: wrote 45476 buffers (34.7%); 0 WAL file(s) added, 0 removed, 14 recycled; write=163.160 s, sync=1.383 s, total=164.726 s; sync files=497, longest=0.736 s, average=0.003 s; distance=220697 kB, estimate=380086 kB; lsn=D/BB54C4A0, redo lsn=D/BB513CB8
