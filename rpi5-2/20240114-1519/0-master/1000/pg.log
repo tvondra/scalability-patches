@@ -6,3 +6,25 @@
 2024-01-14 15:19:10.493 GMT [1173] LOG:  database system is ready to accept connections
 2024-01-14 15:24:10.566 GMT [1175] LOG:  checkpoint starting: time
 2024-01-14 15:24:10.601 GMT [1175] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.015 s, sync=0.003 s, total=0.036 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=11/FB3DCF48, redo lsn=11/FB3DCEF0
+2024-01-14 17:42:44.918 GMT [1175] LOG:  checkpoint starting: wal
+2024-01-14 17:43:49.065 GMT [1175] LOG:  checkpoint complete: wrote 61811 buffers (47.2%); 0 WAL file(s) added, 26 removed, 7 recycled; write=37.626 s, sync=24.168 s, total=64.149 s; sync files=4307, longest=2.502 s, average=0.006 s; distance=550373 kB, estimate=550373 kB; lsn=12/543EE628, redo lsn=12/1CD56328
+2024-01-14 17:43:49.071 GMT [1175] LOG:  checkpoint starting: wal
+2024-01-14 17:44:51.883 GMT [1175] LOG:  checkpoint complete: wrote 122504 buffers (93.5%); 0 WAL file(s) added, 30 removed, 30 recycled; write=55.138 s, sync=2.046 s, total=62.813 s; sync files=146, longest=0.715 s, average=0.015 s; distance=979737 kB, estimate=979737 kB; lsn=12/79E18698, redo lsn=12/58A1C9E0
+2024-01-14 17:44:51.886 GMT [1175] LOG:  checkpoint starting: wal
+2024-01-14 17:45:46.269 GMT [1175] LOG:  checkpoint complete: wrote 96514 buffers (73.6%); 0 WAL file(s) added, 14 removed, 32 recycled; write=48.651 s, sync=4.713 s, total=54.384 s; sync files=249, longest=2.679 s, average=0.019 s; distance=758967 kB, estimate=957660 kB; lsn=12/A5AF8360, redo lsn=12/86F4A948
+2024-01-14 17:45:58.384 GMT [1175] LOG:  checkpoint starting: wal
+2024-01-14 17:46:43.360 GMT [17166] LOG:  skipping vacuum of "t" --- lock not available
+2024-01-14 17:47:46.267 GMT [1175] LOG:  checkpoint complete: wrote 12066 buffers (9.2%); 0 WAL file(s) added, 0 removed, 33 recycled; write=92.742 s, sync=14.959 s, total=107.883 s; sync files=6931, longest=0.074 s, average=0.003 s; distance=525018 kB, estimate=914396 kB; lsn=12/ADF39FE8, redo lsn=12/A70013F8
+2024-01-14 17:47:46.268 GMT [1175] LOG:  checkpoint starting: immediate force wait
+2024-01-14 17:47:53.311 GMT [1175] LOG:  checkpoint complete: wrote 10792 buffers (8.2%); 0 WAL file(s) added, 0 removed, 6 recycled; write=6.257 s, sync=0.652 s, total=7.043 s; sync files=3148, longest=0.102 s, average=0.001 s; distance=113891 kB, estimate=834345 kB; lsn=12/ADF3A108, redo lsn=12/ADF3A078
+2024-01-14 17:48:04.784 GMT [1173] LOG:  checkpointer process (PID 1175) was terminated by signal 9: Killed
+2024-01-14 17:48:06.500 GMT [1173] LOG:  terminating any other active server processes
+2024-01-14 17:48:07.792 GMT [1173] LOG:  all server processes terminated; reinitializing
+2024-01-14 17:48:08.278 GMT [17314] LOG:  database system was interrupted; last known up at 2024-01-14 17:47:53 GMT
+2024-01-14 17:48:16.283 GMT [17314] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-01-14 17:48:16.358 GMT [17314] LOG:  redo starts at 12/ADF3A078
+2024-01-14 17:48:16.358 GMT [17314] LOG:  invalid record length at 12/ADF3A180: expected at least 24, got 0
+2024-01-14 17:48:16.358 GMT [17314] LOG:  redo done at 12/ADF3A108 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-01-14 17:48:16.428 GMT [17315] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-01-14 17:48:16.464 GMT [17315] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.002 s, total=0.040 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=12/ADF3A180, redo lsn=12/ADF3A180
+2024-01-14 17:48:16.493 GMT [1173] LOG:  database system is ready to accept connections
