@@ -8,7 +8,7 @@ RUNS=1
 DURATION=15
 CLIENTS="1 2 4 8"
 PARTITIONS="0 1 10 100 1000"
-BUILDS="3-btscan 1-fstat 4-lock-partitions 2-mempool"
+BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
 
 PATH_OLD=$PATH
 
@@ -74,6 +74,8 @@ for build in $BUILDS; do
 		./push.sh $MACHINE $OUTDIR
 
 		pg_ctl -D data stop > $OUTDIR/stop.log 2>&1
+
+		./push.sh $MACHINE $OUTDIR
 
 	done
 
