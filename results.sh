@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for test in count join pgbench index; do
+for test in count join pgbench index star; do
 
 	rm -f $test.csv
 
