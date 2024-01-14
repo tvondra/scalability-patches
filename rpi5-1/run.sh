@@ -75,6 +75,8 @@ for build in $BUILDS; do
 
 		pg_ctl -D data stop > $OUTDIR/stop.log 2>&1
 
+		./push.sh $MACHINE $OUTDIR
+
 	done
 
 done
