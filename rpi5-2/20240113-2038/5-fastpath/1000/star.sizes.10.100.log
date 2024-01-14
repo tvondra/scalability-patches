@@ -1,0 +1,413 @@
+                                         List of relations
+ Schema |     Name      |   Type   | Owner | Persistence | Access method |    Size    | Description 
+--------+---------------+----------+-------+-------------+---------------+------------+-------------
+ public | dim1          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim10         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim100        | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim100_id_seq | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim10_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim11         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim11_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim12         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim12_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim13         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim13_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim14         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim14_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim15         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim15_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim16         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim16_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim17         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim17_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim18         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim18_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim19         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim19_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim1_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim2          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim20         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim20_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim21         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim21_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim22         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim22_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim23         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim23_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim24         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim24_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim25         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim25_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim26         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim26_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim27         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim27_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim28         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim28_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim29         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim29_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim2_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim3          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim30         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim30_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim31         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim31_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim32         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim32_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim33         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim33_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim34         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim34_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim35         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim35_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim36         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim36_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim37         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim37_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim38         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim38_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim39         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim39_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim3_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim4          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim40         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim40_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim41         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim41_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim42         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim42_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim43         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim43_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim44         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim44_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim45         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim45_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim46         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim46_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim47         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim47_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim48         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim48_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim49         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim49_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim4_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim5          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim50         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim50_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim51         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim51_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim52         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim52_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim53         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim53_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim54         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim54_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim55         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim55_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim56         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim56_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim57         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim57_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim58         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim58_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim59         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim59_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim5_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim6          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim60         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim60_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim61         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim61_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim62         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim62_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim63         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim63_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim64         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim64_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim65         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim65_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim66         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim66_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim67         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim67_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim68         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim68_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim69         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim69_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim6_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim7          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim70         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim70_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim71         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim71_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim72         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim72_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim73         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim73_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim74         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim74_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim75         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim75_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim76         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim76_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim77         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim77_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim78         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim78_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim79         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim79_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim7_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim8          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim80         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim80_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim81         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim81_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim82         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim82_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim83         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim83_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim84         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim84_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim85         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim85_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim86         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim86_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim87         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim87_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim88         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim88_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim89         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim89_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim8_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim9          | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim90         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim90_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim91         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim91_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim92         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim92_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim93         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim93_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim94         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim94_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim95         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim95_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim96         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim96_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim97         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim97_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim98         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim98_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim99         | table    | pi    | permanent   | heap          | 392 kB     | 
+ public | dim99_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim9_id_seq   | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | t             | table    | pi    | permanent   | heap          | 0 bytes    | 
+ public | t_id_seq      | sequence | pi    | permanent   |               | 8192 bytes | 
+(202 rows)
+
+                                            List of relations
+ Schema |     Name      | Type  | Owner | Table  | Persistence | Access method |    Size    | Description 
+--------+---------------+-------+-------+--------+-------------+---------------+------------+-------------
+ public | dim100_id_idx | index | pi    | dim100 | permanent   | btree         | 240 kB     | 
+ public | dim100_pkey   | index | pi    | dim100 | permanent   | btree         | 240 kB     | 
+ public | dim10_id_idx  | index | pi    | dim10  | permanent   | btree         | 240 kB     | 
+ public | dim10_pkey    | index | pi    | dim10  | permanent   | btree         | 240 kB     | 
+ public | dim11_id_idx  | index | pi    | dim11  | permanent   | btree         | 240 kB     | 
+ public | dim11_pkey    | index | pi    | dim11  | permanent   | btree         | 240 kB     | 
+ public | dim12_id_idx  | index | pi    | dim12  | permanent   | btree         | 240 kB     | 
+ public | dim12_pkey    | index | pi    | dim12  | permanent   | btree         | 240 kB     | 
+ public | dim13_id_idx  | index | pi    | dim13  | permanent   | btree         | 240 kB     | 
+ public | dim13_pkey    | index | pi    | dim13  | permanent   | btree         | 240 kB     | 
+ public | dim14_id_idx  | index | pi    | dim14  | permanent   | btree         | 240 kB     | 
+ public | dim14_pkey    | index | pi    | dim14  | permanent   | btree         | 240 kB     | 
+ public | dim15_id_idx  | index | pi    | dim15  | permanent   | btree         | 240 kB     | 
+ public | dim15_pkey    | index | pi    | dim15  | permanent   | btree         | 240 kB     | 
+ public | dim16_id_idx  | index | pi    | dim16  | permanent   | btree         | 240 kB     | 
+ public | dim16_pkey    | index | pi    | dim16  | permanent   | btree         | 240 kB     | 
+ public | dim17_id_idx  | index | pi    | dim17  | permanent   | btree         | 240 kB     | 
+ public | dim17_pkey    | index | pi    | dim17  | permanent   | btree         | 240 kB     | 
+ public | dim18_id_idx  | index | pi    | dim18  | permanent   | btree         | 240 kB     | 
+ public | dim18_pkey    | index | pi    | dim18  | permanent   | btree         | 240 kB     | 
+ public | dim19_id_idx  | index | pi    | dim19  | permanent   | btree         | 240 kB     | 
+ public | dim19_pkey    | index | pi    | dim19  | permanent   | btree         | 240 kB     | 
+ public | dim1_id_idx   | index | pi    | dim1   | permanent   | btree         | 240 kB     | 
+ public | dim1_pkey     | index | pi    | dim1   | permanent   | btree         | 240 kB     | 
+ public | dim20_id_idx  | index | pi    | dim20  | permanent   | btree         | 240 kB     | 
+ public | dim20_pkey    | index | pi    | dim20  | permanent   | btree         | 240 kB     | 
+ public | dim21_id_idx  | index | pi    | dim21  | permanent   | btree         | 240 kB     | 
+ public | dim21_pkey    | index | pi    | dim21  | permanent   | btree         | 240 kB     | 
+ public | dim22_id_idx  | index | pi    | dim22  | permanent   | btree         | 240 kB     | 
+ public | dim22_pkey    | index | pi    | dim22  | permanent   | btree         | 240 kB     | 
+ public | dim23_id_idx  | index | pi    | dim23  | permanent   | btree         | 240 kB     | 
+ public | dim23_pkey    | index | pi    | dim23  | permanent   | btree         | 240 kB     | 
+ public | dim24_id_idx  | index | pi    | dim24  | permanent   | btree         | 240 kB     | 
+ public | dim24_pkey    | index | pi    | dim24  | permanent   | btree         | 240 kB     | 
+ public | dim25_id_idx  | index | pi    | dim25  | permanent   | btree         | 240 kB     | 
+ public | dim25_pkey    | index | pi    | dim25  | permanent   | btree         | 240 kB     | 
+ public | dim26_id_idx  | index | pi    | dim26  | permanent   | btree         | 240 kB     | 
+ public | dim26_pkey    | index | pi    | dim26  | permanent   | btree         | 240 kB     | 
+ public | dim27_id_idx  | index | pi    | dim27  | permanent   | btree         | 240 kB     | 
+ public | dim27_pkey    | index | pi    | dim27  | permanent   | btree         | 240 kB     | 
+ public | dim28_id_idx  | index | pi    | dim28  | permanent   | btree         | 240 kB     | 
+ public | dim28_pkey    | index | pi    | dim28  | permanent   | btree         | 240 kB     | 
+ public | dim29_id_idx  | index | pi    | dim29  | permanent   | btree         | 240 kB     | 
+ public | dim29_pkey    | index | pi    | dim29  | permanent   | btree         | 240 kB     | 
+ public | dim2_id_idx   | index | pi    | dim2   | permanent   | btree         | 240 kB     | 
+ public | dim2_pkey     | index | pi    | dim2   | permanent   | btree         | 240 kB     | 
+ public | dim30_id_idx  | index | pi    | dim30  | permanent   | btree         | 240 kB     | 
+ public | dim30_pkey    | index | pi    | dim30  | permanent   | btree         | 240 kB     | 
+ public | dim31_id_idx  | index | pi    | dim31  | permanent   | btree         | 240 kB     | 
+ public | dim31_pkey    | index | pi    | dim31  | permanent   | btree         | 240 kB     | 
+ public | dim32_id_idx  | index | pi    | dim32  | permanent   | btree         | 240 kB     | 
+ public | dim32_pkey    | index | pi    | dim32  | permanent   | btree         | 240 kB     | 
+ public | dim33_id_idx  | index | pi    | dim33  | permanent   | btree         | 240 kB     | 
+ public | dim33_pkey    | index | pi    | dim33  | permanent   | btree         | 240 kB     | 
+ public | dim34_id_idx  | index | pi    | dim34  | permanent   | btree         | 240 kB     | 
+ public | dim34_pkey    | index | pi    | dim34  | permanent   | btree         | 240 kB     | 
+ public | dim35_id_idx  | index | pi    | dim35  | permanent   | btree         | 240 kB     | 
+ public | dim35_pkey    | index | pi    | dim35  | permanent   | btree         | 240 kB     | 
+ public | dim36_id_idx  | index | pi    | dim36  | permanent   | btree         | 240 kB     | 
+ public | dim36_pkey    | index | pi    | dim36  | permanent   | btree         | 240 kB     | 
+ public | dim37_id_idx  | index | pi    | dim37  | permanent   | btree         | 240 kB     | 
+ public | dim37_pkey    | index | pi    | dim37  | permanent   | btree         | 240 kB     | 
+ public | dim38_id_idx  | index | pi    | dim38  | permanent   | btree         | 240 kB     | 
+ public | dim38_pkey    | index | pi    | dim38  | permanent   | btree         | 240 kB     | 
+ public | dim39_id_idx  | index | pi    | dim39  | permanent   | btree         | 240 kB     | 
+ public | dim39_pkey    | index | pi    | dim39  | permanent   | btree         | 240 kB     | 
+ public | dim3_id_idx   | index | pi    | dim3   | permanent   | btree         | 240 kB     | 
+ public | dim3_pkey     | index | pi    | dim3   | permanent   | btree         | 240 kB     | 
+ public | dim40_id_idx  | index | pi    | dim40  | permanent   | btree         | 240 kB     | 
+ public | dim40_pkey    | index | pi    | dim40  | permanent   | btree         | 240 kB     | 
+ public | dim41_id_idx  | index | pi    | dim41  | permanent   | btree         | 240 kB     | 
+ public | dim41_pkey    | index | pi    | dim41  | permanent   | btree         | 240 kB     | 
+ public | dim42_id_idx  | index | pi    | dim42  | permanent   | btree         | 240 kB     | 
+ public | dim42_pkey    | index | pi    | dim42  | permanent   | btree         | 240 kB     | 
+ public | dim43_id_idx  | index | pi    | dim43  | permanent   | btree         | 240 kB     | 
+ public | dim43_pkey    | index | pi    | dim43  | permanent   | btree         | 240 kB     | 
+ public | dim44_id_idx  | index | pi    | dim44  | permanent   | btree         | 240 kB     | 
+ public | dim44_pkey    | index | pi    | dim44  | permanent   | btree         | 240 kB     | 
+ public | dim45_id_idx  | index | pi    | dim45  | permanent   | btree         | 240 kB     | 
+ public | dim45_pkey    | index | pi    | dim45  | permanent   | btree         | 240 kB     | 
+ public | dim46_id_idx  | index | pi    | dim46  | permanent   | btree         | 240 kB     | 
+ public | dim46_pkey    | index | pi    | dim46  | permanent   | btree         | 240 kB     | 
+ public | dim47_id_idx  | index | pi    | dim47  | permanent   | btree         | 240 kB     | 
+ public | dim47_pkey    | index | pi    | dim47  | permanent   | btree         | 240 kB     | 
+ public | dim48_id_idx  | index | pi    | dim48  | permanent   | btree         | 240 kB     | 
+ public | dim48_pkey    | index | pi    | dim48  | permanent   | btree         | 240 kB     | 
+ public | dim49_id_idx  | index | pi    | dim49  | permanent   | btree         | 240 kB     | 
+ public | dim49_pkey    | index | pi    | dim49  | permanent   | btree         | 240 kB     | 
+ public | dim4_id_idx   | index | pi    | dim4   | permanent   | btree         | 240 kB     | 
+ public | dim4_pkey     | index | pi    | dim4   | permanent   | btree         | 240 kB     | 
+ public | dim50_id_idx  | index | pi    | dim50  | permanent   | btree         | 240 kB     | 
+ public | dim50_pkey    | index | pi    | dim50  | permanent   | btree         | 240 kB     | 
+ public | dim51_id_idx  | index | pi    | dim51  | permanent   | btree         | 240 kB     | 
+ public | dim51_pkey    | index | pi    | dim51  | permanent   | btree         | 240 kB     | 
+ public | dim52_id_idx  | index | pi    | dim52  | permanent   | btree         | 240 kB     | 
+ public | dim52_pkey    | index | pi    | dim52  | permanent   | btree         | 240 kB     | 
+ public | dim53_id_idx  | index | pi    | dim53  | permanent   | btree         | 240 kB     | 
+ public | dim53_pkey    | index | pi    | dim53  | permanent   | btree         | 240 kB     | 
+ public | dim54_id_idx  | index | pi    | dim54  | permanent   | btree         | 240 kB     | 
+ public | dim54_pkey    | index | pi    | dim54  | permanent   | btree         | 240 kB     | 
+ public | dim55_id_idx  | index | pi    | dim55  | permanent   | btree         | 240 kB     | 
+ public | dim55_pkey    | index | pi    | dim55  | permanent   | btree         | 240 kB     | 
+ public | dim56_id_idx  | index | pi    | dim56  | permanent   | btree         | 240 kB     | 
+ public | dim56_pkey    | index | pi    | dim56  | permanent   | btree         | 240 kB     | 
+ public | dim57_id_idx  | index | pi    | dim57  | permanent   | btree         | 240 kB     | 
+ public | dim57_pkey    | index | pi    | dim57  | permanent   | btree         | 240 kB     | 
+ public | dim58_id_idx  | index | pi    | dim58  | permanent   | btree         | 240 kB     | 
+ public | dim58_pkey    | index | pi    | dim58  | permanent   | btree         | 240 kB     | 
+ public | dim59_id_idx  | index | pi    | dim59  | permanent   | btree         | 240 kB     | 
+ public | dim59_pkey    | index | pi    | dim59  | permanent   | btree         | 240 kB     | 
+ public | dim5_id_idx   | index | pi    | dim5   | permanent   | btree         | 240 kB     | 
+ public | dim5_pkey     | index | pi    | dim5   | permanent   | btree         | 240 kB     | 
+ public | dim60_id_idx  | index | pi    | dim60  | permanent   | btree         | 240 kB     | 
+ public | dim60_pkey    | index | pi    | dim60  | permanent   | btree         | 240 kB     | 
+ public | dim61_id_idx  | index | pi    | dim61  | permanent   | btree         | 240 kB     | 
+ public | dim61_pkey    | index | pi    | dim61  | permanent   | btree         | 240 kB     | 
+ public | dim62_id_idx  | index | pi    | dim62  | permanent   | btree         | 240 kB     | 
+ public | dim62_pkey    | index | pi    | dim62  | permanent   | btree         | 240 kB     | 
+ public | dim63_id_idx  | index | pi    | dim63  | permanent   | btree         | 240 kB     | 
+ public | dim63_pkey    | index | pi    | dim63  | permanent   | btree         | 240 kB     | 
+ public | dim64_id_idx  | index | pi    | dim64  | permanent   | btree         | 240 kB     | 
+ public | dim64_pkey    | index | pi    | dim64  | permanent   | btree         | 240 kB     | 
+ public | dim65_id_idx  | index | pi    | dim65  | permanent   | btree         | 240 kB     | 
+ public | dim65_pkey    | index | pi    | dim65  | permanent   | btree         | 240 kB     | 
+ public | dim66_id_idx  | index | pi    | dim66  | permanent   | btree         | 240 kB     | 
+ public | dim66_pkey    | index | pi    | dim66  | permanent   | btree         | 240 kB     | 
+ public | dim67_id_idx  | index | pi    | dim67  | permanent   | btree         | 240 kB     | 
+ public | dim67_pkey    | index | pi    | dim67  | permanent   | btree         | 240 kB     | 
+ public | dim68_id_idx  | index | pi    | dim68  | permanent   | btree         | 240 kB     | 
+ public | dim68_pkey    | index | pi    | dim68  | permanent   | btree         | 240 kB     | 
+ public | dim69_id_idx  | index | pi    | dim69  | permanent   | btree         | 240 kB     | 
+ public | dim69_pkey    | index | pi    | dim69  | permanent   | btree         | 240 kB     | 
+ public | dim6_id_idx   | index | pi    | dim6   | permanent   | btree         | 240 kB     | 
+ public | dim6_pkey     | index | pi    | dim6   | permanent   | btree         | 240 kB     | 
+ public | dim70_id_idx  | index | pi    | dim70  | permanent   | btree         | 240 kB     | 
+ public | dim70_pkey    | index | pi    | dim70  | permanent   | btree         | 240 kB     | 
+ public | dim71_id_idx  | index | pi    | dim71  | permanent   | btree         | 240 kB     | 
+ public | dim71_pkey    | index | pi    | dim71  | permanent   | btree         | 240 kB     | 
+ public | dim72_id_idx  | index | pi    | dim72  | permanent   | btree         | 240 kB     | 
+ public | dim72_pkey    | index | pi    | dim72  | permanent   | btree         | 240 kB     | 
+ public | dim73_id_idx  | index | pi    | dim73  | permanent   | btree         | 240 kB     | 
+ public | dim73_pkey    | index | pi    | dim73  | permanent   | btree         | 240 kB     | 
+ public | dim74_id_idx  | index | pi    | dim74  | permanent   | btree         | 240 kB     | 
+ public | dim74_pkey    | index | pi    | dim74  | permanent   | btree         | 240 kB     | 
+ public | dim75_id_idx  | index | pi    | dim75  | permanent   | btree         | 240 kB     | 
+ public | dim75_pkey    | index | pi    | dim75  | permanent   | btree         | 240 kB     | 
+ public | dim76_id_idx  | index | pi    | dim76  | permanent   | btree         | 240 kB     | 
+ public | dim76_pkey    | index | pi    | dim76  | permanent   | btree         | 240 kB     | 
+ public | dim77_id_idx  | index | pi    | dim77  | permanent   | btree         | 240 kB     | 
+ public | dim77_pkey    | index | pi    | dim77  | permanent   | btree         | 240 kB     | 
+ public | dim78_id_idx  | index | pi    | dim78  | permanent   | btree         | 240 kB     | 
+ public | dim78_pkey    | index | pi    | dim78  | permanent   | btree         | 240 kB     | 
+ public | dim79_id_idx  | index | pi    | dim79  | permanent   | btree         | 240 kB     | 
+ public | dim79_pkey    | index | pi    | dim79  | permanent   | btree         | 240 kB     | 
+ public | dim7_id_idx   | index | pi    | dim7   | permanent   | btree         | 240 kB     | 
+ public | dim7_pkey     | index | pi    | dim7   | permanent   | btree         | 240 kB     | 
+ public | dim80_id_idx  | index | pi    | dim80  | permanent   | btree         | 240 kB     | 
+ public | dim80_pkey    | index | pi    | dim80  | permanent   | btree         | 240 kB     | 
+ public | dim81_id_idx  | index | pi    | dim81  | permanent   | btree         | 240 kB     | 
+ public | dim81_pkey    | index | pi    | dim81  | permanent   | btree         | 240 kB     | 
+ public | dim82_id_idx  | index | pi    | dim82  | permanent   | btree         | 240 kB     | 
+ public | dim82_pkey    | index | pi    | dim82  | permanent   | btree         | 240 kB     | 
+ public | dim83_id_idx  | index | pi    | dim83  | permanent   | btree         | 240 kB     | 
+ public | dim83_pkey    | index | pi    | dim83  | permanent   | btree         | 240 kB     | 
+ public | dim84_id_idx  | index | pi    | dim84  | permanent   | btree         | 240 kB     | 
+ public | dim84_pkey    | index | pi    | dim84  | permanent   | btree         | 240 kB     | 
+ public | dim85_id_idx  | index | pi    | dim85  | permanent   | btree         | 240 kB     | 
+ public | dim85_pkey    | index | pi    | dim85  | permanent   | btree         | 240 kB     | 
+ public | dim86_id_idx  | index | pi    | dim86  | permanent   | btree         | 240 kB     | 
+ public | dim86_pkey    | index | pi    | dim86  | permanent   | btree         | 240 kB     | 
+ public | dim87_id_idx  | index | pi    | dim87  | permanent   | btree         | 240 kB     | 
+ public | dim87_pkey    | index | pi    | dim87  | permanent   | btree         | 240 kB     | 
+ public | dim88_id_idx  | index | pi    | dim88  | permanent   | btree         | 240 kB     | 
+ public | dim88_pkey    | index | pi    | dim88  | permanent   | btree         | 240 kB     | 
+ public | dim89_id_idx  | index | pi    | dim89  | permanent   | btree         | 240 kB     | 
+ public | dim89_pkey    | index | pi    | dim89  | permanent   | btree         | 240 kB     | 
+ public | dim8_id_idx   | index | pi    | dim8   | permanent   | btree         | 240 kB     | 
+ public | dim8_pkey     | index | pi    | dim8   | permanent   | btree         | 240 kB     | 
+ public | dim90_id_idx  | index | pi    | dim90  | permanent   | btree         | 240 kB     | 
+ public | dim90_pkey    | index | pi    | dim90  | permanent   | btree         | 240 kB     | 
+ public | dim91_id_idx  | index | pi    | dim91  | permanent   | btree         | 240 kB     | 
+ public | dim91_pkey    | index | pi    | dim91  | permanent   | btree         | 240 kB     | 
+ public | dim92_id_idx  | index | pi    | dim92  | permanent   | btree         | 240 kB     | 
+ public | dim92_pkey    | index | pi    | dim92  | permanent   | btree         | 240 kB     | 
+ public | dim93_id_idx  | index | pi    | dim93  | permanent   | btree         | 240 kB     | 
+ public | dim93_pkey    | index | pi    | dim93  | permanent   | btree         | 240 kB     | 
+ public | dim94_id_idx  | index | pi    | dim94  | permanent   | btree         | 240 kB     | 
+ public | dim94_pkey    | index | pi    | dim94  | permanent   | btree         | 240 kB     | 
+ public | dim95_id_idx  | index | pi    | dim95  | permanent   | btree         | 240 kB     | 
+ public | dim95_pkey    | index | pi    | dim95  | permanent   | btree         | 240 kB     | 
+ public | dim96_id_idx  | index | pi    | dim96  | permanent   | btree         | 240 kB     | 
+ public | dim96_pkey    | index | pi    | dim96  | permanent   | btree         | 240 kB     | 
+ public | dim97_id_idx  | index | pi    | dim97  | permanent   | btree         | 240 kB     | 
+ public | dim97_pkey    | index | pi    | dim97  | permanent   | btree         | 240 kB     | 
+ public | dim98_id_idx  | index | pi    | dim98  | permanent   | btree         | 240 kB     | 
+ public | dim98_pkey    | index | pi    | dim98  | permanent   | btree         | 240 kB     | 
+ public | dim99_id_idx  | index | pi    | dim99  | permanent   | btree         | 240 kB     | 
+ public | dim99_pkey    | index | pi    | dim99  | permanent   | btree         | 240 kB     | 
+ public | dim9_id_idx   | index | pi    | dim9   | permanent   | btree         | 240 kB     | 
+ public | dim9_pkey     | index | pi    | dim9   | permanent   | btree         | 240 kB     | 
+ public | t_pkey        | index | pi    | t      | permanent   | btree         | 8192 bytes | 
+(201 rows)
+

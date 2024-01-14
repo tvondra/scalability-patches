@@ -1,0 +1,143 @@
+    PID TTY      STAT   TIME COMMAND
+      1 ?        Ss     0:02 /sbin/init
+      2 ?        S      0:00 [kthreadd]
+      3 ?        I<     0:00 [rcu_gp]
+      4 ?        I<     0:00 [rcu_par_gp]
+      5 ?        I<     0:00 [slub_flushwq]
+      6 ?        I<     0:00 [netns]
+     10 ?        I<     0:00 [mm_percpu_wq]
+     11 ?        I      0:00 [rcu_tasks_kthread]
+     12 ?        I      0:00 [rcu_tasks_rude_kthread]
+     13 ?        I      0:00 [rcu_tasks_trace_kthread]
+     14 ?        S      0:00 [ksoftirqd/0]
+     15 ?        I      0:02 [rcu_preempt]
+     16 ?        S      0:00 [migration/0]
+     17 ?        S      0:00 [cpuhp/0]
+     18 ?        S      0:00 [cpuhp/1]
+     19 ?        S      0:00 [migration/1]
+     20 ?        S      0:00 [ksoftirqd/1]
+     23 ?        S      0:00 [cpuhp/2]
+     24 ?        S      0:00 [migration/2]
+     25 ?        S      0:00 [ksoftirqd/2]
+     28 ?        S      0:00 [cpuhp/3]
+     29 ?        S      0:00 [migration/3]
+     30 ?        S      0:00 [ksoftirqd/3]
+     33 ?        S      0:00 [kdevtmpfs]
+     34 ?        I<     0:00 [inet_frag_wq]
+     36 ?        S      0:00 [kauditd]
+     38 ?        S      0:00 [khungtaskd]
+     40 ?        S      0:00 [oom_reaper]
+     41 ?        I<     0:00 [writeback]
+     42 ?        S      0:08 [kcompactd0]
+     44 ?        I<     0:00 [kintegrityd]
+     45 ?        I<     0:00 [kblockd]
+     46 ?        I<     0:00 [blkcg_punt_bio]
+     47 ?        S      0:00 [watchdogd]
+     51 ?        I<     0:00 [rpciod]
+     52 ?        I<     0:00 [xprtiod]
+     55 ?        S      0:02 [kswapd0]
+     56 ?        I<     0:00 [nfsiod]
+     57 ?        I<     0:00 [kthrotld]
+     62 ?        S      0:00 [hwrng]
+     63 ?        I<     0:00 [iscsi_conn_clea]
+     64 ?        I<     0:00 [nvme-wq]
+     65 ?        I<     0:00 [nvme-reset-wq]
+     66 ?        I<     0:00 [nvme-delete-wq]
+     67 ?        I<     0:00 [DWC Notificatio]
+     68 ?        I<     0:00 [uas]
+     75 ?        I<     0:00 [zswap-shrink]
+     76 ?        I<     0:00 [kworker/u9:0-brcmf_wq/mmc1:0001:1]
+     95 ?        S      0:00 [irq/39-aerdrv]
+    103 ?        I<     0:00 [sdhci]
+    104 ?        S      0:00 [irq/162-mmc1]
+    105 ?        I<     0:00 [sdhci]
+    106 ?        S      0:00 [irq/163-mmc0]
+    107 ?        I<     0:00 [mmc_complete]
+    170 ?        S      0:00 [spi10]
+    236 ?        S      0:01 [jbd2/mmcblk0p2-8]
+    237 ?        I<     0:00 [ext4-rsv-conver]
+    251 ?        I<     0:00 [mld]
+    252 ?        I<     0:00 [ipv6_addrconf]
+    295 ?        Ss     0:00 /lib/systemd/systemd-journald
+    315 ?        Ss     0:00 /lib/systemd/systemd-udevd
+    402 ?        S      0:00 [v3d_bin]
+    410 ?        S      0:00 [v3d_render]
+    411 ?        S      0:00 [v3d_tfu]
+    413 ?        S      0:00 [v3d_csd]
+    414 ?        S      0:00 [v3d_cache_clean]
+    427 ?        I<     0:00 [cfg80211]
+    440 ?        I<     0:00 [brcmf_wq/mmc1:0]
+    441 ?        S      0:00 [irq/171-1000800000.codec]
+    442 ?        S      0:00 [brcmf_wdog/mmc1:0001:1]
+    535 ?        Ssl    0:00 /lib/systemd/systemd-timesyncd
+    654 ?        S      0:00 [irq/175-vc4 hdmi hpd connected]
+    655 ?        S      0:00 [irq/176-vc4 hdmi hpd disconnected]
+    656 ?        S      0:00 [cec-vc4-hdmi-0]
+    657 ?        S      0:00 [irq/177-vc4 hdmi cec rx]
+    658 ?        S      0:00 [irq/178-vc4 hdmi cec tx]
+    661 ?        S      0:00 [irq/179-vc4 hdmi hpd connected]
+    662 ?        S      0:00 [irq/180-vc4 hdmi hpd disconnected]
+    663 ?        S      0:00 [cec-vc4-hdmi-1]
+    664 ?        S      0:00 [irq/181-vc4 hdmi cec rx]
+    665 ?        S      0:00 [irq/182-vc4 hdmi cec tx]
+    667 ?        S      0:00 [card1-crtc0]
+    668 ?        S      0:00 [card1-crtc1]
+    669 ?        S      0:00 [card1-crtc2]
+    670 ?        S      0:00 [card1-crtc3]
+    673 ?        Ss     0:00 avahi-daemon: running [raspberrypi.local]
+    675 ?        Ss     0:00 /usr/sbin/cron -f
+    676 ?        Ss     0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    683 ?        Ssl    0:00 /usr/lib/polkit-1/polkitd --no-debug
+    689 ?        Ss     0:00 /lib/systemd/systemd-logind
+    690 ?        Ss     0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*
+    699 ?        S      0:00 avahi-daemon: chroot helper
+    756 ?        Ssl    0:01 /usr/sbin/NetworkManager --no-daemon
+    761 ?        Ss     0:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+    773 ?        Ssl    0:00 /usr/sbin/ModemManager
+    796 ?        Ss     0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    804 ?        I<     0:00 [kworker/u9:3-hci0]
+    815 ?        Ss     0:00 /usr/libexec/bluetooth/bluetoothd
+    875 tty1     Ss+    0:00 /sbin/agetty -o -p -- \u --noclear - linux
+    876 ?        Ss+    0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+    890 ?        I<     0:00 [wg-crypt-wg0]
+    943 ?        Ss     0:00 /lib/systemd/systemd --user
+    944 ?        S      0:00 (sd-pam)
+    976 ?        Ss     0:00 SCREEN
+    977 pts/1    Ss     0:00 /bin/bash
+   1376 pts/1    S+     0:00 /bin/bash ./run2.sh
+   1922 ?        I<     0:03 [kworker/3:2H-kblockd]
+   4952 ?        I      0:00 [kworker/1:0-mm_percpu_wq]
+   4969 ?        I<     0:02 [kworker/0:2H-mmc_complete]
+   5333 ?        I      0:00 [kworker/0:2-events_power_efficient]
+   5398 ?        I      0:00 [kworker/2:1-events_power_efficient]
+   5428 ?        I      0:00 [kworker/1:2-mm_percpu_wq]
+   5585 ?        I      0:00 [kworker/0:1-events_power_efficient]
+   5743 ?        I      0:00 [kworker/u8:2-events_unbound]
+   6042 ?        I<     0:01 [kworker/1:2H-kblockd]
+   6379 ?        I      0:00 [kworker/3:1-mm_percpu_wq]
+   6462 ?        I<     0:00 [kworker/2:0H]
+   7020 ?        I<     0:00 [kworker/2:1H-kblockd]
+   7266 ?        I<     0:00 [kworker/3:0H]
+   7445 ?        I<     0:00 [kworker/1:0H]
+   7516 ?        I      0:00 [kworker/u8:0-events_unbound]
+   7690 ?        I<     0:00 [kworker/0:0H]
+   7760 ?        I      0:00 [kworker/2:2-events_power_efficient]
+   7764 ?        I      0:00 [kworker/3:0-events]
+   7871 ?        I      0:00 [kworker/0:0-events]
+   7937 ?        I<     0:00 [kworker/3:1H]
+   8005 ?        I<     0:00 [kworker/1:1H]
+   8011 ?        I      0:00 [kworker/u8:1-writeback]
+   8121 ?        I      0:00 [kworker/2:0-mm_percpu_wq]
+   8230 ?        I      0:00 [kworker/3:2-mm_percpu_wq]
+   8231 ?        I<     0:00 [kworker/2:2H]
+   8242 ?        I      0:00 [kworker/1:1]
+   8263 ?        I      0:00 [kworker/3:3]
+   8304 ?        Ss     0:00 /home/pi/builds/pg-5-fastpath/bin/postgres -D data
+   8305 ?        I<     0:00 [kworker/0:1H]
+   8306 ?        Ss     0:00 postgres: checkpointer 
+   8307 ?        Ss     0:00 postgres: background writer 
+   8309 ?        Ss     0:00 postgres: walwriter 
+   8310 ?        Ss     0:00 postgres: autovacuum launcher 
+   8311 ?        Ss     0:00 postgres: logical replication launcher 
+   8314 pts/1    S+     0:00 /bin/bash ./run-star.sh rpi5-2 5-fastpath 20240113-2038/5-fastpath/1000 1 15 1 2 4 8 0 1 10 100
+   8315 pts/1    R+     0:00 ps ax
