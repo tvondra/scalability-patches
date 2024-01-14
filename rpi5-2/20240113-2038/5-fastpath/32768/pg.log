@@ -1,0 +1,8 @@
+2024-01-14 01:37:38.130 GMT [10667] LOG:  starting PostgreSQL 17devel on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-01-14 01:37:38.130 GMT [10667] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-14 01:37:38.130 GMT [10667] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-14 01:37:38.175 GMT [10667] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-14 01:37:38.204 GMT [10670] LOG:  database system was shut down at 2024-01-14 01:37:36 GMT
+2024-01-14 01:37:38.220 GMT [10667] LOG:  database system is ready to accept connections
+2024-01-14 01:42:38.300 GMT [10668] LOG:  checkpoint starting: time
+2024-01-14 01:42:38.457 GMT [10668] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.007 s, total=0.157 s; sync files=2, longest=0.005 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=11/FB3DCD90, redo lsn=11/FB3DCD38
