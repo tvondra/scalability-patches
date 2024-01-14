@@ -5,3 +5,11 @@
 2024-01-14 00:58:43.719 CET [26851] LOG:  database system is ready to accept connections
 2024-01-14 01:03:43.814 CET [26852] LOG:  checkpoint starting: time
 2024-01-14 01:03:43.978 CET [26852] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.147 s, sync=0.010 s, total=0.165 s; sync files=2, longest=0.010 s, average=0.005 s; distance=0 kB, estimate=0 kB; lsn=A7/E484BC18, redo lsn=A7/E484BBC0
+2024-01-14 05:40:18.258 CET [26851] LOG:  received fast shutdown request
+2024-01-14 05:40:18.259 CET [26851] LOG:  aborting any active transactions
+2024-01-14 05:40:18.259 CET [7094] FATAL:  terminating autovacuum process due to administrator command
+2024-01-14 05:40:18.260 CET [26851] LOG:  background worker "logical replication launcher" (PID 26857) exited with exit code 1
+2024-01-14 05:40:18.264 CET [26852] LOG:  shutting down
+2024-01-14 05:40:18.264 CET [26852] LOG:  checkpoint starting: shutdown immediate
+2024-01-14 05:40:18.284 CET [26852] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.019 s, sync=0.001 s, total=0.021 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=A7/E484BCC8, redo lsn=A7/E484BCC8
+2024-01-14 05:40:19.139 CET [26851] LOG:  database system is shut down
