@@ -1,0 +1,53 @@
+                                         List of relations
+ Schema |     Name     |   Type   | Owner | Persistence | Access method |    Size    | Description 
+--------+--------------+----------+-------+-------------+---------------+------------+-------------
+ public | dim1         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim10        | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim10_id_seq | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim1_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim2         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim2_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim3         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim3_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim4         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim4_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim5         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim5_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim6         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim6_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim7         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim7_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim8         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim8_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | dim9         | table    | pi    | permanent   | heap          | 72 kB      | 
+ public | dim9_id_seq  | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | t            | table    | pi    | permanent   | heap          | 73 MB      | 
+ public | t_id_seq     | sequence | pi    | permanent   |               | 8192 bytes | 
+(22 rows)
+
+                                         List of relations
+ Schema |     Name     | Type  | Owner | Table | Persistence | Access method | Size  | Description 
+--------+--------------+-------+-------+-------+-------------+---------------+-------+-------------
+ public | dim10_id_idx | index | pi    | dim10 | permanent   | btree         | 40 kB | 
+ public | dim10_pkey   | index | pi    | dim10 | permanent   | btree         | 40 kB | 
+ public | dim1_id_idx  | index | pi    | dim1  | permanent   | btree         | 40 kB | 
+ public | dim1_pkey    | index | pi    | dim1  | permanent   | btree         | 40 kB | 
+ public | dim2_id_idx  | index | pi    | dim2  | permanent   | btree         | 40 kB | 
+ public | dim2_pkey    | index | pi    | dim2  | permanent   | btree         | 40 kB | 
+ public | dim3_id_idx  | index | pi    | dim3  | permanent   | btree         | 40 kB | 
+ public | dim3_pkey    | index | pi    | dim3  | permanent   | btree         | 40 kB | 
+ public | dim4_id_idx  | index | pi    | dim4  | permanent   | btree         | 40 kB | 
+ public | dim4_pkey    | index | pi    | dim4  | permanent   | btree         | 40 kB | 
+ public | dim5_id_idx  | index | pi    | dim5  | permanent   | btree         | 40 kB | 
+ public | dim5_pkey    | index | pi    | dim5  | permanent   | btree         | 40 kB | 
+ public | dim6_id_idx  | index | pi    | dim6  | permanent   | btree         | 40 kB | 
+ public | dim6_pkey    | index | pi    | dim6  | permanent   | btree         | 40 kB | 
+ public | dim7_id_idx  | index | pi    | dim7  | permanent   | btree         | 40 kB | 
+ public | dim7_pkey    | index | pi    | dim7  | permanent   | btree         | 40 kB | 
+ public | dim8_id_idx  | index | pi    | dim8  | permanent   | btree         | 40 kB | 
+ public | dim8_pkey    | index | pi    | dim8  | permanent   | btree         | 40 kB | 
+ public | dim9_id_idx  | index | pi    | dim9  | permanent   | btree         | 40 kB | 
+ public | dim9_pkey    | index | pi    | dim9  | permanent   | btree         | 40 kB | 
+ public | t_pkey       | index | pi    | t     | permanent   | btree         | 21 MB | 
+(21 rows)
+
