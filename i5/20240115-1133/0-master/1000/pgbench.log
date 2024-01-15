@@ -1,13 +1,13 @@
 pgbench (17devel)
-transaction type: index.sql
+transaction type: 20240115-1133/0-master/1000/star-100-100.sql
 scaling factor: 1
 query mode: prepared
 number of clients: 64
 number of threads: 64
 maximum number of tries: 1
 duration: 15 s
-number of transactions actually processed: 763404
+number of transactions actually processed: 11254
 number of failed transactions: 0 (0.000%)
-latency average = 1.259 ms
-initial connection time = 29.599 ms
-tps = 50838.839791 (without initial connection time)
+latency average = 86.276 ms
+initial connection time = 34.547 ms
+tps = 741.808174 (without initial connection time)
