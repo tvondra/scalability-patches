@@ -1,0 +1,413 @@
+                                           List of relations
+ Schema |     Name      |   Type   |  Owner   | Persistence | Access method |    Size    | Description 
+--------+---------------+----------+----------+-------------+---------------+------------+-------------
+ public | dim1          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim10         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim100        | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim100_id_seq | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim10_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim11         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim11_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim12         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim12_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim13         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim13_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim14         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim14_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim15         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim15_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim16         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim16_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim17         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim17_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim18         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim18_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim19         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim19_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim1_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim2          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim20         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim20_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim21         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim21_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim22         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim22_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim23         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim23_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim24         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim24_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim25         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim25_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim26         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim26_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim27         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim27_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim28         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim28_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim29         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim29_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim2_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim3          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim30         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim30_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim31         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim31_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim32         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim32_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim33         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim33_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim34         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim34_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim35         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim35_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim36         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim36_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim37         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim37_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim38         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim38_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim39         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim39_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim3_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim4          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim40         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim40_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim41         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim41_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim42         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim42_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim43         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim43_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim44         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim44_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim45         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim45_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim46         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim46_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim47         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim47_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim48         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim48_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim49         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim49_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim4_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim5          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim50         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim50_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim51         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim51_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim52         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim52_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim53         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim53_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim54         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim54_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim55         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim55_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim56         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim56_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim57         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim57_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim58         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim58_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim59         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim59_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim5_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim6          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim60         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim60_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim61         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim61_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim62         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim62_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim63         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim63_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim64         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim64_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim65         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim65_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim66         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim66_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim67         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim67_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim68         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim68_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim69         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim69_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim6_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim7          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim70         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim70_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim71         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim71_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim72         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim72_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim73         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim73_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim74         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim74_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim75         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim75_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim76         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim76_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim77         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim77_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim78         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim78_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim79         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim79_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim7_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim8          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim80         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim80_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim81         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim81_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim82         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim82_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim83         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim83_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim84         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim84_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim85         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim85_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim86         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim86_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim87         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim87_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim88         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim88_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim89         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim89_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim8_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim9          | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim90         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim90_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim91         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim91_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim92         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim92_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim93         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim93_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim94         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim94_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim95         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim95_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim96         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim96_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim97         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim97_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim98         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim98_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim99         | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim99_id_seq  | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | dim9_id_seq   | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | t             | table    | postgres | permanent   | heap          | 4342 MB    | 
+ public | t_id_seq      | sequence | postgres | permanent   |               | 8192 bytes | 
+(202 rows)
+
+                                            List of relations
+ Schema |     Name      | Type  |  Owner   | Table  | Persistence | Access method |  Size  | Description 
+--------+---------------+-------+----------+--------+-------------+---------------+--------+-------------
+ public | dim100_id_idx | index | postgres | dim100 | permanent   | btree         | 240 kB | 
+ public | dim100_pkey   | index | postgres | dim100 | permanent   | btree         | 240 kB | 
+ public | dim10_id_idx  | index | postgres | dim10  | permanent   | btree         | 240 kB | 
+ public | dim10_pkey    | index | postgres | dim10  | permanent   | btree         | 240 kB | 
+ public | dim11_id_idx  | index | postgres | dim11  | permanent   | btree         | 240 kB | 
+ public | dim11_pkey    | index | postgres | dim11  | permanent   | btree         | 240 kB | 
+ public | dim12_id_idx  | index | postgres | dim12  | permanent   | btree         | 240 kB | 
+ public | dim12_pkey    | index | postgres | dim12  | permanent   | btree         | 240 kB | 
+ public | dim13_id_idx  | index | postgres | dim13  | permanent   | btree         | 240 kB | 
+ public | dim13_pkey    | index | postgres | dim13  | permanent   | btree         | 240 kB | 
+ public | dim14_id_idx  | index | postgres | dim14  | permanent   | btree         | 240 kB | 
+ public | dim14_pkey    | index | postgres | dim14  | permanent   | btree         | 240 kB | 
+ public | dim15_id_idx  | index | postgres | dim15  | permanent   | btree         | 240 kB | 
+ public | dim15_pkey    | index | postgres | dim15  | permanent   | btree         | 240 kB | 
+ public | dim16_id_idx  | index | postgres | dim16  | permanent   | btree         | 240 kB | 
+ public | dim16_pkey    | index | postgres | dim16  | permanent   | btree         | 240 kB | 
+ public | dim17_id_idx  | index | postgres | dim17  | permanent   | btree         | 240 kB | 
+ public | dim17_pkey    | index | postgres | dim17  | permanent   | btree         | 240 kB | 
+ public | dim18_id_idx  | index | postgres | dim18  | permanent   | btree         | 240 kB | 
+ public | dim18_pkey    | index | postgres | dim18  | permanent   | btree         | 240 kB | 
+ public | dim19_id_idx  | index | postgres | dim19  | permanent   | btree         | 240 kB | 
+ public | dim19_pkey    | index | postgres | dim19  | permanent   | btree         | 240 kB | 
+ public | dim1_id_idx   | index | postgres | dim1   | permanent   | btree         | 240 kB | 
+ public | dim1_pkey     | index | postgres | dim1   | permanent   | btree         | 240 kB | 
+ public | dim20_id_idx  | index | postgres | dim20  | permanent   | btree         | 240 kB | 
+ public | dim20_pkey    | index | postgres | dim20  | permanent   | btree         | 240 kB | 
+ public | dim21_id_idx  | index | postgres | dim21  | permanent   | btree         | 240 kB | 
+ public | dim21_pkey    | index | postgres | dim21  | permanent   | btree         | 240 kB | 
+ public | dim22_id_idx  | index | postgres | dim22  | permanent   | btree         | 240 kB | 
+ public | dim22_pkey    | index | postgres | dim22  | permanent   | btree         | 240 kB | 
+ public | dim23_id_idx  | index | postgres | dim23  | permanent   | btree         | 240 kB | 
+ public | dim23_pkey    | index | postgres | dim23  | permanent   | btree         | 240 kB | 
+ public | dim24_id_idx  | index | postgres | dim24  | permanent   | btree         | 240 kB | 
+ public | dim24_pkey    | index | postgres | dim24  | permanent   | btree         | 240 kB | 
+ public | dim25_id_idx  | index | postgres | dim25  | permanent   | btree         | 240 kB | 
+ public | dim25_pkey    | index | postgres | dim25  | permanent   | btree         | 240 kB | 
+ public | dim26_id_idx  | index | postgres | dim26  | permanent   | btree         | 240 kB | 
+ public | dim26_pkey    | index | postgres | dim26  | permanent   | btree         | 240 kB | 
+ public | dim27_id_idx  | index | postgres | dim27  | permanent   | btree         | 240 kB | 
+ public | dim27_pkey    | index | postgres | dim27  | permanent   | btree         | 240 kB | 
+ public | dim28_id_idx  | index | postgres | dim28  | permanent   | btree         | 240 kB | 
+ public | dim28_pkey    | index | postgres | dim28  | permanent   | btree         | 240 kB | 
+ public | dim29_id_idx  | index | postgres | dim29  | permanent   | btree         | 240 kB | 
+ public | dim29_pkey    | index | postgres | dim29  | permanent   | btree         | 240 kB | 
+ public | dim2_id_idx   | index | postgres | dim2   | permanent   | btree         | 240 kB | 
+ public | dim2_pkey     | index | postgres | dim2   | permanent   | btree         | 240 kB | 
+ public | dim30_id_idx  | index | postgres | dim30  | permanent   | btree         | 240 kB | 
+ public | dim30_pkey    | index | postgres | dim30  | permanent   | btree         | 240 kB | 
+ public | dim31_id_idx  | index | postgres | dim31  | permanent   | btree         | 240 kB | 
+ public | dim31_pkey    | index | postgres | dim31  | permanent   | btree         | 240 kB | 
+ public | dim32_id_idx  | index | postgres | dim32  | permanent   | btree         | 240 kB | 
+ public | dim32_pkey    | index | postgres | dim32  | permanent   | btree         | 240 kB | 
+ public | dim33_id_idx  | index | postgres | dim33  | permanent   | btree         | 240 kB | 
+ public | dim33_pkey    | index | postgres | dim33  | permanent   | btree         | 240 kB | 
+ public | dim34_id_idx  | index | postgres | dim34  | permanent   | btree         | 240 kB | 
+ public | dim34_pkey    | index | postgres | dim34  | permanent   | btree         | 240 kB | 
+ public | dim35_id_idx  | index | postgres | dim35  | permanent   | btree         | 240 kB | 
+ public | dim35_pkey    | index | postgres | dim35  | permanent   | btree         | 240 kB | 
+ public | dim36_id_idx  | index | postgres | dim36  | permanent   | btree         | 240 kB | 
+ public | dim36_pkey    | index | postgres | dim36  | permanent   | btree         | 240 kB | 
+ public | dim37_id_idx  | index | postgres | dim37  | permanent   | btree         | 240 kB | 
+ public | dim37_pkey    | index | postgres | dim37  | permanent   | btree         | 240 kB | 
+ public | dim38_id_idx  | index | postgres | dim38  | permanent   | btree         | 240 kB | 
+ public | dim38_pkey    | index | postgres | dim38  | permanent   | btree         | 240 kB | 
+ public | dim39_id_idx  | index | postgres | dim39  | permanent   | btree         | 240 kB | 
+ public | dim39_pkey    | index | postgres | dim39  | permanent   | btree         | 240 kB | 
+ public | dim3_id_idx   | index | postgres | dim3   | permanent   | btree         | 240 kB | 
+ public | dim3_pkey     | index | postgres | dim3   | permanent   | btree         | 240 kB | 
+ public | dim40_id_idx  | index | postgres | dim40  | permanent   | btree         | 240 kB | 
+ public | dim40_pkey    | index | postgres | dim40  | permanent   | btree         | 240 kB | 
+ public | dim41_id_idx  | index | postgres | dim41  | permanent   | btree         | 240 kB | 
+ public | dim41_pkey    | index | postgres | dim41  | permanent   | btree         | 240 kB | 
+ public | dim42_id_idx  | index | postgres | dim42  | permanent   | btree         | 240 kB | 
+ public | dim42_pkey    | index | postgres | dim42  | permanent   | btree         | 240 kB | 
+ public | dim43_id_idx  | index | postgres | dim43  | permanent   | btree         | 240 kB | 
+ public | dim43_pkey    | index | postgres | dim43  | permanent   | btree         | 240 kB | 
+ public | dim44_id_idx  | index | postgres | dim44  | permanent   | btree         | 240 kB | 
+ public | dim44_pkey    | index | postgres | dim44  | permanent   | btree         | 240 kB | 
+ public | dim45_id_idx  | index | postgres | dim45  | permanent   | btree         | 240 kB | 
+ public | dim45_pkey    | index | postgres | dim45  | permanent   | btree         | 240 kB | 
+ public | dim46_id_idx  | index | postgres | dim46  | permanent   | btree         | 240 kB | 
+ public | dim46_pkey    | index | postgres | dim46  | permanent   | btree         | 240 kB | 
+ public | dim47_id_idx  | index | postgres | dim47  | permanent   | btree         | 240 kB | 
+ public | dim47_pkey    | index | postgres | dim47  | permanent   | btree         | 240 kB | 
+ public | dim48_id_idx  | index | postgres | dim48  | permanent   | btree         | 240 kB | 
+ public | dim48_pkey    | index | postgres | dim48  | permanent   | btree         | 240 kB | 
+ public | dim49_id_idx  | index | postgres | dim49  | permanent   | btree         | 240 kB | 
+ public | dim49_pkey    | index | postgres | dim49  | permanent   | btree         | 240 kB | 
+ public | dim4_id_idx   | index | postgres | dim4   | permanent   | btree         | 240 kB | 
+ public | dim4_pkey     | index | postgres | dim4   | permanent   | btree         | 240 kB | 
+ public | dim50_id_idx  | index | postgres | dim50  | permanent   | btree         | 240 kB | 
+ public | dim50_pkey    | index | postgres | dim50  | permanent   | btree         | 240 kB | 
+ public | dim51_id_idx  | index | postgres | dim51  | permanent   | btree         | 240 kB | 
+ public | dim51_pkey    | index | postgres | dim51  | permanent   | btree         | 240 kB | 
+ public | dim52_id_idx  | index | postgres | dim52  | permanent   | btree         | 240 kB | 
+ public | dim52_pkey    | index | postgres | dim52  | permanent   | btree         | 240 kB | 
+ public | dim53_id_idx  | index | postgres | dim53  | permanent   | btree         | 240 kB | 
+ public | dim53_pkey    | index | postgres | dim53  | permanent   | btree         | 240 kB | 
+ public | dim54_id_idx  | index | postgres | dim54  | permanent   | btree         | 240 kB | 
+ public | dim54_pkey    | index | postgres | dim54  | permanent   | btree         | 240 kB | 
+ public | dim55_id_idx  | index | postgres | dim55  | permanent   | btree         | 240 kB | 
+ public | dim55_pkey    | index | postgres | dim55  | permanent   | btree         | 240 kB | 
+ public | dim56_id_idx  | index | postgres | dim56  | permanent   | btree         | 240 kB | 
+ public | dim56_pkey    | index | postgres | dim56  | permanent   | btree         | 240 kB | 
+ public | dim57_id_idx  | index | postgres | dim57  | permanent   | btree         | 240 kB | 
+ public | dim57_pkey    | index | postgres | dim57  | permanent   | btree         | 240 kB | 
+ public | dim58_id_idx  | index | postgres | dim58  | permanent   | btree         | 240 kB | 
+ public | dim58_pkey    | index | postgres | dim58  | permanent   | btree         | 240 kB | 
+ public | dim59_id_idx  | index | postgres | dim59  | permanent   | btree         | 240 kB | 
+ public | dim59_pkey    | index | postgres | dim59  | permanent   | btree         | 240 kB | 
+ public | dim5_id_idx   | index | postgres | dim5   | permanent   | btree         | 240 kB | 
+ public | dim5_pkey     | index | postgres | dim5   | permanent   | btree         | 240 kB | 
+ public | dim60_id_idx  | index | postgres | dim60  | permanent   | btree         | 240 kB | 
+ public | dim60_pkey    | index | postgres | dim60  | permanent   | btree         | 240 kB | 
+ public | dim61_id_idx  | index | postgres | dim61  | permanent   | btree         | 240 kB | 
+ public | dim61_pkey    | index | postgres | dim61  | permanent   | btree         | 240 kB | 
+ public | dim62_id_idx  | index | postgres | dim62  | permanent   | btree         | 240 kB | 
+ public | dim62_pkey    | index | postgres | dim62  | permanent   | btree         | 240 kB | 
+ public | dim63_id_idx  | index | postgres | dim63  | permanent   | btree         | 240 kB | 
+ public | dim63_pkey    | index | postgres | dim63  | permanent   | btree         | 240 kB | 
+ public | dim64_id_idx  | index | postgres | dim64  | permanent   | btree         | 240 kB | 
+ public | dim64_pkey    | index | postgres | dim64  | permanent   | btree         | 240 kB | 
+ public | dim65_id_idx  | index | postgres | dim65  | permanent   | btree         | 240 kB | 
+ public | dim65_pkey    | index | postgres | dim65  | permanent   | btree         | 240 kB | 
+ public | dim66_id_idx  | index | postgres | dim66  | permanent   | btree         | 240 kB | 
+ public | dim66_pkey    | index | postgres | dim66  | permanent   | btree         | 240 kB | 
+ public | dim67_id_idx  | index | postgres | dim67  | permanent   | btree         | 240 kB | 
+ public | dim67_pkey    | index | postgres | dim67  | permanent   | btree         | 240 kB | 
+ public | dim68_id_idx  | index | postgres | dim68  | permanent   | btree         | 240 kB | 
+ public | dim68_pkey    | index | postgres | dim68  | permanent   | btree         | 240 kB | 
+ public | dim69_id_idx  | index | postgres | dim69  | permanent   | btree         | 240 kB | 
+ public | dim69_pkey    | index | postgres | dim69  | permanent   | btree         | 240 kB | 
+ public | dim6_id_idx   | index | postgres | dim6   | permanent   | btree         | 240 kB | 
+ public | dim6_pkey     | index | postgres | dim6   | permanent   | btree         | 240 kB | 
+ public | dim70_id_idx  | index | postgres | dim70  | permanent   | btree         | 240 kB | 
+ public | dim70_pkey    | index | postgres | dim70  | permanent   | btree         | 240 kB | 
+ public | dim71_id_idx  | index | postgres | dim71  | permanent   | btree         | 240 kB | 
+ public | dim71_pkey    | index | postgres | dim71  | permanent   | btree         | 240 kB | 
+ public | dim72_id_idx  | index | postgres | dim72  | permanent   | btree         | 240 kB | 
+ public | dim72_pkey    | index | postgres | dim72  | permanent   | btree         | 240 kB | 
+ public | dim73_id_idx  | index | postgres | dim73  | permanent   | btree         | 240 kB | 
+ public | dim73_pkey    | index | postgres | dim73  | permanent   | btree         | 240 kB | 
+ public | dim74_id_idx  | index | postgres | dim74  | permanent   | btree         | 240 kB | 
+ public | dim74_pkey    | index | postgres | dim74  | permanent   | btree         | 240 kB | 
+ public | dim75_id_idx  | index | postgres | dim75  | permanent   | btree         | 240 kB | 
+ public | dim75_pkey    | index | postgres | dim75  | permanent   | btree         | 240 kB | 
+ public | dim76_id_idx  | index | postgres | dim76  | permanent   | btree         | 240 kB | 
+ public | dim76_pkey    | index | postgres | dim76  | permanent   | btree         | 240 kB | 
+ public | dim77_id_idx  | index | postgres | dim77  | permanent   | btree         | 240 kB | 
+ public | dim77_pkey    | index | postgres | dim77  | permanent   | btree         | 240 kB | 
+ public | dim78_id_idx  | index | postgres | dim78  | permanent   | btree         | 240 kB | 
+ public | dim78_pkey    | index | postgres | dim78  | permanent   | btree         | 240 kB | 
+ public | dim79_id_idx  | index | postgres | dim79  | permanent   | btree         | 240 kB | 
+ public | dim79_pkey    | index | postgres | dim79  | permanent   | btree         | 240 kB | 
+ public | dim7_id_idx   | index | postgres | dim7   | permanent   | btree         | 240 kB | 
+ public | dim7_pkey     | index | postgres | dim7   | permanent   | btree         | 240 kB | 
+ public | dim80_id_idx  | index | postgres | dim80  | permanent   | btree         | 240 kB | 
+ public | dim80_pkey    | index | postgres | dim80  | permanent   | btree         | 240 kB | 
+ public | dim81_id_idx  | index | postgres | dim81  | permanent   | btree         | 240 kB | 
+ public | dim81_pkey    | index | postgres | dim81  | permanent   | btree         | 240 kB | 
+ public | dim82_id_idx  | index | postgres | dim82  | permanent   | btree         | 240 kB | 
+ public | dim82_pkey    | index | postgres | dim82  | permanent   | btree         | 240 kB | 
+ public | dim83_id_idx  | index | postgres | dim83  | permanent   | btree         | 240 kB | 
+ public | dim83_pkey    | index | postgres | dim83  | permanent   | btree         | 240 kB | 
+ public | dim84_id_idx  | index | postgres | dim84  | permanent   | btree         | 240 kB | 
+ public | dim84_pkey    | index | postgres | dim84  | permanent   | btree         | 240 kB | 
+ public | dim85_id_idx  | index | postgres | dim85  | permanent   | btree         | 240 kB | 
+ public | dim85_pkey    | index | postgres | dim85  | permanent   | btree         | 240 kB | 
+ public | dim86_id_idx  | index | postgres | dim86  | permanent   | btree         | 240 kB | 
+ public | dim86_pkey    | index | postgres | dim86  | permanent   | btree         | 240 kB | 
+ public | dim87_id_idx  | index | postgres | dim87  | permanent   | btree         | 240 kB | 
+ public | dim87_pkey    | index | postgres | dim87  | permanent   | btree         | 240 kB | 
+ public | dim88_id_idx  | index | postgres | dim88  | permanent   | btree         | 240 kB | 
+ public | dim88_pkey    | index | postgres | dim88  | permanent   | btree         | 240 kB | 
+ public | dim89_id_idx  | index | postgres | dim89  | permanent   | btree         | 240 kB | 
+ public | dim89_pkey    | index | postgres | dim89  | permanent   | btree         | 240 kB | 
+ public | dim8_id_idx   | index | postgres | dim8   | permanent   | btree         | 240 kB | 
+ public | dim8_pkey     | index | postgres | dim8   | permanent   | btree         | 240 kB | 
+ public | dim90_id_idx  | index | postgres | dim90  | permanent   | btree         | 240 kB | 
+ public | dim90_pkey    | index | postgres | dim90  | permanent   | btree         | 240 kB | 
+ public | dim91_id_idx  | index | postgres | dim91  | permanent   | btree         | 240 kB | 
+ public | dim91_pkey    | index | postgres | dim91  | permanent   | btree         | 240 kB | 
+ public | dim92_id_idx  | index | postgres | dim92  | permanent   | btree         | 240 kB | 
+ public | dim92_pkey    | index | postgres | dim92  | permanent   | btree         | 240 kB | 
+ public | dim93_id_idx  | index | postgres | dim93  | permanent   | btree         | 240 kB | 
+ public | dim93_pkey    | index | postgres | dim93  | permanent   | btree         | 240 kB | 
+ public | dim94_id_idx  | index | postgres | dim94  | permanent   | btree         | 240 kB | 
+ public | dim94_pkey    | index | postgres | dim94  | permanent   | btree         | 240 kB | 
+ public | dim95_id_idx  | index | postgres | dim95  | permanent   | btree         | 240 kB | 
+ public | dim95_pkey    | index | postgres | dim95  | permanent   | btree         | 240 kB | 
+ public | dim96_id_idx  | index | postgres | dim96  | permanent   | btree         | 240 kB | 
+ public | dim96_pkey    | index | postgres | dim96  | permanent   | btree         | 240 kB | 
+ public | dim97_id_idx  | index | postgres | dim97  | permanent   | btree         | 240 kB | 
+ public | dim97_pkey    | index | postgres | dim97  | permanent   | btree         | 240 kB | 
+ public | dim98_id_idx  | index | postgres | dim98  | permanent   | btree         | 240 kB | 
+ public | dim98_pkey    | index | postgres | dim98  | permanent   | btree         | 240 kB | 
+ public | dim99_id_idx  | index | postgres | dim99  | permanent   | btree         | 240 kB | 
+ public | dim99_pkey    | index | postgres | dim99  | permanent   | btree         | 240 kB | 
+ public | dim9_id_idx   | index | postgres | dim9   | permanent   | btree         | 240 kB | 
+ public | dim9_pkey     | index | postgres | dim9   | permanent   | btree         | 240 kB | 
+ public | t_pkey        | index | postgres | t      | permanent   | btree         | 214 MB | 
+(201 rows)
+
