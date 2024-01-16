@@ -1,0 +1,17 @@
+                                          List of relations
+ Schema |    Name     |   Type   |  Owner   | Persistence | Access method |    Size    | Description 
+--------+-------------+----------+----------+-------------+---------------+------------+-------------
+ public | dim1        | table    | postgres | permanent   | heap          | 392 kB     | 
+ public | dim1_id_seq | sequence | postgres | permanent   |               | 8192 bytes | 
+ public | t           | table    | postgres | permanent   | heap          | 346 MB     | 
+ public | t_id_seq    | sequence | postgres | permanent   |               | 8192 bytes | 
+(4 rows)
+
+                                          List of relations
+ Schema |    Name     | Type  |  Owner   | Table | Persistence | Access method |  Size  | Description 
+--------+-------------+-------+----------+-------+-------------+---------------+--------+-------------
+ public | dim1_id_idx | index | postgres | dim1  | permanent   | btree         | 240 kB | 
+ public | dim1_pkey   | index | postgres | dim1  | permanent   | btree         | 240 kB | 
+ public | t_pkey      | index | postgres | t     | permanent   | btree         | 214 MB | 
+(3 rows)
+
