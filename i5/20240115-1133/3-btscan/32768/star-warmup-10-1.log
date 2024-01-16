@@ -1,0 +1,13 @@
+pgbench (17devel)
+transaction type: 20240115-1133/3-btscan/32768/star-10-1.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 32
+number of threads: 32
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 5116827
+number of failed transactions: 0 (0.000%)
+latency average = 0.375 ms
+initial connection time = 15.808 ms
+tps = 85276.343944 (without initial connection time)
