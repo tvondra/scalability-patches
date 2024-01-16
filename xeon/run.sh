@@ -11,7 +11,8 @@ CLIENTS="1 2 4 8 16 32 64 96"
 PARTITIONS="0 1 10 100 1000"
 #BUILDS="amd64 znver3 znver4"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
-BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+#BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+BUILDS="6-lock-only"
 
 PATH_OLD=$PATH
 
