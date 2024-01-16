@@ -10,7 +10,8 @@ DURATION=15
 CLIENTS="1 8 16 32 64 96 160 224"
 PARTITIONS="0 1 10 100 1000"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
-BUILDS="6-lock-only"
+#BUILDS="6-lock-only"
+BUILDS="7-lock-and-mempool"
 
 PATH_OLD=$PATH
 
