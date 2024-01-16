@@ -43,9 +43,9 @@ for p in $PARTITIONS; do
 
 	fi
 
-	echo "SELECT COUNT(*) FROM t" > select.sql
+	echo "SELECT COUNT(*) FROM t" > $OUTDIR/select.sql
 
-	pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f select.sql $DBNAME > $OUTDIR/count-warmup-$p.log 2>&1
+	pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f $OUTDIR/select.sql $DBNAME > $OUTDIR/count-warmup-$p.log 2>&1
 
 	for r in $(seq 1 $RUNS); do
 
@@ -53,7 +53,7 @@ for p in $PARTITIONS; do
 
 			for c in $CLIENTS; do
 
-				pgbench -n -M $m -T $DURATION -c $c -j $c -f select.sql $DBNAME > $OUTDIR/pgbench.log 2>&1
+				pgbench -n -M $m -T $DURATION -c $c -j $c -f $OUTDIR/select.sql $DBNAME > $OUTDIR/pgbench.log 2>&1
 
 				lat_avg=$(grep 'latency average' $OUTDIR/pgbench.log | awk '{print $4}')
 				lat_stddev=$(grep 'latency stddev' $OUTDIR/pgbench.log | awk '{print $4}')
