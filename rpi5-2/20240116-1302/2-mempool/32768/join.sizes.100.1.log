@@ -1,0 +1,21 @@
+                                               List of relations
+ Schema |        Name        |       Type        | Owner | Persistence | Access method |  Size   | Description 
+--------+--------------------+-------------------+-------+-------------+---------------+---------+-------------
+ public | pgbench_accounts   | partitioned table | pi    | permanent   |               | 0 bytes | 
+ public | pgbench_accounts_1 | table             | pi    | permanent   | heap          | 1281 MB | 
+ public | pgbench_branches   | table             | pi    | permanent   | heap          | 40 kB   | 
+ public | pgbench_history    | table             | pi    | permanent   | heap          | 0 bytes | 
+ public | pgbench_tellers    | table             | pi    | permanent   | heap          | 80 kB   | 
+(5 rows)
+
+                                                                 List of relations
+ Schema |               Name                |       Type        | Owner |       Table        | Persistence | Access method |  Size   | Description 
+--------+-----------------------------------+-------------------+-------+--------------------+-------------+---------------+---------+-------------
+ public | pgbench_accounts_1_aid_parent_idx | index             | pi    | pgbench_accounts_1 | permanent   | btree         | 214 MB  | 
+ public | pgbench_accounts_1_pkey           | index             | pi    | pgbench_accounts_1 | permanent   | btree         | 214 MB  | 
+ public | pgbench_accounts_aid_parent_idx   | partitioned index | pi    | pgbench_accounts   | permanent   | btree         | 0 bytes | 
+ public | pgbench_accounts_pkey             | partitioned index | pi    | pgbench_accounts   | permanent   | btree         | 0 bytes | 
+ public | pgbench_branches_pkey             | index             | pi    | pgbench_branches   | permanent   | btree         | 16 kB   | 
+ public | pgbench_tellers_pkey              | index             | pi    | pgbench_tellers    | permanent   | btree         | 40 kB   | 
+(6 rows)
+
