@@ -6,3 +6,10 @@
 2024-01-17 10:19:51.463 CET [10960] LOG:  database system is ready to accept connections
 2024-01-17 10:24:51.545 CET [10961] LOG:  checkpoint starting: time
 2024-01-17 10:24:51.610 CET [10961] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.031 s, sync=0.023 s, total=0.065 s; sync files=2, longest=0.021 s, average=0.012 s; distance=0 kB, estimate=0 kB; lsn=68/1EA2B5B0, redo lsn=68/1EA2B558
+2024-01-17 14:34:41.359 CET [10960] LOG:  received fast shutdown request
+2024-01-17 14:34:41.361 CET [10960] LOG:  aborting any active transactions
+2024-01-17 14:34:41.361 CET [10960] LOG:  background worker "logical replication launcher" (PID 10966) exited with exit code 1
+2024-01-17 14:34:41.362 CET [10961] LOG:  shutting down
+2024-01-17 14:34:41.363 CET [10961] LOG:  checkpoint starting: shutdown immediate
+2024-01-17 14:34:41.370 CET [10961] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.009 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=68/1EA2B660, redo lsn=68/1EA2B660
+2024-01-17 14:34:41.597 CET [10960] LOG:  database system is shut down
