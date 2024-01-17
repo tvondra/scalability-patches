@@ -12,7 +12,8 @@ PARTITIONS="0 1 10 100 1000"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
 #BUILDS="6-lock-only"
 #BUILDS="7-lock-and-mempool"
-BUILDS="8-lock-and-mempool-v2"
+#BUILDS="8-lock-and-mempool-v2"
+BUILDS="10-lock-and-mempool-rebalance 11-lock-and-mempool-rebalance-fstat 9-lock-and-mempool-v2-64"
 
 PATH_OLD=$PATH
 
