@@ -12,7 +12,8 @@ PARTITIONS="0 1 10 100 1000"
 #BUILDS="amd64 znver3 znver4"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
-BUILDS="6-lock-only"
+#BUILDS="6-lock-only"
+BUILDS="7-lock-and-mempool 8-lock-and-mempool-v2"
 
 PATH_OLD=$PATH
 
