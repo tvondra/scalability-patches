@@ -20,7 +20,7 @@ PATH_OLD=$PATH
 
 DATE=`date +%Y%m%d-%H%M`
 
-export PATH=/mnt/raid/builds/pg-0-master/bin:$PATH_OLD;
+export PATH=/mnt/raid/builds/6-lock-only/bin:$PATH_OLD;
 
 killall -9 postgres || true
 
