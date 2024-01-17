@@ -1,0 +1,11 @@
+2024-01-17 21:01:09.635 CET [17232] LOG:  starting PostgreSQL 17devel on x86_64-pc-linux-gnu, compiled by gcc (Gentoo 12.3.1_p20230526 p2) 12.3.1 20230526, 64-bit
+2024-01-17 21:01:09.635 CET [17232] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-17 21:01:09.637 CET [17232] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-17 21:01:09.654 CET [17235] LOG:  database system was interrupted; last known up at 2024-01-17 19:03:55 CET
+2024-01-17 21:01:10.032 CET [17235] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-01-17 21:01:10.052 CET [17235] LOG:  redo starts at A7/E484D128
+2024-01-17 21:01:10.052 CET [17235] LOG:  invalid record length at A7/E484D230: expected at least 24, got 0
+2024-01-17 21:01:10.052 CET [17235] LOG:  redo done at A7/E484D1F8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-01-17 21:01:10.085 CET [17233] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-01-17 21:01:10.110 CET [17233] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.025 s, sync=0.001 s, total=0.026 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=A7/E484D230, redo lsn=A7/E484D230
+2024-01-17 21:01:10.112 CET [17232] LOG:  database system is ready to accept connections
