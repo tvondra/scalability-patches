@@ -11,7 +11,10 @@ CLIENTS="1 2 4 8 16 32 64"
 PARTITIONS="0 1 10 100 1000"
 #BUILDS="amd64 znver3 znver4"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
-BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+#BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+
+BUILDS="10-lock-and-mempool-rebalance 11-lock-and-mempool-rebalance-fstat 6-lock-only 7-lock-and-mempool 9-lock-and-mempool-v2-64"
+
 
 PATH_OLD=$PATH
 
