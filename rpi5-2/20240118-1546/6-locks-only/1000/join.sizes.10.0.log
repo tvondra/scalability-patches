@@ -1,0 +1,18 @@
+                                        List of relations
+ Schema |       Name       | Type  | Owner | Persistence | Access method |  Size   | Description 
+--------+------------------+-------+-------+-------------+---------------+---------+-------------
+ public | pgbench_accounts | table | pi    | permanent   | heap          | 128 MB  | 
+ public | pgbench_branches | table | pi    | permanent   | heap          | 40 kB   | 
+ public | pgbench_history  | table | pi    | permanent   | heap          | 0 bytes | 
+ public | pgbench_tellers  | table | pi    | permanent   | heap          | 40 kB   | 
+(4 rows)
+
+                                                        List of relations
+ Schema |              Name               | Type  | Owner |      Table       | Persistence | Access method | Size  | Description 
+--------+---------------------------------+-------+-------+------------------+-------------+---------------+-------+-------------
+ public | pgbench_accounts_aid_parent_idx | index | pi    | pgbench_accounts | permanent   | btree         | 21 MB | 
+ public | pgbench_accounts_pkey           | index | pi    | pgbench_accounts | permanent   | btree         | 21 MB | 
+ public | pgbench_branches_pkey           | index | pi    | pgbench_branches | permanent   | btree         | 16 kB | 
+ public | pgbench_tellers_pkey            | index | pi    | pgbench_tellers  | permanent   | btree         | 16 kB | 
+(4 rows)
+
