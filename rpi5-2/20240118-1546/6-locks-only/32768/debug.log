@@ -1,0 +1,23 @@
+BINDIR = /home/pi/builds/pg-6-locks-only/bin
+DOCDIR = /home/pi/builds/pg-6-locks-only/share/doc/postgresql
+HTMLDIR = /home/pi/builds/pg-6-locks-only/share/doc/postgresql
+INCLUDEDIR = /home/pi/builds/pg-6-locks-only/include
+PKGINCLUDEDIR = /home/pi/builds/pg-6-locks-only/include/postgresql
+INCLUDEDIR-SERVER = /home/pi/builds/pg-6-locks-only/include/postgresql/server
+LIBDIR = /home/pi/builds/pg-6-locks-only/lib
+PKGLIBDIR = /home/pi/builds/pg-6-locks-only/lib/postgresql
+LOCALEDIR = /home/pi/builds/pg-6-locks-only/share/locale
+MANDIR = /home/pi/builds/pg-6-locks-only/share/man
+SHAREDIR = /home/pi/builds/pg-6-locks-only/share/postgresql
+SYSCONFDIR = /home/pi/builds/pg-6-locks-only/etc/postgresql
+PGXS = /home/pi/builds/pg-6-locks-only/lib/postgresql/pgxs/src/makefiles/pgxs.mk
+CONFIGURE =  '--prefix=/home/pi/builds/pg-6-locks-only' '--enable-debug' '--enable-depend' 'CC=ccache gcc'
+CC = ccache gcc
+CPPFLAGS = -D_GNU_SOURCE
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wcast-function-type -Wshadow=compatible-local -Wformat-security -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -g -O2
+CFLAGS_SL = -fPIC
+LDFLAGS = -Wl,--as-needed -Wl,-rpath,'/home/pi/builds/pg-6-locks-only/lib',--enable-new-dtags
+LDFLAGS_EX = 
+LDFLAGS_SL = 
+LIBS = -lpgcommon -lpgport -lz -lreadline -lm 
+VERSION = PostgreSQL 17devel
