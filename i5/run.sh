@@ -2,6 +2,7 @@
 
 set -e
 
+LABEL=$1
 MACHINE=i5
 DBNAME=test
 RUNS=1
@@ -12,8 +13,9 @@ PARTITIONS="0 1 10 100 1000"
 #BUILDS="amd64 znver3 znver4"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+#BUILDS="10-lock-and-mempool-rebalance 11-lock-and-mempool-rebalance-fstat 6-lock-only"
 
-BUILDS="10-lock-and-mempool-rebalance 11-lock-and-mempool-rebalance-fstat 6-lock-only"
+BUILDS="0-master 1-locks 2-mempool 3-locks-mempool"
 
 
 PATH_OLD=$PATH
@@ -39,7 +41,7 @@ for build in $BUILDS; do
 
 		echo `date` build: $build files: $files
 
-		OUTDIR=$DATE/$build/$files
+		OUTDIR=$DATE-$LABEL/$build/$files
 
 		mkdir -p $OUTDIR
 
