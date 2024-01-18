@@ -8,7 +8,8 @@ RUNS=1
 DURATION=15
 CLIENTS="1 2 4 8"
 PARTITIONS="0 1 10 100 1000"
-BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+#BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
+BUILDS="6-locks-only 7-lock-mempool-rebalance 8-mempool-rebalance"
 
 PATH_OLD=$PATH
 
