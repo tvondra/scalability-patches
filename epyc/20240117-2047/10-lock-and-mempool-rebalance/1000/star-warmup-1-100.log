@@ -1,0 +1,13 @@
+pgbench (17devel)
+transaction type: 20240117-2047/10-lock-and-mempool-rebalance/1000/star-1-100.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 32
+number of threads: 32
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 2170278
+number of failed transactions: 0 (0.000%)
+latency average = 0.885 ms
+initial connection time = 12.766 ms
+tps = 36178.193152 (without initial connection time)
