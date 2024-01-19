@@ -1,0 +1,16 @@
+2024-01-19 17:03:42.237 GMT [9232] LOG:  starting PostgreSQL 17devel on aarch64-unknown-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-01-19 17:03:42.238 GMT [9232] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-19 17:03:42.238 GMT [9232] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-19 17:03:42.249 GMT [9232] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-19 17:03:42.261 GMT [9235] LOG:  database system was shut down at 2024-01-19 17:03:40 GMT
+2024-01-19 17:03:42.274 GMT [9232] LOG:  database system is ready to accept connections
+2024-01-19 17:03:42.670 GMT [9233] LOG:  checkpoint starting: immediate force wait
+2024-01-19 17:03:42.970 GMT [9233] LOG:  checkpoint complete: wrote 958 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.027 s, sync=0.252 s, total=0.300 s; sync files=309, longest=0.187 s, average=0.001 s; distance=4578 kB, estimate=4578 kB; lsn=0/19677B0, redo lsn=0/1967758
+2024-01-19 17:06:43.388 GMT [9233] LOG:  checkpoint starting: immediate force wait
+2024-01-19 17:06:44.046 GMT [9233] LOG:  checkpoint complete: wrote 1046 buffers (0.8%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.024 s, sync=0.327 s, total=0.659 s; sync files=323, longest=0.229 s, average=0.002 s; distance=4969 kB, estimate=4969 kB; lsn=0/1E41CD0, redo lsn=0/1E41C78
+2024-01-19 17:09:44.514 GMT [9233] LOG:  checkpoint starting: immediate force wait
+2024-01-19 17:09:45.012 GMT [9233] LOG:  checkpoint complete: wrote 1048 buffers (0.8%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.027 s, sync=0.419 s, total=0.498 s; sync files=341, longest=0.316 s, average=0.002 s; distance=4886 kB, estimate=4961 kB; lsn=0/23078B0, redo lsn=0/2307858
+2024-01-19 17:12:46.312 GMT [9233] LOG:  checkpoint starting: immediate force wait
+2024-01-19 17:12:46.764 GMT [9233] LOG:  checkpoint complete: wrote 1560 buffers (1.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.034 s, sync=0.399 s, total=0.452 s; sync files=611, longest=0.247 s, average=0.001 s; distance=6171 kB, estimate=6171 kB; lsn=0/290E6E8, redo lsn=0/290E690
+2024-01-19 17:15:57.362 GMT [9233] LOG:  checkpoint starting: immediate force wait
+2024-01-19 17:15:58.531 GMT [9233] LOG:  checkpoint complete: wrote 4624 buffers (3.5%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.148 s, sync=0.995 s, total=1.169 s; sync files=2571, longest=0.612 s, average=0.001 s; distance=15767 kB, estimate=15767 kB; lsn=0/3874620, redo lsn=0/38745C8
