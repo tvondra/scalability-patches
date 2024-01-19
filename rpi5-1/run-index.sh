@@ -77,7 +77,7 @@ for s in 1 10; do
 		echo "\set aid random(1, 100000 * $s)" > $OUTDIR/index.sql
 		echo "select * from t where id = :aid;" >> $OUTDIR/index.sql
 
-		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f $OUTDIR/index.sql $DBNAME > $OUTDIR/index-warmup-$s-$p.log 2>&1
+		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f $OUTDIR/index.sql $DBNAME > $OUTDIR/index-warmup-$s-$i.log 2>&1
 
 		for r in $(seq 1 $RUNS); do
 
