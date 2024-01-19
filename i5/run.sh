@@ -22,7 +22,7 @@ PATH_OLD=$PATH
 
 DATE=`date +%Y%m%d-%H%M`
 
-export PATH=/mnt/raid/builds/pg-6-lock-only/bin:$PATH_OLD;
+export PATH=/mnt/raid/builds/pg-0-master/bin:$PATH_OLD;
 
 killall -9 postgres || true
 
@@ -32,6 +32,8 @@ if [ ! -d "data" ]; then
 	echo "max_connections = 1000" >> data/postgresql.conf
 	echo "shared_buffers = 2GB" >> data/postgresql.conf
 	echo "max_locks_per_transaction = 256" >> data/postgresql.conf
+	echo "max_parallel_workers_per_gather = 0" >> data/postgresql.conf
+	echo "random_page_cost = 1.5" >> data/postgresql.conf
 fi
 
 
