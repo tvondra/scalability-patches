@@ -33,6 +33,7 @@ if [ ! -d "data" ]; then
 	echo "shared_buffers = 8GB" >> data/postgresql.conf
 	echo "max_locks_per_transaction = 256" >> data/postgresql.conf
 	echo "max_parallel_workers_per_gather = 0" >> data/postgresql.conf
+	echo "random_page_cost = 1.5" >> data/postgresql.conf
 fi
 
 
