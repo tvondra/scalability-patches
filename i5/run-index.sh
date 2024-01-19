@@ -74,10 +74,10 @@ for s in 10 100 1000; do
 		psql $DBNAME -c "\di+" >> $OUTDIR/index.sizes.$s.$i.log 2>&1
 
 		# also generate the benchmark script
-		echo "\set aid random(1, 100000 * $s)" > index.sql
-		echo "select * from t where id = :aid;" >> index.sql
+		echo "\set aid random(1, 100000 * $s)" > $OUTDIR/index.sql
+		echo "select * from t where id = :aid;" >> $OUTDIR/index.sql
 
-		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f index.sql $DBNAME > $OUTDIR/index-warmup-$s-$i.log 2>&1
+		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f $OUTDIR/index.sql $DBNAME > $OUTDIR/index-warmup-$s-$i.log 2>&1
 
 		for r in $(seq 1 $RUNS); do
 
@@ -85,7 +85,7 @@ for s in 10 100 1000; do
 
 				for c in $CLIENTS; do
 
-					pgbench -n -M $m -T $DURATION -c $c -j $c -f index.sql $DBNAME > $OUTDIR/pgbench.log 2>&1
+					pgbench -n -M $m -T $DURATION -c $c -j $c -f $OUTDIR/index.sql $DBNAME > $OUTDIR/pgbench.log 2>&1
 
 					lat_avg=$(grep 'latency average' $OUTDIR/pgbench.log | awk '{print $4}')
 					lat_std=$(grep 'latency stddev' $OUTDIR/pgbench.log | awk '{print $4}')
