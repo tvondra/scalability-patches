@@ -2268,3 +2268,810 @@ CREATE TABLE
 INSERT 0 1000
 VACUUM
 CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.11 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.54 s (drop tables 0.00 s, create tables 0.01 s, client-side generate 0.30 s, vacuum 0.06 s, primary keys 0.17 s).
+ALTER TABLE
+UPDATE 100000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.12 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 7.76 s (drop tables 0.00 s, create tables 0.02 s, client-side generate 3.11 s, vacuum 0.90 s, primary keys 3.73 s).
+ALTER TABLE
+UPDATE 100000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 10 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.19 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.95 s (drop tables 0.00 s, create tables 0.05 s, client-side generate 0.39 s, vacuum 0.21 s, primary keys 0.31 s).
+ALTER TABLE
+UPDATE 100000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 100 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.70 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 3.88 s (drop tables 0.00 s, create tables 0.59 s, client-side generate 0.93 s, vacuum 0.61 s, primary keys 1.74 s).
+ALTER TABLE
+UPDATE 100000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1000 partitions...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.34 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 38.44 s (drop tables 0.00 s, create tables 14.64 s, client-side generate 0.68 s, vacuum 4.22 s, primary keys 18.91 s).
+ALTER TABLE
+UPDATE 100000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.11 s, remaining 0.96 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.66 s, remaining 2.65 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 1.04 s, remaining 2.44 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.15 s, remaining 1.73 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.56 s, remaining 1.56 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 1.94 s, remaining 1.29 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.33 s, remaining 1.00 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.69 s, remaining 0.67 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 2.82 s, remaining 0.31 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 3.20 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.04 s (drop tables 0.00 s, create tables 0.01 s, client-side generate 3.64 s, vacuum 0.16 s, primary keys 1.23 s).
+ALTER TABLE
+UPDATE 1000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1 partitions...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.11 s, remaining 1.03 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.55 s, remaining 2.22 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.66 s, remaining 1.54 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.08 s, remaining 1.62 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.47 s, remaining 1.47 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 4.27 s, remaining 2.84 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 8.96 s, remaining 3.84 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 14.03 s, remaining 3.51 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 14.16 s, remaining 1.57 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 18.42 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 23.15 s (drop tables 0.00 s, create tables 0.07 s, client-side generate 21.27 s, vacuum 0.59 s, primary keys 1.23 s).
+ALTER TABLE
+UPDATE 1000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 10 partitions...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.10 s, remaining 0.89 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.21 s, remaining 0.84 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.89 s, remaining 2.08 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.33 s, remaining 1.99 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.42 s, remaining 1.42 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 2.64 s, remaining 1.76 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.75 s, remaining 1.18 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 4.92 s, remaining 1.23 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 5.04 s, remaining 0.56 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 5.60 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 21.39 s (drop tables 0.00 s, create tables 0.05 s, client-side generate 6.05 s, vacuum 0.80 s, primary keys 14.49 s).
+ALTER TABLE
+UPDATE 1000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 100 partitions...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.14 s, remaining 1.27 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.38 s, remaining 1.54 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.68 s, remaining 1.59 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.15 s, remaining 1.72 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.33 s, remaining 1.33 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 1.76 s, remaining 1.17 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.25 s, remaining 0.96 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.73 s, remaining 0.68 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 2.87 s, remaining 0.32 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 3.31 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 19.22 s (drop tables 0.00 s, create tables 0.58 s, client-side generate 3.66 s, vacuum 11.76 s, primary keys 3.21 s).
+ALTER TABLE
+UPDATE 1000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1000 partitions...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.47 s, remaining 4.23 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 1.15 s, remaining 4.61 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 1.96 s, remaining 4.57 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 2.64 s, remaining 3.96 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 3.39 s, remaining 3.39 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 3.94 s, remaining 2.63 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 4.66 s, remaining 2.00 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 5.18 s, remaining 1.30 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 5.76 s, remaining 0.64 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 6.61 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 75.04 s (drop tables 0.00 s, create tables 17.14 s, client-side generate 6.96 s, vacuum 4.74 s, primary keys 46.20 s).
+ALTER TABLE
+UPDATE 1000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+generating data (client-side)...
+100000 of 10000000 tuples (1%) of pgbench_accounts done (elapsed 0.08 s, remaining 7.86 s)
+200000 of 10000000 tuples (2%) of pgbench_accounts done (elapsed 0.48 s, remaining 23.35 s)
+300000 of 10000000 tuples (3%) of pgbench_accounts done (elapsed 0.87 s, remaining 28.03 s)
+400000 of 10000000 tuples (4%) of pgbench_accounts done (elapsed 1.28 s, remaining 30.74 s)
+500000 of 10000000 tuples (5%) of pgbench_accounts done (elapsed 1.65 s, remaining 31.28 s)
+600000 of 10000000 tuples (6%) of pgbench_accounts done (elapsed 1.74 s, remaining 27.26 s)
+700000 of 10000000 tuples (7%) of pgbench_accounts done (elapsed 2.15 s, remaining 28.50 s)
+800000 of 10000000 tuples (8%) of pgbench_accounts done (elapsed 2.70 s, remaining 31.09 s)
+900000 of 10000000 tuples (9%) of pgbench_accounts done (elapsed 3.09 s, remaining 31.20 s)
+1000000 of 10000000 tuples (10%) of pgbench_accounts done (elapsed 3.44 s, remaining 31.00 s)
+1100000 of 10000000 tuples (11%) of pgbench_accounts done (elapsed 3.54 s, remaining 28.66 s)
+1200000 of 10000000 tuples (12%) of pgbench_accounts done (elapsed 3.96 s, remaining 29.03 s)
+1300000 of 10000000 tuples (13%) of pgbench_accounts done (elapsed 4.35 s, remaining 29.10 s)
+1400000 of 10000000 tuples (14%) of pgbench_accounts done (elapsed 4.73 s, remaining 29.07 s)
+1500000 of 10000000 tuples (15%) of pgbench_accounts done (elapsed 4.82 s, remaining 27.32 s)
+1600000 of 10000000 tuples (16%) of pgbench_accounts done (elapsed 5.34 s, remaining 28.03 s)
+1700000 of 10000000 tuples (17%) of pgbench_accounts done (elapsed 5.75 s, remaining 28.05 s)
+1800000 of 10000000 tuples (18%) of pgbench_accounts done (elapsed 6.10 s, remaining 27.80 s)
+1900000 of 10000000 tuples (19%) of pgbench_accounts done (elapsed 6.49 s, remaining 27.65 s)
+2000000 of 10000000 tuples (20%) of pgbench_accounts done (elapsed 11.26 s, remaining 45.04 s)
+2100000 of 10000000 tuples (21%) of pgbench_accounts done (elapsed 11.38 s, remaining 42.82 s)
+2200000 of 10000000 tuples (22%) of pgbench_accounts done (elapsed 15.59 s, remaining 55.29 s)
+2300000 of 10000000 tuples (23%) of pgbench_accounts done (elapsed 17.92 s, remaining 59.99 s)
+2400000 of 10000000 tuples (24%) of pgbench_accounts done (elapsed 18.30 s, remaining 57.97 s)
+2500000 of 10000000 tuples (25%) of pgbench_accounts done (elapsed 18.39 s, remaining 55.18 s)
+2600000 of 10000000 tuples (26%) of pgbench_accounts done (elapsed 18.93 s, remaining 53.89 s)
+2700000 of 10000000 tuples (27%) of pgbench_accounts done (elapsed 23.61 s, remaining 63.83 s)
+2800000 of 10000000 tuples (28%) of pgbench_accounts done (elapsed 27.74 s, remaining 71.32 s)
+2900000 of 10000000 tuples (29%) of pgbench_accounts done (elapsed 27.82 s, remaining 68.12 s)
+3000000 of 10000000 tuples (30%) of pgbench_accounts done (elapsed 28.16 s, remaining 65.72 s)
+3100000 of 10000000 tuples (31%) of pgbench_accounts done (elapsed 28.52 s, remaining 63.47 s)
+3200000 of 10000000 tuples (32%) of pgbench_accounts done (elapsed 28.87 s, remaining 61.36 s)
+3300000 of 10000000 tuples (33%) of pgbench_accounts done (elapsed 29.26 s, remaining 59.41 s)
+3400000 of 10000000 tuples (34%) of pgbench_accounts done (elapsed 29.35 s, remaining 56.97 s)
+3500000 of 10000000 tuples (35%) of pgbench_accounts done (elapsed 29.72 s, remaining 55.19 s)
+3600000 of 10000000 tuples (36%) of pgbench_accounts done (elapsed 30.06 s, remaining 53.44 s)
+3700000 of 10000000 tuples (37%) of pgbench_accounts done (elapsed 30.73 s, remaining 52.32 s)
+3800000 of 10000000 tuples (38%) of pgbench_accounts done (elapsed 47.53 s, remaining 77.56 s)
+3900000 of 10000000 tuples (39%) of pgbench_accounts done (elapsed 47.66 s, remaining 74.55 s)
+4000000 of 10000000 tuples (40%) of pgbench_accounts done (elapsed 64.05 s, remaining 96.08 s)
+4100000 of 10000000 tuples (41%) of pgbench_accounts done (elapsed 90.90 s, remaining 130.81 s)
+4200000 of 10000000 tuples (42%) of pgbench_accounts done (elapsed 94.48 s, remaining 130.47 s)
+4300000 of 10000000 tuples (43%) of pgbench_accounts done (elapsed 105.13 s, remaining 139.36 s)
+4400000 of 10000000 tuples (44%) of pgbench_accounts done (elapsed 105.26 s, remaining 133.97 s)
+4500000 of 10000000 tuples (45%) of pgbench_accounts done (elapsed 112.16 s, remaining 137.09 s)
+4600000 of 10000000 tuples (46%) of pgbench_accounts done (elapsed 112.52 s, remaining 132.09 s)
+4700000 of 10000000 tuples (47%) of pgbench_accounts done (elapsed 112.87 s, remaining 127.28 s)
+4800000 of 10000000 tuples (48%) of pgbench_accounts done (elapsed 113.25 s, remaining 122.69 s)
+4900000 of 10000000 tuples (49%) of pgbench_accounts done (elapsed 113.34 s, remaining 117.97 s)
+5000000 of 10000000 tuples (50%) of pgbench_accounts done (elapsed 113.73 s, remaining 113.73 s)
+5100000 of 10000000 tuples (51%) of pgbench_accounts done (elapsed 114.20 s, remaining 109.72 s)
+5200000 of 10000000 tuples (52%) of pgbench_accounts done (elapsed 114.77 s, remaining 105.95 s)
+5300000 of 10000000 tuples (53%) of pgbench_accounts done (elapsed 115.19 s, remaining 102.15 s)
+5400000 of 10000000 tuples (54%) of pgbench_accounts done (elapsed 115.28 s, remaining 98.20 s)
+5500000 of 10000000 tuples (55%) of pgbench_accounts done (elapsed 116.37 s, remaining 95.22 s)
+5600000 of 10000000 tuples (56%) of pgbench_accounts done (elapsed 124.04 s, remaining 97.46 s)
+5700000 of 10000000 tuples (57%) of pgbench_accounts done (elapsed 124.41 s, remaining 93.85 s)
+5800000 of 10000000 tuples (58%) of pgbench_accounts done (elapsed 124.53 s, remaining 90.18 s)
+5900000 of 10000000 tuples (59%) of pgbench_accounts done (elapsed 124.93 s, remaining 86.81 s)
+6000000 of 10000000 tuples (60%) of pgbench_accounts done (elapsed 125.27 s, remaining 83.52 s)
+6100000 of 10000000 tuples (61%) of pgbench_accounts done (elapsed 156.58 s, remaining 100.11 s)
+6200000 of 10000000 tuples (62%) of pgbench_accounts done (elapsed 156.69 s, remaining 96.04 s)
+6300000 of 10000000 tuples (63%) of pgbench_accounts done (elapsed 184.71 s, remaining 108.48 s)
+6400000 of 10000000 tuples (64%) of pgbench_accounts done (elapsed 195.71 s, remaining 110.09 s)
+6500000 of 10000000 tuples (65%) of pgbench_accounts done (elapsed 198.02 s, remaining 106.63 s)
+6600000 of 10000000 tuples (66%) of pgbench_accounts done (elapsed 198.36 s, remaining 102.19 s)
+6700000 of 10000000 tuples (67%) of pgbench_accounts done (elapsed 198.45 s, remaining 97.75 s)
+6800000 of 10000000 tuples (68%) of pgbench_accounts done (elapsed 199.14 s, remaining 93.71 s)
+6900000 of 10000000 tuples (69%) of pgbench_accounts done (elapsed 199.50 s, remaining 89.63 s)
+7000000 of 10000000 tuples (70%) of pgbench_accounts done (elapsed 200.15 s, remaining 85.78 s)
+7100000 of 10000000 tuples (71%) of pgbench_accounts done (elapsed 201.04 s, remaining 82.11 s)
+7200000 of 10000000 tuples (72%) of pgbench_accounts done (elapsed 201.15 s, remaining 78.23 s)
+7300000 of 10000000 tuples (73%) of pgbench_accounts done (elapsed 201.89 s, remaining 74.67 s)
+7400000 of 10000000 tuples (74%) of pgbench_accounts done (elapsed 210.49 s, remaining 73.95 s)
+7500000 of 10000000 tuples (75%) of pgbench_accounts done (elapsed 211.02 s, remaining 70.34 s)
+7600000 of 10000000 tuples (76%) of pgbench_accounts done (elapsed 211.71 s, remaining 66.85 s)
+7700000 of 10000000 tuples (77%) of pgbench_accounts done (elapsed 211.79 s, remaining 63.26 s)
+7800000 of 10000000 tuples (78%) of pgbench_accounts done (elapsed 249.36 s, remaining 70.33 s)
+7900000 of 10000000 tuples (79%) of pgbench_accounts done (elapsed 257.10 s, remaining 68.34 s)
+8000000 of 10000000 tuples (80%) of pgbench_accounts done (elapsed 260.69 s, remaining 65.17 s)
+8100000 of 10000000 tuples (81%) of pgbench_accounts done (elapsed 269.39 s, remaining 63.19 s)
+8200000 of 10000000 tuples (82%) of pgbench_accounts done (elapsed 269.51 s, remaining 59.16 s)
+8300000 of 10000000 tuples (83%) of pgbench_accounts done (elapsed 271.56 s, remaining 55.62 s)
+8400000 of 10000000 tuples (84%) of pgbench_accounts done (elapsed 272.22 s, remaining 51.85 s)
+8500000 of 10000000 tuples (85%) of pgbench_accounts done (elapsed 273.05 s, remaining 48.19 s)
+8600000 of 10000000 tuples (86%) of pgbench_accounts done (elapsed 273.74 s, remaining 44.56 s)
+8700000 of 10000000 tuples (87%) of pgbench_accounts done (elapsed 273.82 s, remaining 40.92 s)
+8800000 of 10000000 tuples (88%) of pgbench_accounts done (elapsed 299.10 s, remaining 40.79 s)
+8900000 of 10000000 tuples (89%) of pgbench_accounts done (elapsed 299.58 s, remaining 37.03 s)
+9000000 of 10000000 tuples (90%) of pgbench_accounts done (elapsed 300.03 s, remaining 33.34 s)
+9100000 of 10000000 tuples (91%) of pgbench_accounts done (elapsed 300.13 s, remaining 29.68 s)
+9200000 of 10000000 tuples (92%) of pgbench_accounts done (elapsed 303.22 s, remaining 26.37 s)
+9300000 of 10000000 tuples (93%) of pgbench_accounts done (elapsed 308.70 s, remaining 23.24 s)
+9400000 of 10000000 tuples (94%) of pgbench_accounts done (elapsed 310.56 s, remaining 19.82 s)
+9500000 of 10000000 tuples (95%) of pgbench_accounts done (elapsed 314.30 s, remaining 16.54 s)
+9600000 of 10000000 tuples (96%) of pgbench_accounts done (elapsed 314.69 s, remaining 13.11 s)
+9700000 of 10000000 tuples (97%) of pgbench_accounts done (elapsed 315.08 s, remaining 9.74 s)
+9800000 of 10000000 tuples (98%) of pgbench_accounts done (elapsed 315.43 s, remaining 6.44 s)
+9900000 of 10000000 tuples (99%) of pgbench_accounts done (elapsed 315.52 s, remaining 3.19 s)
+10000000 of 10000000 tuples (100%) of pgbench_accounts done (elapsed 315.87 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 426.80 s (drop tables 0.00 s, create tables 0.13 s, client-side generate 316.12 s, vacuum 0.23 s, primary keys 110.31 s).
+ALTER TABLE
+UPDATE 10000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1 partitions...
+generating data (client-side)...
+100000 of 10000000 tuples (1%) of pgbench_accounts done (elapsed 0.08 s, remaining 8.25 s)
+200000 of 10000000 tuples (2%) of pgbench_accounts done (elapsed 4.24 s, remaining 207.77 s)
+300000 of 10000000 tuples (3%) of pgbench_accounts done (elapsed 6.79 s, remaining 219.54 s)
+400000 of 10000000 tuples (4%) of pgbench_accounts done (elapsed 6.89 s, remaining 165.35 s)
+500000 of 10000000 tuples (5%) of pgbench_accounts done (elapsed 7.24 s, remaining 137.48 s)
+600000 of 10000000 tuples (6%) of pgbench_accounts done (elapsed 11.21 s, remaining 175.59 s)
+700000 of 10000000 tuples (7%) of pgbench_accounts done (elapsed 15.46 s, remaining 205.35 s)
+800000 of 10000000 tuples (8%) of pgbench_accounts done (elapsed 18.78 s, remaining 215.95 s)
+900000 of 10000000 tuples (9%) of pgbench_accounts done (elapsed 22.58 s, remaining 228.31 s)
+1000000 of 10000000 tuples (10%) of pgbench_accounts done (elapsed 22.97 s, remaining 206.69 s)
+1100000 of 10000000 tuples (11%) of pgbench_accounts done (elapsed 23.06 s, remaining 186.57 s)
+1200000 of 10000000 tuples (12%) of pgbench_accounts done (elapsed 23.44 s, remaining 171.88 s)
+1300000 of 10000000 tuples (13%) of pgbench_accounts done (elapsed 24.02 s, remaining 160.72 s)
+1400000 of 10000000 tuples (14%) of pgbench_accounts done (elapsed 24.41 s, remaining 149.92 s)
+1500000 of 10000000 tuples (15%) of pgbench_accounts done (elapsed 24.80 s, remaining 140.54 s)
+1600000 of 10000000 tuples (16%) of pgbench_accounts done (elapsed 24.90 s, remaining 130.71 s)
+1700000 of 10000000 tuples (17%) of pgbench_accounts done (elapsed 25.29 s, remaining 123.46 s)
+1800000 of 10000000 tuples (18%) of pgbench_accounts done (elapsed 26.07 s, remaining 118.78 s)
+1900000 of 10000000 tuples (19%) of pgbench_accounts done (elapsed 27.46 s, remaining 117.05 s)
+2000000 of 10000000 tuples (20%) of pgbench_accounts done (elapsed 32.18 s, remaining 128.73 s)
+2100000 of 10000000 tuples (21%) of pgbench_accounts done (elapsed 32.30 s, remaining 121.53 s)
+2200000 of 10000000 tuples (22%) of pgbench_accounts done (elapsed 50.19 s, remaining 177.93 s)
+2300000 of 10000000 tuples (23%) of pgbench_accounts done (elapsed 60.53 s, remaining 202.64 s)
+2400000 of 10000000 tuples (24%) of pgbench_accounts done (elapsed 60.89 s, remaining 192.82 s)
+2500000 of 10000000 tuples (25%) of pgbench_accounts done (elapsed 61.29 s, remaining 183.87 s)
+2600000 of 10000000 tuples (26%) of pgbench_accounts done (elapsed 61.38 s, remaining 174.70 s)
+2700000 of 10000000 tuples (27%) of pgbench_accounts done (elapsed 61.73 s, remaining 166.90 s)
+2800000 of 10000000 tuples (28%) of pgbench_accounts done (elapsed 62.09 s, remaining 159.66 s)
+2900000 of 10000000 tuples (29%) of pgbench_accounts done (elapsed 62.62 s, remaining 153.30 s)
+3000000 of 10000000 tuples (30%) of pgbench_accounts done (elapsed 63.00 s, remaining 147.01 s)
+3100000 of 10000000 tuples (31%) of pgbench_accounts done (elapsed 63.09 s, remaining 140.44 s)
+3200000 of 10000000 tuples (32%) of pgbench_accounts done (elapsed 63.49 s, remaining 134.91 s)
+3300000 of 10000000 tuples (33%) of pgbench_accounts done (elapsed 63.84 s, remaining 129.61 s)
+3400000 of 10000000 tuples (34%) of pgbench_accounts done (elapsed 65.72 s, remaining 127.57 s)
+3500000 of 10000000 tuples (35%) of pgbench_accounts done (elapsed 68.57 s, remaining 127.34 s)
+3600000 of 10000000 tuples (36%) of pgbench_accounts done (elapsed 72.01 s, remaining 128.01 s)
+3700000 of 10000000 tuples (37%) of pgbench_accounts done (elapsed 72.36 s, remaining 123.20 s)
+3800000 of 10000000 tuples (38%) of pgbench_accounts done (elapsed 72.45 s, remaining 118.20 s)
+3900000 of 10000000 tuples (39%) of pgbench_accounts done (elapsed 72.82 s, remaining 113.90 s)
+4000000 of 10000000 tuples (40%) of pgbench_accounts done (elapsed 73.18 s, remaining 109.76 s)
+4100000 of 10000000 tuples (41%) of pgbench_accounts done (elapsed 73.53 s, remaining 105.81 s)
+4200000 of 10000000 tuples (42%) of pgbench_accounts done (elapsed 73.87 s, remaining 102.00 s)
+4300000 of 10000000 tuples (43%) of pgbench_accounts done (elapsed 73.97 s, remaining 98.05 s)
+4400000 of 10000000 tuples (44%) of pgbench_accounts done (elapsed 74.36 s, remaining 94.64 s)
+4500000 of 10000000 tuples (45%) of pgbench_accounts done (elapsed 74.75 s, remaining 91.36 s)
+4600000 of 10000000 tuples (46%) of pgbench_accounts done (elapsed 75.09 s, remaining 88.15 s)
+4700000 of 10000000 tuples (47%) of pgbench_accounts done (elapsed 75.57 s, remaining 85.21 s)
+4800000 of 10000000 tuples (48%) of pgbench_accounts done (elapsed 75.66 s, remaining 81.97 s)
+4900000 of 10000000 tuples (49%) of pgbench_accounts done (elapsed 76.00 s, remaining 79.11 s)
+5000000 of 10000000 tuples (50%) of pgbench_accounts done (elapsed 78.69 s, remaining 78.69 s)
+5100000 of 10000000 tuples (51%) of pgbench_accounts done (elapsed 79.12 s, remaining 76.01 s)
+5200000 of 10000000 tuples (52%) of pgbench_accounts done (elapsed 79.24 s, remaining 73.14 s)
+5300000 of 10000000 tuples (53%) of pgbench_accounts done (elapsed 79.63 s, remaining 70.62 s)
+5400000 of 10000000 tuples (54%) of pgbench_accounts done (elapsed 85.01 s, remaining 72.42 s)
+5500000 of 10000000 tuples (55%) of pgbench_accounts done (elapsed 92.57 s, remaining 75.74 s)
+5600000 of 10000000 tuples (56%) of pgbench_accounts done (elapsed 92.95 s, remaining 73.03 s)
+5700000 of 10000000 tuples (57%) of pgbench_accounts done (elapsed 93.04 s, remaining 70.19 s)
+5800000 of 10000000 tuples (58%) of pgbench_accounts done (elapsed 102.07 s, remaining 73.91 s)
+5900000 of 10000000 tuples (59%) of pgbench_accounts done (elapsed 115.84 s, remaining 80.50 s)
+6000000 of 10000000 tuples (60%) of pgbench_accounts done (elapsed 137.60 s, remaining 91.73 s)
+6100000 of 10000000 tuples (61%) of pgbench_accounts done (elapsed 141.03 s, remaining 90.17 s)
+6200000 of 10000000 tuples (62%) of pgbench_accounts done (elapsed 141.13 s, remaining 86.50 s)
+6300000 of 10000000 tuples (63%) of pgbench_accounts done (elapsed 141.86 s, remaining 83.31 s)
+6400000 of 10000000 tuples (64%) of pgbench_accounts done (elapsed 142.49 s, remaining 80.15 s)
+6500000 of 10000000 tuples (65%) of pgbench_accounts done (elapsed 142.93 s, remaining 76.96 s)
+6600000 of 10000000 tuples (66%) of pgbench_accounts done (elapsed 143.34 s, remaining 73.84 s)
+6700000 of 10000000 tuples (67%) of pgbench_accounts done (elapsed 143.43 s, remaining 70.64 s)
+6800000 of 10000000 tuples (68%) of pgbench_accounts done (elapsed 143.81 s, remaining 67.68 s)
+6900000 of 10000000 tuples (69%) of pgbench_accounts done (elapsed 145.89 s, remaining 65.55 s)
+7000000 of 10000000 tuples (70%) of pgbench_accounts done (elapsed 152.26 s, remaining 65.25 s)
+7100000 of 10000000 tuples (71%) of pgbench_accounts done (elapsed 156.64 s, remaining 63.98 s)
+7200000 of 10000000 tuples (72%) of pgbench_accounts done (elapsed 156.73 s, remaining 60.95 s)
+7300000 of 10000000 tuples (73%) of pgbench_accounts done (elapsed 160.47 s, remaining 59.35 s)
+7400000 of 10000000 tuples (74%) of pgbench_accounts done (elapsed 160.80 s, remaining 56.50 s)
+7500000 of 10000000 tuples (75%) of pgbench_accounts done (elapsed 161.16 s, remaining 53.72 s)
+7600000 of 10000000 tuples (76%) of pgbench_accounts done (elapsed 161.52 s, remaining 51.01 s)
+7700000 of 10000000 tuples (77%) of pgbench_accounts done (elapsed 161.87 s, remaining 48.35 s)
+7800000 of 10000000 tuples (78%) of pgbench_accounts done (elapsed 161.97 s, remaining 45.68 s)
+7900000 of 10000000 tuples (79%) of pgbench_accounts done (elapsed 162.34 s, remaining 43.15 s)
+8000000 of 10000000 tuples (80%) of pgbench_accounts done (elapsed 162.68 s, remaining 40.67 s)
+8100000 of 10000000 tuples (81%) of pgbench_accounts done (elapsed 163.22 s, remaining 38.29 s)
+8200000 of 10000000 tuples (82%) of pgbench_accounts done (elapsed 163.57 s, remaining 35.91 s)
+8300000 of 10000000 tuples (83%) of pgbench_accounts done (elapsed 163.66 s, remaining 33.52 s)
+8400000 of 10000000 tuples (84%) of pgbench_accounts done (elapsed 164.06 s, remaining 31.25 s)
+8500000 of 10000000 tuples (85%) of pgbench_accounts done (elapsed 164.46 s, remaining 29.02 s)
+8600000 of 10000000 tuples (86%) of pgbench_accounts done (elapsed 164.82 s, remaining 26.83 s)
+8700000 of 10000000 tuples (87%) of pgbench_accounts done (elapsed 165.17 s, remaining 24.68 s)
+8800000 of 10000000 tuples (88%) of pgbench_accounts done (elapsed 165.26 s, remaining 22.54 s)
+8900000 of 10000000 tuples (89%) of pgbench_accounts done (elapsed 165.67 s, remaining 20.48 s)
+9000000 of 10000000 tuples (90%) of pgbench_accounts done (elapsed 166.57 s, remaining 18.51 s)
+9100000 of 10000000 tuples (91%) of pgbench_accounts done (elapsed 171.23 s, remaining 16.93 s)
+9200000 of 10000000 tuples (92%) of pgbench_accounts done (elapsed 174.21 s, remaining 15.15 s)
+9300000 of 10000000 tuples (93%) of pgbench_accounts done (elapsed 174.30 s, remaining 13.12 s)
+9400000 of 10000000 tuples (94%) of pgbench_accounts done (elapsed 192.69 s, remaining 12.30 s)
+9500000 of 10000000 tuples (95%) of pgbench_accounts done (elapsed 208.08 s, remaining 10.95 s)
+9600000 of 10000000 tuples (96%) of pgbench_accounts done (elapsed 224.75 s, remaining 9.36 s)
+9700000 of 10000000 tuples (97%) of pgbench_accounts done (elapsed 247.48 s, remaining 7.65 s)
+9800000 of 10000000 tuples (98%) of pgbench_accounts done (elapsed 247.61 s, remaining 5.05 s)
+9900000 of 10000000 tuples (99%) of pgbench_accounts done (elapsed 248.40 s, remaining 2.51 s)
+10000000 of 10000000 tuples (100%) of pgbench_accounts done (elapsed 248.59 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 480.09 s (drop tables 0.00 s, create tables 0.69 s, client-side generate 248.85 s, vacuum 43.04 s, primary keys 187.50 s).
+ALTER TABLE
+UPDATE 10000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 10 partitions...
+generating data (client-side)...
+100000 of 10000000 tuples (1%) of pgbench_accounts done (elapsed 0.11 s, remaining 10.74 s)
+200000 of 10000000 tuples (2%) of pgbench_accounts done (elapsed 0.46 s, remaining 22.69 s)
+300000 of 10000000 tuples (3%) of pgbench_accounts done (elapsed 2.65 s, remaining 85.72 s)
+400000 of 10000000 tuples (4%) of pgbench_accounts done (elapsed 4.34 s, remaining 104.07 s)
+500000 of 10000000 tuples (5%) of pgbench_accounts done (elapsed 4.72 s, remaining 89.73 s)
+600000 of 10000000 tuples (6%) of pgbench_accounts done (elapsed 4.83 s, remaining 75.65 s)
+700000 of 10000000 tuples (7%) of pgbench_accounts done (elapsed 5.39 s, remaining 71.57 s)
+800000 of 10000000 tuples (8%) of pgbench_accounts done (elapsed 5.74 s, remaining 66.06 s)
+900000 of 10000000 tuples (9%) of pgbench_accounts done (elapsed 6.13 s, remaining 62.00 s)
+1000000 of 10000000 tuples (10%) of pgbench_accounts done (elapsed 9.12 s, remaining 82.08 s)
+1100000 of 10000000 tuples (11%) of pgbench_accounts done (elapsed 9.21 s, remaining 74.50 s)
+1200000 of 10000000 tuples (12%) of pgbench_accounts done (elapsed 14.00 s, remaining 102.63 s)
+1300000 of 10000000 tuples (13%) of pgbench_accounts done (elapsed 18.47 s, remaining 123.61 s)
+1400000 of 10000000 tuples (14%) of pgbench_accounts done (elapsed 21.50 s, remaining 132.07 s)
+1500000 of 10000000 tuples (15%) of pgbench_accounts done (elapsed 21.62 s, remaining 122.52 s)
+1600000 of 10000000 tuples (16%) of pgbench_accounts done (elapsed 21.99 s, remaining 115.46 s)
+1700000 of 10000000 tuples (17%) of pgbench_accounts done (elapsed 22.49 s, remaining 109.81 s)
+1800000 of 10000000 tuples (18%) of pgbench_accounts done (elapsed 22.88 s, remaining 104.22 s)
+1900000 of 10000000 tuples (19%) of pgbench_accounts done (elapsed 23.22 s, remaining 98.98 s)
+2000000 of 10000000 tuples (20%) of pgbench_accounts done (elapsed 23.60 s, remaining 94.38 s)
+2100000 of 10000000 tuples (21%) of pgbench_accounts done (elapsed 23.69 s, remaining 89.12 s)
+2200000 of 10000000 tuples (22%) of pgbench_accounts done (elapsed 24.04 s, remaining 85.22 s)
+2300000 of 10000000 tuples (23%) of pgbench_accounts done (elapsed 24.38 s, remaining 81.63 s)
+2400000 of 10000000 tuples (24%) of pgbench_accounts done (elapsed 24.73 s, remaining 78.32 s)
+2500000 of 10000000 tuples (25%) of pgbench_accounts done (elapsed 24.82 s, remaining 74.47 s)
+2600000 of 10000000 tuples (26%) of pgbench_accounts done (elapsed 25.19 s, remaining 71.69 s)
+2700000 of 10000000 tuples (27%) of pgbench_accounts done (elapsed 25.58 s, remaining 69.16 s)
+2800000 of 10000000 tuples (28%) of pgbench_accounts done (elapsed 26.09 s, remaining 67.10 s)
+2900000 of 10000000 tuples (29%) of pgbench_accounts done (elapsed 26.45 s, remaining 64.76 s)
+3000000 of 10000000 tuples (30%) of pgbench_accounts done (elapsed 26.55 s, remaining 61.94 s)
+3100000 of 10000000 tuples (31%) of pgbench_accounts done (elapsed 26.98 s, remaining 60.05 s)
+3200000 of 10000000 tuples (32%) of pgbench_accounts done (elapsed 27.35 s, remaining 58.13 s)
+3300000 of 10000000 tuples (33%) of pgbench_accounts done (elapsed 27.72 s, remaining 56.29 s)
+3400000 of 10000000 tuples (34%) of pgbench_accounts done (elapsed 28.25 s, remaining 54.84 s)
+3500000 of 10000000 tuples (35%) of pgbench_accounts done (elapsed 28.35 s, remaining 52.64 s)
+3600000 of 10000000 tuples (36%) of pgbench_accounts done (elapsed 28.70 s, remaining 51.02 s)
+3700000 of 10000000 tuples (37%) of pgbench_accounts done (elapsed 34.27 s, remaining 58.36 s)
+3800000 of 10000000 tuples (38%) of pgbench_accounts done (elapsed 37.25 s, remaining 60.77 s)
+3900000 of 10000000 tuples (39%) of pgbench_accounts done (elapsed 37.59 s, remaining 58.80 s)
+4000000 of 10000000 tuples (40%) of pgbench_accounts done (elapsed 37.69 s, remaining 56.53 s)
+4100000 of 10000000 tuples (41%) of pgbench_accounts done (elapsed 37.78 s, remaining 54.36 s)
+4200000 of 10000000 tuples (42%) of pgbench_accounts done (elapsed 38.39 s, remaining 53.01 s)
+4300000 of 10000000 tuples (43%) of pgbench_accounts done (elapsed 38.78 s, remaining 51.41 s)
+4400000 of 10000000 tuples (44%) of pgbench_accounts done (elapsed 49.46 s, remaining 62.96 s)
+4500000 of 10000000 tuples (45%) of pgbench_accounts done (elapsed 54.89 s, remaining 67.09 s)
+4600000 of 10000000 tuples (46%) of pgbench_accounts done (elapsed 55.03 s, remaining 64.60 s)
+4700000 of 10000000 tuples (47%) of pgbench_accounts done (elapsed 55.40 s, remaining 62.48 s)
+4800000 of 10000000 tuples (48%) of pgbench_accounts done (elapsed 55.84 s, remaining 60.49 s)
+4900000 of 10000000 tuples (49%) of pgbench_accounts done (elapsed 56.37 s, remaining 58.67 s)
+5000000 of 10000000 tuples (50%) of pgbench_accounts done (elapsed 56.47 s, remaining 56.47 s)
+5100000 of 10000000 tuples (51%) of pgbench_accounts done (elapsed 56.87 s, remaining 54.64 s)
+5200000 of 10000000 tuples (52%) of pgbench_accounts done (elapsed 70.86 s, remaining 65.41 s)
+5300000 of 10000000 tuples (53%) of pgbench_accounts done (elapsed 82.11 s, remaining 72.81 s)
+5400000 of 10000000 tuples (54%) of pgbench_accounts done (elapsed 118.26 s, remaining 100.74 s)
+5500000 of 10000000 tuples (55%) of pgbench_accounts done (elapsed 118.38 s, remaining 96.86 s)
+5600000 of 10000000 tuples (56%) of pgbench_accounts done (elapsed 127.08 s, remaining 99.85 s)
+5700000 of 10000000 tuples (57%) of pgbench_accounts done (elapsed 127.43 s, remaining 96.13 s)
+5800000 of 10000000 tuples (58%) of pgbench_accounts done (elapsed 127.82 s, remaining 92.56 s)
+5900000 of 10000000 tuples (59%) of pgbench_accounts done (elapsed 128.23 s, remaining 89.11 s)
+6000000 of 10000000 tuples (60%) of pgbench_accounts done (elapsed 128.33 s, remaining 85.55 s)
+6100000 of 10000000 tuples (61%) of pgbench_accounts done (elapsed 128.68 s, remaining 82.27 s)
+6200000 of 10000000 tuples (62%) of pgbench_accounts done (elapsed 129.02 s, remaining 79.08 s)
+6300000 of 10000000 tuples (63%) of pgbench_accounts done (elapsed 129.50 s, remaining 76.06 s)
+6400000 of 10000000 tuples (64%) of pgbench_accounts done (elapsed 129.95 s, remaining 73.10 s)
+6500000 of 10000000 tuples (65%) of pgbench_accounts done (elapsed 130.04 s, remaining 70.02 s)
+6600000 of 10000000 tuples (66%) of pgbench_accounts done (elapsed 130.49 s, remaining 67.22 s)
+6700000 of 10000000 tuples (67%) of pgbench_accounts done (elapsed 131.32 s, remaining 64.68 s)
+6800000 of 10000000 tuples (68%) of pgbench_accounts done (elapsed 133.60 s, remaining 62.87 s)
+6900000 of 10000000 tuples (69%) of pgbench_accounts done (elapsed 133.99 s, remaining 60.20 s)
+7000000 of 10000000 tuples (70%) of pgbench_accounts done (elapsed 134.08 s, remaining 57.46 s)
+7100000 of 10000000 tuples (71%) of pgbench_accounts done (elapsed 138.41 s, remaining 56.54 s)
+7200000 of 10000000 tuples (72%) of pgbench_accounts done (elapsed 152.58 s, remaining 59.34 s)
+7300000 of 10000000 tuples (73%) of pgbench_accounts done (elapsed 164.29 s, remaining 60.76 s)
+7400000 of 10000000 tuples (74%) of pgbench_accounts done (elapsed 177.32 s, remaining 62.30 s)
+7500000 of 10000000 tuples (75%) of pgbench_accounts done (elapsed 178.40 s, remaining 59.47 s)
+7600000 of 10000000 tuples (76%) of pgbench_accounts done (elapsed 178.72 s, remaining 56.44 s)
+7700000 of 10000000 tuples (77%) of pgbench_accounts done (elapsed 179.14 s, remaining 53.51 s)
+7800000 of 10000000 tuples (78%) of pgbench_accounts done (elapsed 179.59 s, remaining 50.65 s)
+7900000 of 10000000 tuples (79%) of pgbench_accounts done (elapsed 180.26 s, remaining 47.92 s)
+8000000 of 10000000 tuples (80%) of pgbench_accounts done (elapsed 180.70 s, remaining 45.17 s)
+8100000 of 10000000 tuples (81%) of pgbench_accounts done (elapsed 180.80 s, remaining 42.41 s)
+8200000 of 10000000 tuples (82%) of pgbench_accounts done (elapsed 181.26 s, remaining 39.79 s)
+8300000 of 10000000 tuples (83%) of pgbench_accounts done (elapsed 182.22 s, remaining 37.32 s)
+8400000 of 10000000 tuples (84%) of pgbench_accounts done (elapsed 191.33 s, remaining 36.44 s)
+8500000 of 10000000 tuples (85%) of pgbench_accounts done (elapsed 191.45 s, remaining 33.79 s)
+8600000 of 10000000 tuples (86%) of pgbench_accounts done (elapsed 192.40 s, remaining 31.32 s)
+8700000 of 10000000 tuples (87%) of pgbench_accounts done (elapsed 198.63 s, remaining 29.68 s)
+8800000 of 10000000 tuples (88%) of pgbench_accounts done (elapsed 201.62 s, remaining 27.49 s)
+8900000 of 10000000 tuples (89%) of pgbench_accounts done (elapsed 202.05 s, remaining 24.97 s)
+9000000 of 10000000 tuples (90%) of pgbench_accounts done (elapsed 202.15 s, remaining 22.46 s)
+9100000 of 10000000 tuples (91%) of pgbench_accounts done (elapsed 202.42 s, remaining 20.02 s)
+9200000 of 10000000 tuples (92%) of pgbench_accounts done (elapsed 202.86 s, remaining 17.64 s)
+9300000 of 10000000 tuples (93%) of pgbench_accounts done (elapsed 203.23 s, remaining 15.30 s)
+9400000 of 10000000 tuples (94%) of pgbench_accounts done (elapsed 205.83 s, remaining 13.14 s)
+9500000 of 10000000 tuples (95%) of pgbench_accounts done (elapsed 205.96 s, remaining 10.84 s)
+9600000 of 10000000 tuples (96%) of pgbench_accounts done (elapsed 220.11 s, remaining 9.17 s)
+9700000 of 10000000 tuples (97%) of pgbench_accounts done (elapsed 233.68 s, remaining 7.23 s)
+9800000 of 10000000 tuples (98%) of pgbench_accounts done (elapsed 237.07 s, remaining 4.84 s)
+9900000 of 10000000 tuples (99%) of pgbench_accounts done (elapsed 237.69 s, remaining 2.40 s)
+10000000 of 10000000 tuples (100%) of pgbench_accounts done (elapsed 238.04 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 532.66 s (drop tables 0.00 s, create tables 0.05 s, client-side generate 238.30 s, vacuum 142.95 s, primary keys 151.36 s).
+ALTER TABLE
+UPDATE 10000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 100 partitions...
+generating data (client-side)...
+100000 of 10000000 tuples (1%) of pgbench_accounts done (elapsed 0.09 s, remaining 8.88 s)
+200000 of 10000000 tuples (2%) of pgbench_accounts done (elapsed 0.22 s, remaining 10.62 s)
+300000 of 10000000 tuples (3%) of pgbench_accounts done (elapsed 0.70 s, remaining 22.50 s)
+400000 of 10000000 tuples (4%) of pgbench_accounts done (elapsed 0.80 s, remaining 19.13 s)
+500000 of 10000000 tuples (5%) of pgbench_accounts done (elapsed 1.51 s, remaining 28.78 s)
+600000 of 10000000 tuples (6%) of pgbench_accounts done (elapsed 1.65 s, remaining 25.78 s)
+700000 of 10000000 tuples (7%) of pgbench_accounts done (elapsed 2.07 s, remaining 27.51 s)
+800000 of 10000000 tuples (8%) of pgbench_accounts done (elapsed 2.17 s, remaining 24.93 s)
+900000 of 10000000 tuples (9%) of pgbench_accounts done (elapsed 2.57 s, remaining 26.01 s)
+1000000 of 10000000 tuples (10%) of pgbench_accounts done (elapsed 2.99 s, remaining 26.94 s)
+1100000 of 10000000 tuples (11%) of pgbench_accounts done (elapsed 3.11 s, remaining 25.19 s)
+1200000 of 10000000 tuples (12%) of pgbench_accounts done (elapsed 6.35 s, remaining 46.60 s)
+1300000 of 10000000 tuples (13%) of pgbench_accounts done (elapsed 11.68 s, remaining 78.18 s)
+1400000 of 10000000 tuples (14%) of pgbench_accounts done (elapsed 13.90 s, remaining 85.37 s)
+1500000 of 10000000 tuples (15%) of pgbench_accounts done (elapsed 14.00 s, remaining 79.33 s)
+1600000 of 10000000 tuples (16%) of pgbench_accounts done (elapsed 14.60 s, remaining 76.67 s)
+1700000 of 10000000 tuples (17%) of pgbench_accounts done (elapsed 14.71 s, remaining 71.82 s)
+1800000 of 10000000 tuples (18%) of pgbench_accounts done (elapsed 14.82 s, remaining 67.50 s)
+1900000 of 10000000 tuples (19%) of pgbench_accounts done (elapsed 18.96 s, remaining 80.85 s)
+2000000 of 10000000 tuples (20%) of pgbench_accounts done (elapsed 23.79 s, remaining 95.17 s)
+2100000 of 10000000 tuples (21%) of pgbench_accounts done (elapsed 25.90 s, remaining 97.45 s)
+2200000 of 10000000 tuples (22%) of pgbench_accounts done (elapsed 26.33 s, remaining 93.36 s)
+2300000 of 10000000 tuples (23%) of pgbench_accounts done (elapsed 26.45 s, remaining 88.55 s)
+2400000 of 10000000 tuples (24%) of pgbench_accounts done (elapsed 26.89 s, remaining 85.15 s)
+2500000 of 10000000 tuples (25%) of pgbench_accounts done (elapsed 27.01 s, remaining 81.03 s)
+2600000 of 10000000 tuples (26%) of pgbench_accounts done (elapsed 27.42 s, remaining 78.04 s)
+2700000 of 10000000 tuples (27%) of pgbench_accounts done (elapsed 27.52 s, remaining 74.39 s)
+2800000 of 10000000 tuples (28%) of pgbench_accounts done (elapsed 27.90 s, remaining 71.74 s)
+2900000 of 10000000 tuples (29%) of pgbench_accounts done (elapsed 28.00 s, remaining 68.55 s)
+3000000 of 10000000 tuples (30%) of pgbench_accounts done (elapsed 28.39 s, remaining 66.24 s)
+3100000 of 10000000 tuples (31%) of pgbench_accounts done (elapsed 28.49 s, remaining 63.41 s)
+3200000 of 10000000 tuples (32%) of pgbench_accounts done (elapsed 35.70 s, remaining 75.86 s)
+3300000 of 10000000 tuples (33%) of pgbench_accounts done (elapsed 36.30 s, remaining 73.69 s)
+3400000 of 10000000 tuples (34%) of pgbench_accounts done (elapsed 36.41 s, remaining 70.68 s)
+3500000 of 10000000 tuples (35%) of pgbench_accounts done (elapsed 39.42 s, remaining 73.21 s)
+3600000 of 10000000 tuples (36%) of pgbench_accounts done (elapsed 39.52 s, remaining 70.27 s)
+3700000 of 10000000 tuples (37%) of pgbench_accounts done (elapsed 39.95 s, remaining 68.02 s)
+3800000 of 10000000 tuples (38%) of pgbench_accounts done (elapsed 40.35 s, remaining 65.84 s)
+3900000 of 10000000 tuples (39%) of pgbench_accounts done (elapsed 40.50 s, remaining 63.34 s)
+4000000 of 10000000 tuples (40%) of pgbench_accounts done (elapsed 40.89 s, remaining 61.34 s)
+4100000 of 10000000 tuples (41%) of pgbench_accounts done (elapsed 40.99 s, remaining 58.99 s)
+4200000 of 10000000 tuples (42%) of pgbench_accounts done (elapsed 41.40 s, remaining 57.18 s)
+4300000 of 10000000 tuples (43%) of pgbench_accounts done (elapsed 41.51 s, remaining 55.03 s)
+4400000 of 10000000 tuples (44%) of pgbench_accounts done (elapsed 43.47 s, remaining 55.32 s)
+4500000 of 10000000 tuples (45%) of pgbench_accounts done (elapsed 43.57 s, remaining 53.26 s)
+4600000 of 10000000 tuples (46%) of pgbench_accounts done (elapsed 54.38 s, remaining 63.83 s)
+4700000 of 10000000 tuples (47%) of pgbench_accounts done (elapsed 54.84 s, remaining 61.84 s)
+4800000 of 10000000 tuples (48%) of pgbench_accounts done (elapsed 67.80 s, remaining 73.46 s)
+4900000 of 10000000 tuples (49%) of pgbench_accounts done (elapsed 73.97 s, remaining 76.99 s)
+5000000 of 10000000 tuples (50%) of pgbench_accounts done (elapsed 74.11 s, remaining 74.11 s)
+5100000 of 10000000 tuples (51%) of pgbench_accounts done (elapsed 75.38 s, remaining 72.42 s)
+5200000 of 10000000 tuples (52%) of pgbench_accounts done (elapsed 75.62 s, remaining 69.80 s)
+5300000 of 10000000 tuples (53%) of pgbench_accounts done (elapsed 101.54 s, remaining 90.04 s)
+5400000 of 10000000 tuples (54%) of pgbench_accounts done (elapsed 101.65 s, remaining 86.59 s)
+5500000 of 10000000 tuples (55%) of pgbench_accounts done (elapsed 102.30 s, remaining 83.70 s)
+5600000 of 10000000 tuples (56%) of pgbench_accounts done (elapsed 102.40 s, remaining 80.45 s)
+5700000 of 10000000 tuples (57%) of pgbench_accounts done (elapsed 103.66 s, remaining 78.20 s)
+5800000 of 10000000 tuples (58%) of pgbench_accounts done (elapsed 105.11 s, remaining 76.11 s)
+5900000 of 10000000 tuples (59%) of pgbench_accounts done (elapsed 105.21 s, remaining 73.11 s)
+6000000 of 10000000 tuples (60%) of pgbench_accounts done (elapsed 107.02 s, remaining 71.35 s)
+6100000 of 10000000 tuples (61%) of pgbench_accounts done (elapsed 107.12 s, remaining 68.49 s)
+6200000 of 10000000 tuples (62%) of pgbench_accounts done (elapsed 109.84 s, remaining 67.32 s)
+6300000 of 10000000 tuples (63%) of pgbench_accounts done (elapsed 109.95 s, remaining 64.57 s)
+6400000 of 10000000 tuples (64%) of pgbench_accounts done (elapsed 120.95 s, remaining 68.03 s)
+6500000 of 10000000 tuples (65%) of pgbench_accounts done (elapsed 121.05 s, remaining 65.18 s)
+6600000 of 10000000 tuples (66%) of pgbench_accounts done (elapsed 123.30 s, remaining 63.52 s)
+6700000 of 10000000 tuples (67%) of pgbench_accounts done (elapsed 143.94 s, remaining 70.90 s)
+6800000 of 10000000 tuples (68%) of pgbench_accounts done (elapsed 144.06 s, remaining 67.79 s)
+6900000 of 10000000 tuples (69%) of pgbench_accounts done (elapsed 144.60 s, remaining 64.97 s)
+7000000 of 10000000 tuples (70%) of pgbench_accounts done (elapsed 144.71 s, remaining 62.02 s)
+7100000 of 10000000 tuples (71%) of pgbench_accounts done (elapsed 147.02 s, remaining 60.05 s)
+7200000 of 10000000 tuples (72%) of pgbench_accounts done (elapsed 161.52 s, remaining 62.81 s)
+7300000 of 10000000 tuples (73%) of pgbench_accounts done (elapsed 161.64 s, remaining 59.78 s)
+7400000 of 10000000 tuples (74%) of pgbench_accounts done (elapsed 162.85 s, remaining 57.22 s)
+7500000 of 10000000 tuples (75%) of pgbench_accounts done (elapsed 164.12 s, remaining 54.71 s)
+7600000 of 10000000 tuples (76%) of pgbench_accounts done (elapsed 164.24 s, remaining 51.87 s)
+7700000 of 10000000 tuples (77%) of pgbench_accounts done (elapsed 167.52 s, remaining 50.04 s)
+7800000 of 10000000 tuples (78%) of pgbench_accounts done (elapsed 168.77 s, remaining 47.60 s)
+7900000 of 10000000 tuples (79%) of pgbench_accounts done (elapsed 168.87 s, remaining 44.89 s)
+8000000 of 10000000 tuples (80%) of pgbench_accounts done (elapsed 170.23 s, remaining 42.56 s)
+8100000 of 10000000 tuples (81%) of pgbench_accounts done (elapsed 170.33 s, remaining 39.95 s)
+8200000 of 10000000 tuples (82%) of pgbench_accounts done (elapsed 180.36 s, remaining 39.59 s)
+8300000 of 10000000 tuples (83%) of pgbench_accounts done (elapsed 188.76 s, remaining 38.66 s)
+8400000 of 10000000 tuples (84%) of pgbench_accounts done (elapsed 188.87 s, remaining 35.98 s)
+8500000 of 10000000 tuples (85%) of pgbench_accounts done (elapsed 203.09 s, remaining 35.84 s)
+8600000 of 10000000 tuples (86%) of pgbench_accounts done (elapsed 204.23 s, remaining 33.25 s)
+8700000 of 10000000 tuples (87%) of pgbench_accounts done (elapsed 204.33 s, remaining 30.53 s)
+8800000 of 10000000 tuples (88%) of pgbench_accounts done (elapsed 205.78 s, remaining 28.06 s)
+8900000 of 10000000 tuples (89%) of pgbench_accounts done (elapsed 205.89 s, remaining 25.45 s)
+9000000 of 10000000 tuples (90%) of pgbench_accounts done (elapsed 207.39 s, remaining 23.04 s)
+9100000 of 10000000 tuples (91%) of pgbench_accounts done (elapsed 207.49 s, remaining 20.52 s)
+9200000 of 10000000 tuples (92%) of pgbench_accounts done (elapsed 216.83 s, remaining 18.86 s)
+9300000 of 10000000 tuples (93%) of pgbench_accounts done (elapsed 216.96 s, remaining 16.33 s)
+9400000 of 10000000 tuples (94%) of pgbench_accounts done (elapsed 217.81 s, remaining 13.90 s)
+9500000 of 10000000 tuples (95%) of pgbench_accounts done (elapsed 217.92 s, remaining 11.47 s)
+9600000 of 10000000 tuples (96%) of pgbench_accounts done (elapsed 244.36 s, remaining 10.18 s)
+9700000 of 10000000 tuples (97%) of pgbench_accounts done (elapsed 244.53 s, remaining 7.56 s)
+9800000 of 10000000 tuples (98%) of pgbench_accounts done (elapsed 244.65 s, remaining 4.99 s)
+9900000 of 10000000 tuples (99%) of pgbench_accounts done (elapsed 246.66 s, remaining 2.49 s)
+10000000 of 10000000 tuples (100%) of pgbench_accounts done (elapsed 261.75 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 719.62 s (drop tables 0.00 s, create tables 0.38 s, client-side generate 262.20 s, vacuum 181.65 s, primary keys 275.40 s).
+ALTER TABLE
+UPDATE 10000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
+dropping old tables...
+NOTICE:  table "pgbench_accounts" does not exist, skipping
+NOTICE:  table "pgbench_branches" does not exist, skipping
+NOTICE:  table "pgbench_history" does not exist, skipping
+NOTICE:  table "pgbench_tellers" does not exist, skipping
+creating tables...
+creating 1000 partitions...
+generating data (client-side)...
+100000 of 10000000 tuples (1%) of pgbench_accounts done (elapsed 0.12 s, remaining 12.31 s)
+200000 of 10000000 tuples (2%) of pgbench_accounts done (elapsed 0.26 s, remaining 12.67 s)
+300000 of 10000000 tuples (3%) of pgbench_accounts done (elapsed 3.03 s, remaining 97.90 s)
+400000 of 10000000 tuples (4%) of pgbench_accounts done (elapsed 4.85 s, remaining 116.34 s)
+500000 of 10000000 tuples (5%) of pgbench_accounts done (elapsed 13.65 s, remaining 259.29 s)
+600000 of 10000000 tuples (6%) of pgbench_accounts done (elapsed 13.80 s, remaining 216.27 s)
+700000 of 10000000 tuples (7%) of pgbench_accounts done (elapsed 13.95 s, remaining 185.35 s)
+800000 of 10000000 tuples (8%) of pgbench_accounts done (elapsed 14.58 s, remaining 167.63 s)
+900000 of 10000000 tuples (9%) of pgbench_accounts done (elapsed 15.03 s, remaining 152.01 s)
+1000000 of 10000000 tuples (10%) of pgbench_accounts done (elapsed 15.17 s, remaining 136.52 s)
+1100000 of 10000000 tuples (11%) of pgbench_accounts done (elapsed 15.62 s, remaining 126.35 s)
+1200000 of 10000000 tuples (12%) of pgbench_accounts done (elapsed 16.07 s, remaining 117.88 s)
+1300000 of 10000000 tuples (13%) of pgbench_accounts done (elapsed 16.54 s, remaining 110.68 s)
+1400000 of 10000000 tuples (14%) of pgbench_accounts done (elapsed 16.68 s, remaining 102.49 s)
+1500000 of 10000000 tuples (15%) of pgbench_accounts done (elapsed 17.12 s, remaining 97.03 s)
+1600000 of 10000000 tuples (16%) of pgbench_accounts done (elapsed 17.56 s, remaining 92.20 s)
+1700000 of 10000000 tuples (17%) of pgbench_accounts done (elapsed 17.73 s, remaining 86.54 s)
+1800000 of 10000000 tuples (18%) of pgbench_accounts done (elapsed 18.11 s, remaining 82.49 s)
+1900000 of 10000000 tuples (19%) of pgbench_accounts done (elapsed 24.00 s, remaining 102.33 s)
+2000000 of 10000000 tuples (20%) of pgbench_accounts done (elapsed 24.19 s, remaining 96.74 s)
+2100000 of 10000000 tuples (21%) of pgbench_accounts done (elapsed 24.34 s, remaining 91.55 s)
+2200000 of 10000000 tuples (22%) of pgbench_accounts done (elapsed 29.31 s, remaining 103.92 s)
+2300000 of 10000000 tuples (23%) of pgbench_accounts done (elapsed 33.92 s, remaining 113.56 s)
+2400000 of 10000000 tuples (24%) of pgbench_accounts done (elapsed 34.06 s, remaining 107.87 s)
+2500000 of 10000000 tuples (25%) of pgbench_accounts done (elapsed 39.66 s, remaining 118.97 s)
+2600000 of 10000000 tuples (26%) of pgbench_accounts done (elapsed 42.70 s, remaining 121.53 s)
+2700000 of 10000000 tuples (27%) of pgbench_accounts done (elapsed 42.99 s, remaining 116.22 s)
+2800000 of 10000000 tuples (28%) of pgbench_accounts done (elapsed 43.44 s, remaining 111.71 s)
+2900000 of 10000000 tuples (29%) of pgbench_accounts done (elapsed 43.58 s, remaining 106.70 s)
+3000000 of 10000000 tuples (30%) of pgbench_accounts done (elapsed 44.03 s, remaining 102.74 s)
+3100000 of 10000000 tuples (31%) of pgbench_accounts done (elapsed 44.46 s, remaining 98.97 s)
+3200000 of 10000000 tuples (32%) of pgbench_accounts done (elapsed 44.91 s, remaining 95.43 s)
+3300000 of 10000000 tuples (33%) of pgbench_accounts done (elapsed 45.09 s, remaining 91.54 s)
+3400000 of 10000000 tuples (34%) of pgbench_accounts done (elapsed 45.55 s, remaining 88.43 s)
+3500000 of 10000000 tuples (35%) of pgbench_accounts done (elapsed 47.94 s, remaining 89.03 s)
+3600000 of 10000000 tuples (36%) of pgbench_accounts done (elapsed 48.08 s, remaining 85.47 s)
+3700000 of 10000000 tuples (37%) of pgbench_accounts done (elapsed 49.90 s, remaining 84.97 s)
+3800000 of 10000000 tuples (38%) of pgbench_accounts done (elapsed 57.19 s, remaining 93.31 s)
+3900000 of 10000000 tuples (39%) of pgbench_accounts done (elapsed 57.36 s, remaining 89.71 s)
+4000000 of 10000000 tuples (40%) of pgbench_accounts done (elapsed 57.50 s, remaining 86.26 s)
+4100000 of 10000000 tuples (41%) of pgbench_accounts done (elapsed 61.14 s, remaining 87.99 s)
+4200000 of 10000000 tuples (42%) of pgbench_accounts done (elapsed 68.29 s, remaining 94.30 s)
+4300000 of 10000000 tuples (43%) of pgbench_accounts done (elapsed 68.46 s, remaining 90.75 s)
+4400000 of 10000000 tuples (44%) of pgbench_accounts done (elapsed 71.20 s, remaining 90.62 s)
+4500000 of 10000000 tuples (45%) of pgbench_accounts done (elapsed 81.72 s, remaining 99.88 s)
+4600000 of 10000000 tuples (46%) of pgbench_accounts done (elapsed 82.16 s, remaining 96.45 s)
+4700000 of 10000000 tuples (47%) of pgbench_accounts done (elapsed 82.31 s, remaining 92.82 s)
+4800000 of 10000000 tuples (48%) of pgbench_accounts done (elapsed 82.48 s, remaining 89.35 s)
+4900000 of 10000000 tuples (49%) of pgbench_accounts done (elapsed 83.08 s, remaining 86.47 s)
+5000000 of 10000000 tuples (50%) of pgbench_accounts done (elapsed 83.33 s, remaining 83.33 s)
+5100000 of 10000000 tuples (51%) of pgbench_accounts done (elapsed 83.49 s, remaining 80.21 s)
+5200000 of 10000000 tuples (52%) of pgbench_accounts done (elapsed 83.99 s, remaining 77.53 s)
+5300000 of 10000000 tuples (53%) of pgbench_accounts done (elapsed 86.97 s, remaining 77.12 s)
+5400000 of 10000000 tuples (54%) of pgbench_accounts done (elapsed 94.08 s, remaining 80.15 s)
+5500000 of 10000000 tuples (55%) of pgbench_accounts done (elapsed 95.28 s, remaining 77.96 s)
+5600000 of 10000000 tuples (56%) of pgbench_accounts done (elapsed 95.43 s, remaining 74.98 s)
+5700000 of 10000000 tuples (57%) of pgbench_accounts done (elapsed 96.18 s, remaining 72.56 s)
+5800000 of 10000000 tuples (58%) of pgbench_accounts done (elapsed 119.99 s, remaining 86.89 s)
+5900000 of 10000000 tuples (59%) of pgbench_accounts done (elapsed 120.67 s, remaining 83.86 s)
+6000000 of 10000000 tuples (60%) of pgbench_accounts done (elapsed 121.19 s, remaining 80.79 s)
+6100000 of 10000000 tuples (61%) of pgbench_accounts done (elapsed 122.72 s, remaining 78.46 s)
+6200000 of 10000000 tuples (62%) of pgbench_accounts done (elapsed 122.86 s, remaining 75.30 s)
+6300000 of 10000000 tuples (63%) of pgbench_accounts done (elapsed 138.21 s, remaining 81.17 s)
+6400000 of 10000000 tuples (64%) of pgbench_accounts done (elapsed 138.35 s, remaining 77.82 s)
+6500000 of 10000000 tuples (65%) of pgbench_accounts done (elapsed 139.52 s, remaining 75.13 s)
+6600000 of 10000000 tuples (66%) of pgbench_accounts done (elapsed 175.01 s, remaining 90.16 s)
+6700000 of 10000000 tuples (67%) of pgbench_accounts done (elapsed 186.31 s, remaining 91.77 s)
+6800000 of 10000000 tuples (68%) of pgbench_accounts done (elapsed 186.52 s, remaining 87.77 s)
+6900000 of 10000000 tuples (69%) of pgbench_accounts done (elapsed 187.72 s, remaining 84.34 s)
+7000000 of 10000000 tuples (70%) of pgbench_accounts done (elapsed 189.03 s, remaining 81.01 s)
+7100000 of 10000000 tuples (71%) of pgbench_accounts done (elapsed 192.56 s, remaining 78.65 s)
+7200000 of 10000000 tuples (72%) of pgbench_accounts done (elapsed 192.72 s, remaining 74.95 s)
+7300000 of 10000000 tuples (73%) of pgbench_accounts done (elapsed 204.77 s, remaining 75.74 s)
+7400000 of 10000000 tuples (74%) of pgbench_accounts done (elapsed 206.15 s, remaining 72.43 s)
+7500000 of 10000000 tuples (75%) of pgbench_accounts done (elapsed 206.31 s, remaining 68.77 s)
+7600000 of 10000000 tuples (76%) of pgbench_accounts done (elapsed 217.96 s, remaining 68.83 s)
+7700000 of 10000000 tuples (77%) of pgbench_accounts done (elapsed 218.80 s, remaining 65.36 s)
+7800000 of 10000000 tuples (78%) of pgbench_accounts done (elapsed 219.85 s, remaining 62.01 s)
+7900000 of 10000000 tuples (79%) of pgbench_accounts done (elapsed 220.01 s, remaining 58.48 s)
+8000000 of 10000000 tuples (80%) of pgbench_accounts done (elapsed 234.50 s, remaining 58.63 s)
+8100000 of 10000000 tuples (81%) of pgbench_accounts done (elapsed 236.72 s, remaining 55.53 s)
+8200000 of 10000000 tuples (82%) of pgbench_accounts done (elapsed 244.15 s, remaining 53.59 s)
+8300000 of 10000000 tuples (83%) of pgbench_accounts done (elapsed 245.51 s, remaining 50.29 s)
+8400000 of 10000000 tuples (84%) of pgbench_accounts done (elapsed 258.18 s, remaining 49.18 s)
+8500000 of 10000000 tuples (85%) of pgbench_accounts done (elapsed 268.97 s, remaining 47.47 s)
+8600000 of 10000000 tuples (86%) of pgbench_accounts done (elapsed 270.24 s, remaining 43.99 s)
+8700000 of 10000000 tuples (87%) of pgbench_accounts done (elapsed 271.89 s, remaining 40.63 s)
+8800000 of 10000000 tuples (88%) of pgbench_accounts done (elapsed 284.58 s, remaining 38.81 s)
+8900000 of 10000000 tuples (89%) of pgbench_accounts done (elapsed 286.11 s, remaining 35.36 s)
+9000000 of 10000000 tuples (90%) of pgbench_accounts done (elapsed 286.97 s, remaining 31.89 s)
+9100000 of 10000000 tuples (91%) of pgbench_accounts done (elapsed 299.56 s, remaining 29.63 s)
+9200000 of 10000000 tuples (92%) of pgbench_accounts done (elapsed 300.25 s, remaining 26.11 s)
+9300000 of 10000000 tuples (93%) of pgbench_accounts done (elapsed 300.40 s, remaining 22.61 s)
+9400000 of 10000000 tuples (94%) of pgbench_accounts done (elapsed 313.05 s, remaining 19.98 s)
+9500000 of 10000000 tuples (95%) of pgbench_accounts done (elapsed 313.18 s, remaining 16.48 s)
+9600000 of 10000000 tuples (96%) of pgbench_accounts done (elapsed 314.39 s, remaining 13.10 s)
+9700000 of 10000000 tuples (97%) of pgbench_accounts done (elapsed 328.85 s, remaining 10.17 s)
+9800000 of 10000000 tuples (98%) of pgbench_accounts done (elapsed 329.02 s, remaining 6.71 s)
+9900000 of 10000000 tuples (99%) of pgbench_accounts done (elapsed 329.63 s, remaining 3.33 s)
+10000000 of 10000000 tuples (100%) of pgbench_accounts done (elapsed 329.82 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 1029.15 s (drop tables 0.00 s, create tables 7.62 s, client-side generate 330.86 s, vacuum 419.55 s, primary keys 271.13 s).
+ALTER TABLE
+UPDATE 10000000
+CREATE INDEX
+VACUUM
+VACUUM
+CHECKPOINT
