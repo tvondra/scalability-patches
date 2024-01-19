@@ -1,0 +1,25 @@
+2024-01-19 18:00:26.628 CET [1835432] LOG:  starting PostgreSQL 17devel on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-01-19 18:00:26.628 CET [1835432] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-19 18:00:26.628 CET [1835432] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-19 18:00:26.628 CET [1835432] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-01-19 18:00:26.630 CET [1835435] LOG:  database system was shut down at 2024-01-19 18:00:25 CET
+2024-01-19 18:00:26.632 CET [1835432] LOG:  database system is ready to accept connections
+2024-01-19 18:00:26.804 CET [1835433] LOG:  checkpoint starting: immediate force wait
+2024-01-19 18:00:26.829 CET [1835433] LOG:  checkpoint complete: wrote 932 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.023 s, sync=0.001 s, total=0.025 s; sync files=309, longest=0.001 s, average=0.001 s; distance=4376 kB, estimate=4376 kB; lsn=0/18CDCA0, redo lsn=0/18CDC48
+2024-01-19 18:05:26.927 CET [1835433] LOG:  checkpoint starting: time
+2024-01-19 18:05:27.234 CET [1835433] LOG:  checkpoint complete: wrote 82 buffers (0.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.274 s, sync=0.019 s, total=0.308 s; sync files=318, longest=0.001 s, average=0.001 s; distance=345 kB, estimate=3973 kB; lsn=0/1D70A00, redo lsn=0/19243E8
+2024-01-19 18:05:27.234 CET [1835433] LOG:  checkpoint starting: immediate force wait
+2024-01-19 18:05:27.253 CET [1835433] LOG:  checkpoint complete: wrote 938 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.001 s, total=0.019 s; sync files=260, longest=0.001 s, average=0.001 s; distance=4401 kB, estimate=4401 kB; lsn=0/1D70AD0, redo lsn=0/1D70A78
+2024-01-19 18:10:27.351 CET [1835433] LOG:  checkpoint starting: time
+2024-01-19 18:10:27.702 CET [1835433] LOG:  checkpoint complete: wrote 40 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.335 s, sync=0.017 s, total=0.352 s; sync files=335, longest=0.001 s, average=0.001 s; distance=142 kB, estimate=3975 kB; lsn=0/2201600, redo lsn=0/1D94580
+2024-01-19 18:10:27.702 CET [1835433] LOG:  checkpoint starting: immediate force wait
+2024-01-19 18:10:27.715 CET [1835433] LOG:  checkpoint complete: wrote 981 buffers (0.1%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.012 s, sync=0.001 s, total=0.013 s; sync files=287, longest=0.001 s, average=0.000 s; distance=4532 kB, estimate=4532 kB; lsn=0/22016D0, redo lsn=0/2201678
+2024-01-19 18:15:27.815 CET [1835433] LOG:  checkpoint starting: time
+2024-01-19 18:15:28.864 CET [1835433] LOG:  checkpoint complete: wrote 40 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.017 s, sync=0.032 s, total=1.049 s; sync files=605, longest=0.001 s, average=0.001 s; distance=149 kB, estimate=4093 kB; lsn=0/27D7248, redo lsn=0/2226C18
+2024-01-19 18:15:28.864 CET [1835433] LOG:  checkpoint starting: immediate force wait
+2024-01-19 18:15:28.880 CET [1835433] LOG:  checkpoint complete: wrote 1492 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.001 s, total=0.017 s; sync files=557, longest=0.001 s, average=0.000 s; distance=5825 kB, estimate=5825 kB; lsn=0/27D7318, redo lsn=0/27D72C0
+2024-01-19 18:20:28.979 CET [1835433] LOG:  checkpoint starting: time
+2024-01-19 18:20:33.217 CET [1835433] LOG:  checkpoint complete: wrote 42 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.219 s, sync=0.018 s, total=4.238 s; sync files=764, longest=0.001 s, average=0.001 s; distance=151 kB, estimate=5258 kB; lsn=0/2E75968, redo lsn=0/27FD278
+2024-01-19 18:20:39.429 CET [1835433] LOG:  checkpoint starting: immediate force wait
+2024-01-19 18:20:39.488 CET [1835433] LOG:  checkpoint complete: wrote 4535 buffers (0.4%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.048 s, sync=0.008 s, total=0.059 s; sync files=2345, longest=0.003 s, average=0.001 s; distance=15456 kB, estimate=15456 kB; lsn=0/3715570, redo lsn=0/3715518
+2024-01-19 18:25:39.587 CET [1835433] LOG:  checkpoint starting: time
