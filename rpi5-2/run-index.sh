@@ -32,37 +32,37 @@ for s in 1 10; do
 			createdb $DBNAME >> $OUTDIR/debug.log 2>&1
 
 			# create table with a bunch of columns
-			echo "CREATE TABLE t (id serial primary key" > $OUTDIR/create-$i-$i.sql
+			echo "CREATE TABLE t (id serial primary key" > $OUTDIR/index.create.$p.$i.sql
 
 			# how many columns to create? 100 seems like a nice round value ;-)
 			for c in `seq 1 100`; do
-				echo ", c$c int"  >> $OUTDIR/create-$i-$i.sql
+				echo ", c$c int"  >> $OUTDIR/index.create.$p.$i.sql
 			done
 
-			echo ");" >> $OUTDIR/create-$i-$i.sql
+			echo ");" >> $OUTDIR/index.create.$p.$i.sql
 
 			# now also add some data
-			echo 'insert into t select i' >> $OUTDIR/create-$i-$i.sql
+			echo 'insert into t select i' >> $OUTDIR/index.create.$p.$i.sql
 
 			for c in `seq 1 100`; do
-				echo ", i" >> $OUTDIR/create-$i-$i.sql
+				echo ", i" >> $OUTDIR/index.create.$p.$i.sql
 			done
 
 			# 10k rows per scale sounds about right? pgbench has 100k, but our table is wider
-			echo " from generate_series(1, $s * 10000) s(i);" >> $OUTDIR/create-$i-$i.sql
+			echo " from generate_series(1, $s * 10000) s(i);" >> $OUTDIR/index.create.$p.$i.sql
 
-			echo 'vacuum analyze;' >> $OUTDIR/create-$i-$i.sql
+			echo 'vacuum analyze;' >> $OUTDIR/index.create.$p.$i.sql
 
-			echo 'set max_parallel_maintenance_workers = 8;' >> $OUTDIR/create-$i-$i.sql
+			echo 'set max_parallel_maintenance_workers = 8;' >> $OUTDIR/index.create.$p.$i.sql
 
 			# now create the indexes, spread over all the columns
 			for j in `seq 1 $i`; do
 				# which column to create the index on?
 				c=$((j % 100 + 1))
-				echo "create index on t (c$c);" >> $OUTDIR/create-$i-$i.sql
+				echo "create index on t (c$c);" >> $OUTDIR/index.create.$p.$i.sql
 			done
 
-			psql $DBNAME < $OUTDIR/create-$i-$i.sql > $OUTDIR/debug.log 2>&1
+			psql $DBNAME < $OUTDIR/index.create.$p.$i.sql > $OUTDIR/debug.log 2>&1
 
 			psql $DBNAME -c "vacuum analyze" >> $OUTDIR/debug.log 2>&1
 
@@ -74,10 +74,10 @@ for s in 1 10; do
 		psql $DBNAME -c "\di+" >> $OUTDIR/index.sizes.$s.$i.log 2>&1
 
 		# also generate the benchmark script
-		echo "\set aid random(1, 100000 * $s)" > index.sql
-		echo "select * from t where id = :aid;" >> index.sql
+		echo "\set aid random(1, 100000 * $s)" > $OUTDIR/index.sql
+		echo "select * from t where id = :aid;" >> $OUTDIR/index.sql
 
-		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f index.sql $DBNAME > $OUTDIR/index-warmup-$s-$i.log 2>&1
+		pgbench -n -M prepared -T $((4*DURATION)) -c 32 -j 32 -f $OUTDIR/index.sql $DBNAME > $OUTDIR/index-warmup-$s-$i.log 2>&1
 
 		for r in $(seq 1 $RUNS); do
 
@@ -85,7 +85,7 @@ for s in 1 10; do
 
 				for c in $CLIENTS; do
 
-					pgbench -n -M $m -T $DURATION -c $c -j $c -f index.sql $DBNAME > $OUTDIR/pgbench.log 2>&1
+					pgbench -n -M $m -T $DURATION -c $c -j $c -f $OUTDIR/index.sql $DBNAME > $OUTDIR/pgbench.log 2>&1
 
 					lat_avg=$(grep 'latency average' $OUTDIR/pgbench.log | awk '{print $4}')
 					lat_std=$(grep 'latency stddev' $OUTDIR/pgbench.log | awk '{print $4}')
