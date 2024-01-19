@@ -14,7 +14,8 @@ ps ax > $OUTDIR/star.ps.log 2>&1
 
 for s in 1 10 100; do
 
-	DIMROWS=$((s*1000))
+	DIMROWS=$((s*100))
+	ROWS=$((s*100000))
 
 	for p in $PARTITIONS; do
 
@@ -58,7 +59,7 @@ for s in 1 10 100; do
 				echo ", (1 + mod(i, $DIMROWS))" >> $OUTDIR/star-$s-$p-create.sql
 			done
 
-			echo "from generate_series(1, $s * 1000000) g(i);" >> $OUTDIR/star-$s-$p-create.sql
+			echo "from generate_series(1, $ROWS) g(i);" >> $OUTDIR/star-$s-$p-create.sql
 
 			# also create indexes on the foreign keys
 			for i in $(seq 1 $p); do
@@ -75,7 +76,7 @@ for s in 1 10 100; do
 		fi
 
 		# generate the pgbench script
-		echo "\set aid random(1, 1000000 * $s)" > $OUTDIR/star-$s-$p.sql
+		echo "\set aid random(1, $ROWS)" > $OUTDIR/star-$s-$p.sql
 		echo 'select t.* from t' >> $OUTDIR/star-$s-$p.sql
 		for i in $(seq 1 $p); do
 			echo "join dim$i on (d$i = dim$i.id)" >> $OUTDIR/star-$s-$p.sql
