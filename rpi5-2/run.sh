@@ -2,6 +2,7 @@
 
 set -e
 
+LABEL=$1
 MACHINE=rpi5-2
 DBNAME=test
 RUNS=1
@@ -9,7 +10,8 @@ DURATION=15
 CLIENTS="1 2 4 8"
 PARTITIONS="0 1 10 100 1000"
 #BUILDS="0-master 5-fastpath 3-btscan 1-fstat 4-lock-partitions 2-mempool"
-BUILDS="6-locks-only 7-lock-mempool-rebalance 8-mempool-rebalance"
+#BUILDS="6-locks-only 7-lock-mempool-rebalance 8-mempool-rebalance"
+BUILDS="0-master 1-locks 2-mempool 3-locks-mempool"
 
 PATH_OLD=$PATH
 
@@ -25,6 +27,8 @@ if [ ! -d "data" ]; then
 	echo "max_connections = 1000" >> data/postgresql.conf
 	echo "shared_buffers = 1GB" >> data/postgresql.conf
 	echo "max_locks_per_transaction = 256" >> data/postgresql.conf
+	echo "max_parallel_workers_per_gather = 0" >> data/postgresql.conf
+	echo "random_page_cost = 1.5" >> data/postgresql.conf
 fi
 
 
@@ -34,7 +38,7 @@ for build in $BUILDS; do
 
 		echo `date` build: $build files: $files
 
-		OUTDIR=$DATE/$build/$files
+		OUTDIR=$DATE-$LABEL/$build/$files
 
 		mkdir -p $OUTDIR
 
