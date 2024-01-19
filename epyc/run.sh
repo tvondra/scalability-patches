@@ -2,6 +2,7 @@
 
 set -e
 
+LABEL=$1
 MACHINE=epyc
 DBNAME=test
 RUNS=1
@@ -14,7 +15,8 @@ PARTITIONS="0 1 10 100 1000"
 #BUILDS="7-lock-and-mempool"
 #BUILDS="8-lock-and-mempool-v2"
 #BUILDS="10-lock-and-mempool-rebalance 11-lock-and-mempool-rebalance-fstat"
-BUILDS="12-mempool-rebalance"
+#BUILDS="12-mempool-rebalance"
+BUILDS="0-master 1-locks 2-mempool 3-locks-mempool"
 
 PATH_OLD=$PATH
 
@@ -39,7 +41,7 @@ for build in $BUILDS; do
 
 		echo `date` build: $build files: $files
 
-		OUTDIR=$DATE/$build/$files
+		OUTDIR=$DATE-$LABEL/$build/$files
 
 		mkdir -p $OUTDIR
 
