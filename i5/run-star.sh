@@ -18,7 +18,7 @@ for s in 1 10 100; do
 
 	for p in $PARTITIONS; do
 
-		# don't join with more than 100 partitions
+		# can't join with more than 100 dimensions
 		if [[ $p -gt 100 ]]; then
 			continue
 		fi
@@ -62,7 +62,7 @@ for s in 1 10 100; do
 
 			# also create indexes on the foreign keys
 			for i in $(seq 1 $p); do
-				echo "create index on dim$i (id);" >> $OUTDIR/star-$s-$p-create.sql
+				echo "create index on t(d$i);" >> $OUTDIR/star-$s-$p-create.sql
 			done
 
 			psql $DBNAME < $OUTDIR/star-$s-$p-create.sql >> $OUTDIR/debug.log 2>&1
