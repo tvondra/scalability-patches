@@ -1,0 +1,16 @@
+join rpi5-2 1-locks 1 0 simple 1 1 7893.828447 0.127
+join rpi5-2 1-locks 1 0 simple 2 1 14604.141069 0.137
+join rpi5-2 1-locks 1 0 simple 4 1 20298.554801 0.197
+join rpi5-2 1-locks 1 0 simple 8 1 18461.461695 0.433
+join rpi5-2 1-locks 1 0 prepared 1 1 24498.776225 0.041
+join rpi5-2 1-locks 1 0 prepared 2 1 45722.915374 0.044
+join rpi5-2 1-locks 1 0 prepared 4 1 45497.060315 0.088
+join rpi5-2 1-locks 1 0 prepared 8 1 43392.934103 0.184
+join rpi5-2 1-locks 1 1 simple 1 1 7719.980163 0.130
+join rpi5-2 1-locks 1 1 simple 2 1 13017.109235 0.154
+join rpi5-2 1-locks 1 1 simple 4 1 18011.443301 0.222
+join rpi5-2 1-locks 1 1 simple 8 1 16682.123886 0.480
+join rpi5-2 1-locks 1 1 prepared 1 1 25859.867999 0.039
+join rpi5-2 1-locks 1 1 prepared 2 1 42160.153615 0.047
+join rpi5-2 1-locks 1 1 prepared 4 1 44170.228549 0.091
+join rpi5-2 1-locks 1 1 prepared 8 1 42211.005731 0.190
