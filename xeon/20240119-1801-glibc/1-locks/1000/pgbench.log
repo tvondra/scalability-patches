@@ -1,15 +1,13 @@
 pgbench (17devel)
-transaction type: <builtin: select only>
-scaling factor: 1000
-partition method: range
-partitions: 1000
+transaction type: 20240119-1801-glibc/1-locks/1000/index.sql
+scaling factor: 1
 query mode: prepared
 number of clients: 96
 number of threads: 96
 maximum number of tries: 1
 duration: 15 s
-number of transactions actually processed: 2683141
+number of transactions actually processed: 4841024
 number of failed transactions: 0 (0.000%)
-latency average = 0.531 ms
-initial connection time = 177.860 ms
-tps = 180879.865880 (without initial connection time)
+latency average = 0.298 ms
+initial connection time = 58.388 ms
+tps = 321998.715470 (without initial connection time)
