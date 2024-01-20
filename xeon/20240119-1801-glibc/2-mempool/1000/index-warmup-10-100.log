@@ -1,0 +1,13 @@
+pgbench (17devel)
+transaction type: 20240119-1801-glibc/2-mempool/1000/index.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 32
+number of threads: 32
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 21447537
+number of failed transactions: 0 (0.000%)
+latency average = 0.090 ms
+initial connection time = 15.797 ms
+tps = 357522.755895 (without initial connection time)
