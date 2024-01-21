@@ -6,3 +6,10 @@
 2024-01-21 11:46:44.165 GMT [959507] LOG:  database system is ready to accept connections
 2024-01-21 11:51:44.200 GMT [959508] LOG:  checkpoint starting: time
 2024-01-21 11:51:44.266 GMT [959508] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.006 s, total=0.067 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=12/770DDBA0, redo lsn=12/770DDB48
+2024-01-21 14:28:31.204 GMT [959507] LOG:  received fast shutdown request
+2024-01-21 14:28:31.213 GMT [959507] LOG:  aborting any active transactions
+2024-01-21 14:28:31.216 GMT [959507] LOG:  background worker "logical replication launcher" (PID 959513) exited with exit code 1
+2024-01-21 14:28:31.216 GMT [959508] LOG:  shutting down
+2024-01-21 14:28:31.225 GMT [959508] LOG:  checkpoint starting: shutdown immediate
+2024-01-21 14:28:31.272 GMT [959508] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.001 s, total=0.057 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=12/770DDC50, redo lsn=12/770DDC50
+2024-01-21 14:28:31.362 GMT [959507] LOG:  database system is shut down
