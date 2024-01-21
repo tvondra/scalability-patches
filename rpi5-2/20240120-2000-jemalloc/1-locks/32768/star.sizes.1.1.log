@@ -1,0 +1,17 @@
+                                        List of relations
+ Schema |    Name     |   Type   | Owner | Persistence | Access method |    Size    | Description 
+--------+-------------+----------+-------+-------------+---------------+------------+-------------
+ public | dim1        | table    | pi    | permanent   | heap          | 40 kB      | 
+ public | dim1_id_seq | sequence | pi    | permanent   |               | 8192 bytes | 
+ public | t           | table    | pi    | permanent   | heap          | 3576 kB    | 
+ public | t_id_seq    | sequence | pi    | permanent   |               | 8192 bytes | 
+(4 rows)
+
+                                        List of relations
+ Schema |   Name    | Type  | Owner | Table | Persistence | Access method |  Size   | Description 
+--------+-----------+-------+-------+-------+-------------+---------------+---------+-------------
+ public | dim1_pkey | index | pi    | dim1  | permanent   | btree         | 16 kB   | 
+ public | t_d1_idx  | index | pi    | t     | permanent   | btree         | 728 kB  | 
+ public | t_pkey    | index | pi    | t     | permanent   | btree         | 2208 kB | 
+(3 rows)
+
