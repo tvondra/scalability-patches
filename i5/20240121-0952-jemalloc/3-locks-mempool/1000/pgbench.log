@@ -1,13 +1,13 @@
 pgbench (17devel)
-transaction type: 20240121-0952-jemalloc/3-locks-mempool/1000/index.sql
+transaction type: 20240121-0952-jemalloc/3-locks-mempool/1000/star-100-100.sql
 scaling factor: 1
 query mode: prepared
 number of clients: 64
 number of threads: 64
 maximum number of tries: 1
 duration: 15 s
-number of transactions actually processed: 760121
+number of transactions actually processed: 129
 number of failed transactions: 0 (0.000%)
-latency average = 1.263 ms
-initial connection time = 42.542 ms
-tps = 50668.794951 (without initial connection time)
+latency average = 8053.486 ms
+initial connection time = 43.839 ms
+tps = 7.946869 (without initial connection time)
